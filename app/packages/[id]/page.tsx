@@ -15,19 +15,16 @@ import {
   Users
 } from 'lucide-react';
 
-type PageProps = {
-  params: { id: string };
+type PackagePageProps = {
+  params: Promise<{ id: string }>;
 };
 
+export default async function PackageDetail({ params }: PackagePageProps) {
+  const { id } = await params;  // ✅ must await in Next.js 15
+  const packageId = parseInt(id, 10);
 
-export default function PackageDetail({
-  params,
-}: {
-  params: { id: string };
-}) {
-  const packageId = parseInt(params.id);
   const pkg = packages.find((p) => p.id === packageId);
-  
+
   if (!pkg) {
     notFound();
   }
