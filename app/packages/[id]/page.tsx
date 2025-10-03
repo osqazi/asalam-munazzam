@@ -20,10 +20,14 @@ type PageProps = {
 };
 
 
-export default function PackageDetail({ params }: PageProps) {
-  const packageId =  parseInt(params.id);
-  const pkg = packages.find(p => p.id === packageId);
-
+export default function PackageDetail({
+  params,
+}: {
+  params: { id: string };
+}) {
+  const packageId = parseInt(params.id);
+  const pkg = packages.find((p) => p.id === packageId);
+  
   if (!pkg) {
     notFound();
   }
