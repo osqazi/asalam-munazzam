@@ -15,14 +15,13 @@ import {
   Users
 } from 'lucide-react';
 
-interface PackageDetailProps {
-  params: {
-    id: string;
-  };
-}
+type PageProps = {
+  params: { id: string };
+};
 
-export default function PackageDetail({ params }: PackageDetailProps) {
-  const packageId = parseInt(params.id);
+
+export default function PackageDetail({ params }: PageProps) {
+  const packageId =  parseInt(params.id);
   const pkg = packages.find(p => p.id === packageId);
 
   if (!pkg) {
