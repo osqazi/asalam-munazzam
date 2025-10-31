@@ -191,7 +191,7 @@ export default function Header() {
       <header className={`fixed top-0 left-0 right-0 bg-gradient-to-r from-green-600 to-emerald-700 text-white shadow-2xl z-50 transition-all duration-300 ${isScrolled ? 'py-1' : 'py-2'}`}>
         <div className="container mx-auto px-4">
           {/* Back to Home Button - Only show when not on home page and hidden on small screens */}
-          {!isHomePage && (
+          {/* {!isHomePage && (
             <div className="absolute top-4 left-4 hidden md:block">
               <Link 
                 href="/"
@@ -200,7 +200,7 @@ export default function Header() {
                 ← Back to Home
               </Link>
             </div>
-          )}
+          )} */}
           
           {/* Header Content - Stack on mobile, flex on larger screens */}
           <div className="text-center md:flex md:items-center md:justify-center md:gap-8">
@@ -231,7 +231,7 @@ export default function Header() {
             
             {/* Right Logo */}
             <div className="content-end">
-              <div className={`transition-all duration-300 mx-auto md:mx-0 ${isScrolled ? 'w-0 h-0' : 'md:w-36 md:h-36 w-0 h-0'}`}>
+              <div className={`transition-all duration-300 mx-auto md:mx-0 ${isScrolled ? 'w-0 h-0' : 'md:w-52 md:h-36 w-0 h-0'}`}>
                 <Image
                   src={logo2} 
                   alt="logo2"
