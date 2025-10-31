@@ -14,6 +14,7 @@ import {
   Clock,
   Users
 } from 'lucide-react';
+import Header from '@/app/components/Header';
 
 type PackagePageProps = {
   params: Promise<{ id: string }>;
@@ -32,7 +33,7 @@ export default async function PackageDetail({ params }: PackagePageProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50">
       {/* Header */}
-      <header className="bg-gradient-to-r from-green-600 to-emerald-700 text-white shadow-2xl">
+      {/* <header className="bg-gradient-to-r from-green-600 to-emerald-700 text-white shadow-2xl">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-between">
             <Link 
@@ -43,14 +44,14 @@ export default async function PackageDetail({ params }: PackagePageProps) {
               <span>Back to Packages</span>
             </Link>
             <div className="text-center">
-              <h1 className="text-3xl md:text-4xl font-bold">As Salam Munazzam</h1>
+              <h1 className="text-3xl md:text-4xl font-bold">As Salam Munazzam (Pvt) Ltd.</h1>
               <p className="text-lg opacity-90">Hajj 2026</p>
             </div>
             <div className="w-20"></div>
           </div>
         </div>
-      </header>
-
+      </header> */}
+      
       <main className="container mx-auto px-4 py-12">
         {/* Package Header */}
         <div className="bg-white rounded-2xl shadow-2xl p-8 mb-8">
