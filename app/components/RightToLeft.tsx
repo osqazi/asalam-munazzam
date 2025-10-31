@@ -17,6 +17,9 @@ export default function LeftToRightMarquee() {
   { id: 12, name: "KMM Travel", logo: "/partners/kmm.png" },
   { id: 13, name: "Maj Ramzani Travel", logo: "/partners/majramzani.png" },
   { id: 14, name: "Malik Travel", logo: "/partners/malik.png" },
+  { id: 15, name: "Suriya", logo: "/partners/suriya.png" },
+  { id: 16, name: "Mustafai", logo: "/partners/mustafai.png" },
+  { id: 17, name: "Zia e Noori", logo: "/partners/ziaenoori.png" },
 ];
 
 

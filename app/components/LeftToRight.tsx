@@ -16,6 +16,11 @@ export default function RightToLeftMarquee() {
   { id: 11, name: "Travshop Travel", logo: "/partners/travshop.png" },
   { id: 12, name: "Hujaj-ul-Ansar", logo: "/partners/hujajulansar.png" },
   { id: 13, name: "Arfat Travel", logo: "/partners/arfat.png" },
+  { id: 14, name: "Aroma Aviation", logo: "/partners/aviation.png" },
+  { id: 15, name: "Karwan e Meezan", logo: "/partners/KMeezab.png" },
+  { id: 16, name: "Raza e Noori ", logo: "/partners/razanoor.png" },
+  { id: 17, name: "Pirwani Hajj", logo: "/partners/pirwani.png" },
+  { id: 18, name: "Faizan e Noori", logo: "/partners/FaizanNoori.png" },
 ];
 
 
