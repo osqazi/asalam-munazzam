@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'As Salam Munazzam - Hajj 2026',
+  title: 'As Salam Munazzam (Private) Limited',
   description: 'Premium Hajj Packages for 2026 - Your Spiritual Journey Awaits',
 };
 

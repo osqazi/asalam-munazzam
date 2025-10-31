@@ -115,7 +115,7 @@ export default function Header() {
           <div className="md:text-left">
             <Link href={"/"}>
               <h1 className={`font-bold drop-shadow-lg transition-all duration-300 ${isScrolled ? 'text-xl md:text-2xl mb-0' : 'text-2xl md:text-5xl mb-4'}`}>
-                As Salam Munazzam (Pvt) Ltd.
+                As Salam Munazzam (Private) Limited
               </h1>
             </Link>
             

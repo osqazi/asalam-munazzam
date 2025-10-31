@@ -2,7 +2,6 @@ import Header from '../app/components/Header';
 import PackageCard from '../app/components/PackageCard';
 import { packages } from '../data/packages';
 import RightToLeftMarquee from './components/LeftToRight';
-import Partners from './components/Partners';
 import LeftToRightMarquee from './components/RightToLeft';
 
 export default function Home() {
