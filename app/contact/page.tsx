@@ -39,7 +39,7 @@ export default function Contact() {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
       details: "+92-XXX-XXXXXXX",
-      subtitle: "Mon-Fri from 9am to 6pm",
+      subtitle: "24/7",
       color: "text-blue-600",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200"
