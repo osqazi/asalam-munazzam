@@ -1,62 +1,23 @@
 import { Partner } from "@/types/partners";
-
-// export const partnersData = [
-//   { enrl: 4171, name: "PIRWANI HAJJ GROUP (PVT) LTD.", pilgrims: 80, logo: "/partners/pirwani.png" },
-//   { enrl: 4127, name: "KARWAN-E-RAMZANI (PVT) LTD.", pilgrims: 80, logo: "/partners/karramzani.png" },
-//   { enrl: 4128, name: "MAJMU-E-RAMZANI (PVT) LTD.", pilgrims: 147, logo: "/partners/majramzani.png" },
-//   { enrl: 4272, name: "KARWAN-E-REHMANI TOURS AND TRA", pilgrims: 63, logo: "/partners/rehmani.png" },
-//   { enrl: 2263, name: "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD", pilgrims: 32, logo: "/partners/sajideen.png" },
-//   { enrl: 4151, name: "AL TAYABA TRAVELS & TOURS (PVT) LTD", pilgrims: 90, logo: "/partners/tayyaba.png" },
-//   { enrl: 4153, name: "HUJAJ-AL-ANSAR HAJJ & UMRAH TOURS (PVT) LTD", pilgrims: 80, logo: "/partners/hujajulansar.png" },
-//   { enrl: 4156, name: "AROMA TRAVEL SERVICES (PVT) LTD", pilgrims: 176, logo: "/partners/aroma.png" },
-//   { enrl: 4337, name: "AROMA AVIATION (PVT) LTD", pilgrims: 32, logo: "/partners/aviation.png" },
-//   { enrl: 4157, name: "AL SYED TRAVELS (PVT) LTD", pilgrims: 147, logo: "/partners/alsyed.png" },
-//   { enrl: 4343, name: "KHIZER TRAVELS (PVT) LTD", pilgrims: 32, logo: "/partners/khizer.png" },
-//   { enrl: 4330, name: "CITI TRAVELS (PVT) LTD", pilgrims: 32, logo: "/partners/citi.png" },
-//   { enrl: 4327, name: "SUPER TRAVELS (PVT) LTD", pilgrims: 32, logo: "/partners/super.png" },
-//   { enrl: 4291, name: "BUKHARI TOURS (PVT) LTD", pilgrims: 32, logo: "/partners/buktour.png" },
-//   { enrl: 4307, name: "BUKHARI ASSOCIATE (PVT) LTD", pilgrims: 32, logo: "/partners/bukasso.png" },
-//   { enrl: 4306, name: "BUKHARI & SONS (PVT) LTD", pilgrims: 32, logo: "/partners/buksons.png" },
-//   { enrl: 3313, name: "TRAVEL SHOP (PVT) LTD HAJJ UNIRAII TRAVEL & TOUR SERVICES", pilgrims: 32, logo: "/partners/travshop.png" },
-//   { enrl: 4168, name: "FAIZAN E NOORI INTERNATIONAL (PVT) LTD.", pilgrims: 75, logo: "/partners/FaizanNoori.png" },
-//   { enrl: 4325, name: "RAZA E NOOR (PVT) LTD.", pilgrims: 32, logo: "/partners/razanoor.png" },
-//   { enrl: 4365, name: "KARWAN E ZIA E NOORI INTERNATIONAL (PVT) LTD.", pilgrims: 32, logo: "/partners/ziaenoori.png" },
-//   { enrl: 4219, name: "KARWAN E MUSTAFAI (PVT) LTD.", pilgrims: 75, logo: "/partners/mustafai.png" },
-//   { enrl: 4386, name: "KARWAN E SURIYA HAJJ & UMRAH (PVT) LTD.", pilgrims: 32, logo: "/partners/suriya.png" },
-//   { enrl: 4210, name: "TAIR E HARAM INTERNATIONAL (PVT) LTD.", pilgrims: 90, logo: "/partners/haram.png" },
-//   { enrl: 4284, name: "MOIN UL HUJJAJ HAJJ & UMRAH (PVT) LTD.", pilgrims: 63, logo: "/partners/moin.png" },
-//   { enrl: 4212, name: "KARWAN E MAKKAH MADINA (PVT) LTD", pilgrims: 80, logo: "/partners/kmm.png" },
-//   { enrl: 4152, name: "AL RASHEDIN HAJJ & UMRAH SERVCES (PVT) LTD.", pilgrims: 80, logo: "/partners/rashidien.png" },
-//   { enrl: 4378, name: "KARWAN E MALIK (PVT) LTD.", pilgrims: 32, logo: "/partners/malik.png" },
-//   { enrl: 4268, name: "NEW INTL KARWAN E ARFAT (PVT) LTD.", pilgrims: 66, logo: "/partners/arfat.png" },
-//   { enrl: 4393, name: "KARWAN E MEEZAB REHMAN (PVT) LTD.", pilgrims: 32, logo: "/partners/KMeezab.png" },
-//   { enrl: 4193, name: "KARWAN E AMJADIA HAJJ & UMRAH SERVICES (PVT) LTD.", pilgrims: 80, logo: "/partners/karwan.png" },
-//   { enrl: 4218, name: "MUAWIN UL HUJJAJ (PVT) LTD.", pilgrims: 90, logo: "/partners/muawin.png" },
-//   { enrl: 4201, name: "SAKHI WAHAB HAJJ COMPANY (PVT) LTD.", pilgrims: 80, logo: "/partners/sakhi.png" },
-//   { enrl: 4126, name: "AL MOAZZIN HAJJ & UMRAH SERVICES (PVT) LTD.", pilgrims: 147, logo: "/partners/moazzin.png" },
-//   { enrl: 4154, name: "KARWAN E RFIQUL HARMAIN (PVT) LTD.", pilgrims: 80, logo: "/partners/rafeeq.png" },
-//   { enrl: 4140, name: "KARWAN E AHL E SUNNAT TRAVELS & TOURS (PVT) LTD.", pilgrims: 90, logo: "/partners/ahlesunnat.png" },
-// ];
-
 export const partnersData: Partner[] = [
   {
     enrl: 4171,
     name: "PIRWANI HAJJ GROUP (PVT) LTD.",
     pilgrims: 80,
     logo: "/partners/pirwani.png",
-    contactPerson: "Mr. Muhammad Pirwani",
-    address: "Office #12, 3rd Floor, Al-Hafeez Shopping Mall, Main Boulevard Gulberg, Lahore",
-    contactNumber: "+92 42 3578 5500",
-    email: "info@pirwanihajj.com",
-    website: "https://www.pirwanihajj.com",
-    dtsLicenceNo: "DTS-4171-LHR",
-    iataNo: "27-3-1234",
+    contactPerson: "Mr. Yousuf Pirwani",
+    address: "Office # 106, 1st Floor, Balad Trade Centre, Bahadurabad, Karachi",
+    contactNumber: "+92 21 3413 3006",
+    email: "pirwanitours@hotmail.com",
+    website: "https://www.pirwanitravels.com",
+    dtsLicenceNo: "2990",
+    iataNo: "27310183",
     packageBrochures: [
       {
         id: "pkg-4171-1",
-        title: "Premium Hajj Package 2026",
-        image: "/brochures/pirwani-premium.jpg",
-        description: "5-star accommodation near Haram, VIP transport, guided Ziyarat in Madinah."
+        title: "Standard Hajj Package 2026",
+        image: "/packages/pirwaniStd1.jpg",
+        description: "Maktab D, Al-Safa Tower, Madinah Marazia, Air-Conditioned Private Buses, Makkah and Madinah Ziyarat by Bus"
       }
     ]
   },
