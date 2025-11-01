@@ -1,18 +1,20 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import { Search, Filter, Download, ZoomIn, Calendar, FileText } from "lucide-react";
+import { Search, Filter, Download, ZoomIn, Calendar, FileText, Signpost, IdCardIcon } from "lucide-react";
 
 export default function Notifications() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [filter, setFilter] = useState("all");
+  
+  
 
   const notifications = [
     {
       id: 1,
       title: "MORA Approval Letter - Page 1",
-      description: "Official approval letter from Ministry of Religious Affairs for Hajj 2026 operations",
+      description: "Official recognition letter from Ministry of Religious Affairs for Hajj 2026 operations",
       image: "/morap1.jpg",
       type: "official",
       source: "Ministry of Religious Affairs",
@@ -22,7 +24,7 @@ export default function Notifications() {
     {
       id: 2,
       title: "MORA Approval Letter - Page 2",
-      description: "Continuation of official approval documentation with terms and conditions",
+      description: "Continuation of official recognition letter of Ministry of Religiuous Affairs for Hajj 2026",
       image: "/morap2.jpg",
       type: "official",
       source: "Ministry of Religious Affairs",
@@ -102,12 +104,12 @@ export default function Notifications() {
             <div className="text-gray-600">Hajj Season</div>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-            <div className="w-8 h-8 text-amber-600 mx-auto mb-2">⚖️</div>
+            <Signpost className="w-8 h-8 text-amber-700 mx-auto mb-2" />
             <div className="text-2xl font-bold text-amber-700">MORA</div>
             <div className="text-gray-600">Primary Source</div>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
-            <div className="w-8 h-8 text-purple-600 mx-auto mb-2">✅</div>
+            <IdCardIcon className="w-8 h-8 text-purple-700 mx-auto mb-2" />
             <div className="text-2xl font-bold text-purple-700">0413</div>
             <div className="text-gray-600">Registration No.</div>
           </div>

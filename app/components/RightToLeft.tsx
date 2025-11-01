@@ -1,26 +1,36 @@
 "use client";
 import Image from "next/image";
+import { partnersData } from "@/data/partners";
 
 export default function LeftToRightMarquee() {
-  const partners = [
-  { id: 1, name: "Aroma Travel", logo: "/partners/aroma.png" },
-  { id: 2, name: "Al Syed Travel", logo: "/partners/alsyed.png" },
-  { id: 3, name: "Ahle Sunnat Travel", logo: "/partners/ahlesunnat.png" },
-  { id: 4, name: "Bukasso Travel", logo: "/partners/bukasso.png" },
-  { id: 5, name: "Buksons Travel", logo: "/partners/buksons.png" },
-  { id: 6, name: "Buk Tour", logo: "/partners/buktour.png" },
-  { id: 7, name: "Citi Travel", logo: "/partners/citi.png" },
-  { id: 8, name: "Khizer Travel", logo: "/partners/khizer.png" },
-  { id: 9, name: "Haram Travel", logo: "/partners/haram.png" },
-  { id: 10, name: "Karramzani Travel", logo: "/partners/karramzani.png" },
-  { id: 11, name: "Karwan Travel", logo: "/partners/karwan.png" },
-  { id: 12, name: "KMM Travel", logo: "/partners/kmm.png" },
-  { id: 13, name: "Maj Ramzani Travel", logo: "/partners/majramzani.png" },
-  { id: 14, name: "Malik Travel", logo: "/partners/malik.png" },
-  { id: 15, name: "Suriya", logo: "/partners/suriya.png" },
-  { id: 16, name: "Mustafai", logo: "/partners/mustafai.png" },
-  { id: 17, name: "Zia e Noori", logo: "/partners/ziaenoori.png" },
-];
+// First half (17 partners)
+const firstHalfLength = Math.floor(partnersData.length / 2); // 17
+const firstHalfPartners = partnersData.slice(0, firstHalfLength);
+
+// Second half (18 partners)  
+const secondHalfPartners = partnersData.slice(firstHalfLength);
+
+const partners = firstHalfPartners
+
+//   const partners = [
+//   { id: 1, name: "Aroma Travel", logo: "/partners/aroma.png" },
+//   { id: 2, name: "Al Syed Travel", logo: "/partners/alsyed.png" },
+//   { id: 3, name: "Ahle Sunnat Travel", logo: "/partners/ahlesunnat.png" },
+//   { id: 4, name: "Bukasso Travel", logo: "/partners/bukasso.png" },
+//   { id: 5, name: "Buksons Travel", logo: "/partners/buksons.png" },
+//   { id: 6, name: "Buk Tour", logo: "/partners/buktour.png" },
+//   { id: 7, name: "Citi Travel", logo: "/partners/citi.png" },
+//   { id: 8, name: "Khizer Travel", logo: "/partners/khizer.png" },
+//   { id: 9, name: "Haram Travel", logo: "/partners/haram.png" },
+//   { id: 10, name: "Karramzani Travel", logo: "/partners/karramzani.png" },
+//   { id: 11, name: "Karwan Travel", logo: "/partners/karwan.png" },
+//   { id: 12, name: "KMM Travel", logo: "/partners/kmm.png" },
+//   { id: 13, name: "Maj Ramzani Travel", logo: "/partners/majramzani.png" },
+//   { id: 14, name: "Malik Travel", logo: "/partners/malik.png" },
+//   { id: 15, name: "Suriya", logo: "/partners/suriya.png" },
+//   { id: 16, name: "Mustafai", logo: "/partners/mustafai.png" },
+//   { id: 17, name: "Zia e Noori", logo: "/partners/ziaenoori.png" },
+// ];
 
 
   return (
@@ -28,7 +38,7 @@ export default function LeftToRightMarquee() {
       <div className="flex animate-marquee-left-to-right space-x-16">
         {[...partners, ...partners].map((company, index) => (
           <div
-            key={`${company.id}-${index}`}
+            key={`${company.enrl}-${index}`}
             className="group relative flex-shrink-0 flex flex-col items-center justify-center"
           >
             <div className="relative rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105 border border-gray-200 w-28 h-28 overflow-hidden">

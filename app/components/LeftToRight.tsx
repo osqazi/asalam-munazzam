@@ -1,27 +1,38 @@
 "use client";
 import Image from "next/image";
+import { partnersData } from "@/data/partners";
 
 export default function RightToLeftMarquee() {
-  const partners = [
-  { id: 1, name: "Moazzin Travel", logo: "/partners/moazzin.png" },
-  { id: 2, name: "Moin Travel", logo: "/partners/moin.png" },
-  { id: 3, name: "Muawin Travel", logo: "/partners/muawin.png" },
-  { id: 4, name: "Rafeeq Travel", logo: "/partners/rafeeq.png" },
-  { id: 5, name: "Rashidien Travel", logo: "/partners/rashidien.png" },
-  { id: 6, name: "Rehmani Travel", logo: "/partners/rehmani.png" },
-  { id: 7, name: "Sajideen Travel", logo: "/partners/sajideen.png" },
-  { id: 8, name: "Sakhi Travel", logo: "/partners/sakhi.png" },
-  { id: 9, name: "Super Travel", logo: "/partners/super.png" },
-  { id: 10, name: "Tayyaba Travel", logo: "/partners/tayyaba.png" },
-  { id: 11, name: "Travshop Travel", logo: "/partners/travshop.png" },
-  { id: 12, name: "Hujaj-ul-Ansar", logo: "/partners/hujajulansar.png" },
-  { id: 13, name: "Arfat Travel", logo: "/partners/arfat.png" },
-  { id: 14, name: "Aroma Aviation", logo: "/partners/aviation.png" },
-  { id: 15, name: "Karwan e Meezan", logo: "/partners/KMeezab.png" },
-  { id: 16, name: "Raza e Noori ", logo: "/partners/razanoor.png" },
-  { id: 17, name: "Pirwani Hajj", logo: "/partners/pirwani.png" },
-  { id: 18, name: "Faizan e Noori", logo: "/partners/FaizanNoori.png" },
-];
+  // First half (17 partners)
+const firstHalfLength = Math.floor(partnersData.length / 2); // 17
+const firstHalfPartners = partnersData.slice(0, firstHalfLength);
+
+// Second half (18 partners)  
+const secondHalfPartners = partnersData.slice(firstHalfLength);
+
+const partners = secondHalfPartners
+
+
+//   const partners = [
+//   { id: 1, name: "Moazzin Travel", logo: "/partners/moazzin.png" },
+//   { id: 2, name: "Moin Travel", logo: "/partners/moin.png" },
+//   { id: 3, name: "Muawin Travel", logo: "/partners/muawin.png" },
+//   { id: 4, name: "Rafeeq Travel", logo: "/partners/rafeeq.png" },
+//   { id: 5, name: "Rashidien Travel", logo: "/partners/rashidien.png" },
+//   { id: 6, name: "Rehmani Travel", logo: "/partners/rehmani.png" },
+//   { id: 7, name: "Sajideen Travel", logo: "/partners/sajideen.png" },
+//   { id: 8, name: "Sakhi Travel", logo: "/partners/sakhi.png" },
+//   { id: 9, name: "Super Travel", logo: "/partners/super.png" },
+//   { id: 10, name: "Tayyaba Travel", logo: "/partners/tayyaba.png" },
+//   { id: 11, name: "Travshop Travel", logo: "/partners/travshop.png" },
+//   { id: 12, name: "Hujaj-ul-Ansar", logo: "/partners/hujajulansar.png" },
+//   { id: 13, name: "Arfat Travel", logo: "/partners/arfat.png" },
+//   { id: 14, name: "Aroma Aviation", logo: "/partners/aviation.png" },
+//   { id: 15, name: "Karwan e Meezan", logo: "/partners/KMeezab.png" },
+//   { id: 16, name: "Raza e Noori ", logo: "/partners/razanoor.png" },
+//   { id: 17, name: "Pirwani Hajj", logo: "/partners/pirwani.png" },
+//   { id: 18, name: "Faizan e Noori", logo: "/partners/FaizanNoori.png" },
+// ];
 
 
   return (
@@ -29,7 +40,7 @@ export default function RightToLeftMarquee() {
       <div className="flex animate-marquee-right-to-left space-x-16">
         {[...partners, ...partners].map((company, index) => (
           <div
-            key={`${company.id}-${index}`}
+            key={`${company.enrl}-${index}`}
             className="group relative flex-shrink-0 flex flex-col items-center justify-center"
           >
             <div className="relative rounded-xl shadow-md hover:shadow-lg transition-transform duration-300 hover:scale-105 border border-gray-200 w-28 h-28 overflow-hidden">

@@ -14,7 +14,6 @@ import {
   Clock,
   Users
 } from 'lucide-react';
-import Header from '@/app/components/Header';
 
 type PackagePageProps = {
   params: Promise<{ id: string }>;

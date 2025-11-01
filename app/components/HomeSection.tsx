@@ -18,7 +18,7 @@ export default function HomeSection() {
     {
       icon: <Heart className="w-8 h-8" />,
       value: "2,407",
-      label: "Pilgrims Served",
+      label: "Pilgrims to Serve",
       description: "Blessed Journeys Completed"
     },
     {
