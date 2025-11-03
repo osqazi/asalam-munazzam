@@ -12,7 +12,7 @@ export const partnersData: Partner[] = [
     email: "pirwanitours@hotmail.com",
     website: "https://www.pirwanitravels.com",
     dtsLicenceNo: "2990",
-    iataNo: "27310183",
+    iataNo: "27-3-10183",
     packageBrochures: [
       {
         id: "pkg-4171-1",
@@ -78,7 +78,7 @@ export const partnersData: Partner[] = [
     email: "hujaj_alansar@yahoo.com",
     website: "http://www.hujajalansar.com",
     dtsLicenceNo: "3030",
-    iataNo: "27310404",
+    iataNo: "27-3-10404",
     packageBrochures: [
       {
         id: "pkg-4153-1",
@@ -125,7 +125,7 @@ export const partnersData: Partner[] = [
     email: "hajj@aromatravel.com",
     website: "http://www.aromatravel.com",
     dtsLicenceNo: "1108",
-    iataNo: "27300125",
+    iataNo: "27-3-00125",
     packageBrochures: [
       {
         id: "pkg-4156-1",
@@ -183,7 +183,7 @@ export const partnersData: Partner[] = [
     email: "hajj@aromaaviation.com",
     website: "http://www.aromaaviation.com",
     dtsLicenceNo: "2003",
-    iataNo: "27306160",
+    iataNo: "27-3-06160",
     packageBrochures: [
       {
         id: "pkg-4337-1",
@@ -205,7 +205,7 @@ export const partnersData: Partner[] = [
     email: "hajj@alsyedtravels.com",
     website: "http://www.alsyedtravels.com",
     dtsLicenceNo: "1084",
-    iataNo: "27302096",
+    iataNo: "27-3-02096",
     packageBrochures: [
       {
         id: "pkg-4157-1",
@@ -313,7 +313,7 @@ export const partnersData: Partner[] = [
     email: "info@stl.com.pk",
     website: "http://www.stl.com.pk",
     dtsLicenceNo: "58",
-    iataNo: "27324522",
+    iataNo: "27-3-24522",
     packageBrochures: [
       {
         id: "pkg-4327-1",
@@ -365,7 +365,7 @@ export const partnersData: Partner[] = [
     email: "shahidrafiq@bukharigroup.com.pk",
     website: "http://www.bukharitours.com.pk",
     dtsLicenceNo: "2098",
-    iataNo: "27300140",
+    iataNo: "27-3-00140",
     packageBrochures: [
       {
         id: "pkg-4291-1",
@@ -387,7 +387,7 @@ export const partnersData: Partner[] = [
     email: "naveed@bukharigroup.com.pk",
     website: "http://www.bukhariassociates.com.pk",
     dtsLicenceNo: "2862",
-    iataNo: "27305961 ",
+    iataNo: "27-3-05961 ",
     packageBrochures: [
       {
         id: "pkg-4307-1",
@@ -409,7 +409,7 @@ export const partnersData: Partner[] = [
     email: "nabeelkaimkhani@bukharigroup.com.pk",
     website: "https://www.bukhariandson.com",
     dtsLicenceNo: "2862",
-    iataNo: "27305880",
+    iataNo: "27-3-05880",
     packageBrochures: [
       {
         id: "pkg-4306-1",
@@ -453,7 +453,7 @@ export const partnersData: Partner[] = [
     email: "faizanenooriint@outlook.com",
     website: "https://www.faizanenooriintl.com",
     dtsLicenceNo: "3141",
-    iataNo: "2731115",
+    iataNo: "27-3-1115",
     packageBrochures: [
       {
         id: "pkg-4168-1",
@@ -575,7 +575,7 @@ export const partnersData: Partner[] = [
     email: "taireharam2621@hotmail.com",
     website: "http://www.taireharam.com",
     dtsLicenceNo: "2621",
-    iataNo: "27310754",
+    iataNo: "27-3-10754",
     packageBrochures: [
       {
         id: "pkg-4210-1",
@@ -695,7 +695,7 @@ export const partnersData: Partner[] = [
     email: "kr_hajjgroup@hotmail.com",
     website: "http://www.alrashedin.com",
     dtsLicenceNo: "3048",
-    iataNo: "27310253",
+    iataNo: "27-3-10253",
     packageBrochures: [
       {
         id: "pkg-4152-1",
@@ -729,7 +729,7 @@ export const partnersData: Partner[] = [
     email: "khilji33@gmail.com",
     website: "http://www.karwan-e-malik.com",
     dtsLicenceNo: "2744",
-    iataNo: "27317010",
+    iataNo: "27-3-17010",
     packageBrochures: [
       {
         id: "pkg-4378-1",
@@ -751,7 +751,7 @@ export const partnersData: Partner[] = [
     email: "karwan_e_arfat@yahoo.com",
     website: "http://www.karwanearfat.com",
     dtsLicenceNo: "2905",
-    iataNo: "27311200",
+    iataNo: "27-3-11200",
     packageBrochures: [
       {
         id: "pkg-4268-1",
@@ -820,7 +820,7 @@ export const partnersData: Partner[] = [
     email: "karwan_e_amjadia@hotmail.com",
     website: "http://karwaneamjadia.com",
     dtsLicenceNo: "3074",
-    iataNo: "27312084",
+    iataNo: "27-3-12084",
     packageBrochures: [
       {
         id: "pkg-4193-1",
@@ -854,7 +854,7 @@ export const partnersData: Partner[] = [
     email: "muawin4218@hotmail.com",
     website: "http://www.muawinulhujjaj.com",
     dtsLicenceNo: "2922",
-    iataNo: "27310146",
+    iataNo: "27-3-10146",
     packageBrochures: [
       {
         id: "pkg-4218-1",
@@ -972,7 +972,7 @@ export const partnersData: Partner[] = [
     email: "karwane_sunnat@yahoo.com",
     website: "http://www.karwaneahlesunnat.com.pk",
     dtsLicenceNo: "3197",
-    iataNo: "27313123",
+    iataNo: "27-3-13123",
     packageBrochures: [
       {
         id: "pkg-4140-1",
