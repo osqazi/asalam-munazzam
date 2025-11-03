@@ -23,72 +23,6 @@ export const partnersData: Partner[] = [
     ]
   },
   {
-    enrl: 4127,
-    name: "KARWAN-E-RAMZANI (PVT) LTD.",
-    pilgrims: 80,
-    logo: "/partners/karramzani.png",
-    shortName: "KARWAN-E-RAMZANI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
-    packageBrochures: [
-      {
-        id: "-",
-        title: "-",
-        image: "",
-        description: "-"
-      },
-    ]
-  },
-  {
-    enrl: 4128,
-    name: "MAJMU-E-RAMZANI (PVT) LTD.",
-    pilgrims: 147,
-    logo: "/partners/majramzani.png",
-    shortName: "MAJMU-E-RAMZANI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
-    packageBrochures: [
-      {
-        id: "pkg-4128-1",
-        title: "Majmu Platinum Hajj",
-        image: "",
-        description: "Private Aziziya residence, Saudi Airlines direct."
-      }
-    ]
-  },
-  {
-    enrl: 4272,
-    name: "KARWAN-E-REHMANI TOURS AND TRA",
-    pilgrims: 63,
-    logo: "/partners/rehmani.png",
-    shortName: "KARWAN-E-REHMANI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
-    packageBrochures: [
-      {
-        id: "pkg-4272-1",
-        title: "Rehmani Standard Hajj",
-        image: "",
-        description: "Complete Hajj with training camps in Karachi."
-      }
-    ]
-  },
-  {
     enrl: 2263,
     name: "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD",
     pilgrims: 32,
@@ -326,7 +260,7 @@ export const partnersData: Partner[] = [
     contactNumber: "+92 21 3568 7959",
     email: "cititravels1981@gmail.com",
     website: "http://www.cititravels.com.pk",
-    dtsLicenceNo: "1456",
+    dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
       {
@@ -1051,6 +985,72 @@ export const partnersData: Partner[] = [
         title: "Standard Short Package-2",
         image: "/packages/sunnat2.webp",
         description: "Short Hajj Package-2, 15-20 Days Stay, Maktab-B"
+      }
+    ]
+  },
+  {
+    enrl: 4127,
+    name: "KARWAN-E-RAMZANI (PVT) LTD.",
+    pilgrims: 80,
+    logo: "/partners/karramzani.png",
+    shortName: "KARWAN-E-RAMZANI",
+    contactPerson: "-",
+    address: "-",
+    contactNumber: "-",
+    email: "-",
+    website: "-",
+    dtsLicenceNo: "-",
+    iataNo: "-",
+    packageBrochures: [
+      {
+        id: "-",
+        title: "-",
+        image: "",
+        description: "-"
+      },
+    ]
+  },
+  {
+    enrl: 4128,
+    name: "MAJMU-E-RAMZANI (PVT) LTD.",
+    pilgrims: 147,
+    logo: "/partners/majramzani.png",
+    shortName: "MAJMU-E-RAMZANI",
+    contactPerson: "-",
+    address: "-",
+    contactNumber: "-",
+    email: "-",
+    website: "-",
+    dtsLicenceNo: "-",
+    iataNo: "-",
+    packageBrochures: [
+      {
+        id: "pkg-4128-1",
+        title: "Majmu Platinum Hajj",
+        image: "",
+        description: "Private Aziziya residence, Saudi Airlines direct."
+      }
+    ]
+  },
+  {
+    enrl: 4272,
+    name: "KARWAN-E-REHMANI TOURS AND TRA",
+    pilgrims: 63,
+    logo: "/partners/rehmani.png",
+    shortName: "KARWAN-E-REHMANI",
+    contactPerson: "-",
+    address: "-",
+    contactNumber: "-",
+    email: "-",
+    website: "-",
+    dtsLicenceNo: "-",
+    iataNo: "-",
+    packageBrochures: [
+      {
+        id: "pkg-4272-1",
+        title: "Rehmani Standard Hajj",
+        image: "",
+        description: "Complete Hajj with training camps in Karachi."
       }
     ]
   }
