@@ -85,12 +85,6 @@ export const partnersData: Partner[] = [
         title: "Rehmani Standard Hajj",
         image: "",
         description: "Complete Hajj with training camps in Karachi."
-      },
-      {
-        id: "pkg-4272-2",
-        title: "Budget Hajj",
-        image: "",
-        description: "Economy package for first-time Hujjaj."
       }
     ]
   },
@@ -135,12 +129,6 @@ export const partnersData: Partner[] = [
         title: "Tayaba Executive Hajj",
         image: "",
         description: "Business class flights, 5-star hotels."
-      },
-      {
-        id: "pkg-4151-2",
-        title: "Women-Only Hajj Group",
-        image: "",
-        description: "Female-led group with privacy focus."
       }
     ]
   },
@@ -324,12 +312,6 @@ export const partnersData: Partner[] = [
         title: "Khizer Economy Hajj",
         image: "",
         description: "Basic package with full compliance."
-      },
-      {
-        id: "pkg-4343-2",
-        title: "Umrah in Muharram",
-        image: "",
-        description: "Spiritual Umrah in Islamic New Year."
       }
     ]
   },
@@ -339,20 +321,50 @@ export const partnersData: Partner[] = [
     pilgrims: 32,
     logo: "/partners/citi.png",
     shortName: "CITI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
+    contactPerson: "Mr. Tafseer ul Islam",
+    address: "13-A, Court View Appartment, Court Road, Karachi",
+    contactNumber: "+92 21 3568 7959",
+    email: "cititravels1981@gmail.com",
+    website: "http://www.cititravels.com.pk",
+    dtsLicenceNo: "1456",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4330-1",
-        title: "Citi Budget Hajj",
-        image: "",
-        description: "Affordable Hajj with shared facilities."
-      }
+        title: "Diamond Makkah Package-1",
+        image: "/packages/citi1.webp",
+        description: "Diamond Makkah Package-1, 21-22 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4330-2",
+        title: "Sapphire Makkah Package-2",
+        image: "/packages/citi2.webp",
+        description: "Sapphire Makkah Package-2, 17-18 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4330-3",
+        title: "Sapphire Aziziah Package-3",
+        image: "/packages/citi3.webp",
+        description: "Sapphire Azizia Package-3, 14-15 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4330-4",
+        title: "Silver Makkah Package-4",
+        image: "/packages/citi4.webp",
+        description: "Silverr Makkah Package-4, 21-22 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4330-5",
+        title: "Sapphire Silver Package-5",
+        image: "/packages/citi5.webp",
+        description: "Sapphire Silver Package-5, 17-18 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4330-6",
+        title: "Silver Aziziah Package-6",
+        image: "/packages/citi6.webp",
+        description: "Silver Azizia Package-6, 14-15 Days Stay, Maktab-A"
+      },
     ]
   },
   {
@@ -361,26 +373,50 @@ export const partnersData: Partner[] = [
     pilgrims: 32,
     logo: "/partners/super.png",
     shortName: "SUPER",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Mr. Jameel A. Sakrani",
+    address: "8, Lotia Building, Club Road, Karachi",
+    contactNumber: "+92 21 111 111 STL(785)",
+    email: "info@stl.com.pk",
+    website: "http://www.stl.com.pk",
+    dtsLicenceNo: "58",
+    iataNo: "27324522",
     packageBrochures: [
       {
         id: "pkg-4327-1",
-        title: "Super Umrah Express",
-        image: "",
-        description: "5-day Umrah from Lahore."
+        title: "Diamond Makkah Package-1",
+        image: "/packages/super1.webp",
+        description: "Diamond Makkah Package-1, 21-22 Days Stay, Maktab-A"
       },
       {
         id: "pkg-4327-2",
-        title: "Hajj Training Camp",
-        image: "",
-        description: "Pre-Hajj mock rituals and guidance."
-      }
+        title: "Sapphire Makkah Package-2",
+        image: "/packages/super2.webp",
+        description: "Sapphire Makkah Package-2, 17-18 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4327-3",
+        title: "Sapphire Aziziah Package-3",
+        image: "/packages/super3.webp",
+        description: "Sapphire Azizia Package-3, 14-15 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4327-4",
+        title: "Silver Makkah Package-4",
+        image: "/packages/super4.webp",
+        description: "Silverr Makkah Package-4, 21-22 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4327-5",
+        title: "Sapphire Silver Package-5",
+        image: "/packages/super5.webp",
+        description: "Sapphire Silver Package-5, 17-18 Days Stay, Maktab-A"
+      },
+      {
+        id: "pkg-4327-6",
+        title: "Silver Aziziah Package-6",
+        image: "/packages/super6.webp",
+        description: "Silver Azizia Package-6, 14-15 Days Stay, Maktab-A"
+      },
     ]
   },
   {
@@ -568,12 +604,6 @@ export const partnersData: Partner[] = [
         title: "Mustafai Deluxe Hajj",
         image: "",
         description: "Comfortable stay near Haram."
-      },
-      {
-        id: "pkg-4219-2",
-        title: "Umrah for Students",
-        image: "",
-        description: "Budget Umrah during holidays."
       }
     ]
   },
@@ -605,19 +635,49 @@ export const partnersData: Partner[] = [
     pilgrims: 90,
     logo: "/partners/haram.png",
     shortName: "TAIR E HARAM",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Mr. Muhammad Akhtar Qadri",
+    address: "B-1068/1AB, Jinnah Chowk, Kabari Bazar, Sukkur",
+    contactNumber: "+92 71 562 0189",
+    email: "taireharam2621@hotmail.com",
+    website: "http://www.taireharam.com",
+    dtsLicenceNo: "2621",
+    iataNo: "27310754",
     packageBrochures: [
       {
         id: "pkg-4210-1",
-        title: "Tair VIP Hajj",
-        image: "",
-        description: "Luxury package with private transport."
+        title: "Standard Long Package-1",
+        image: "/packages/tair1.webp",
+        description: "Long Hajj Package-1, 32 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4210-2",
+        title: "Standard Long Package-2",
+        image: "/packages/tair2.webp",
+        description: "Long Hajj Package-2, 32 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4210-3",
+        title: "Standard Short Package-3",
+        image: "/packages/tair3.webp",
+        description: "Short Hajj Package-3, 17 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4210-4",
+        title: "Standard Short Package-4",
+        image: "/packages/tair4.webp",
+        description: "Short Hajj Package-4, 17 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4210-5",
+        title: "Standard Package-5",
+        image: "/packages/tair5.webp",
+        description: "Standard Hajj Package-5, 27 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4210-6",
+        title: "Standard Package-6",
+        image: "/packages/tair6.webp",
+        description: "Standard Hajj Package-6, 23 Days Stay, Maktab-B"
       }
     ]
   },
@@ -628,24 +688,42 @@ export const partnersData: Partner[] = [
     logo: "/partners/moin.png",
     shortName: "MOIN UL HUJJAJ",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
+    address: "Office No. B-2067, 1st Floor, Lakra Mandi chowk, Miani Road, Sukkur",
+    contactNumber: "+92 71 561 6649",
+    email: "moinulhujjaj@gmail.com",
+    website: "http://www.moinulhujjaj.com",
     dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4284-1",
-        title: "Moin Standard Hajj",
-        image: "",
-        description: "Reliable group travel."
+        title: "Golden Package-1",
+        image: "/packages/moin1.webp",
+        description: "Golden Package-1, Zone-5, 30 Days Stay, Maktab-D"
       },
       {
         id: "pkg-4284-2",
-        title: "Umrah in Rajab",
-        image: "",
-        description: "Blessed month Umrah."
+        title: "Standard Package-2",
+        image: "/packages/moin2.webp",
+        description: "Standard Package-2, Zone-5, 30 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4284-3",
+        title: "Short Package-3",
+        image: "/packages/moin3.webp",
+        description: "Short Package-3, Zone-5, 16-22 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4284-4",
+        title: "Short Package-4",
+        image: "/packages/moin4.webp",
+        description: "Short Package-4, Zone-5, 28 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4284-5",
+        title: "Short Package-5",
+        image: "/packages/moin5.webp",
+        description: "Short Package-5, Zone-5, 17 Days Stay, Maktab-D"
       }
     ]
   },
@@ -712,18 +790,18 @@ export const partnersData: Partner[] = [
     logo: "/partners/malik.png",
     shortName: "MALIK",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    address: "Shop No. 24, Iqbal Market, Near Habib Cold Storage, Soldier Bazar, Karachi",
+    contactNumber: "+92 21 3225 4435",
+    email: "khilji33@gmail.com",
+    website: "http://www.karwan-e-malik.com",
+    dtsLicenceNo: "2744",
+    iataNo: "27317010",
     packageBrochures: [
       {
         id: "pkg-4378-1",
-        title: "Malik Budget Hajj",
-        image: "",
-        description: "Economical and trusted."
+        title: "Standard Short Package",
+        image: "/packages/malik.jpg",
+        description: "Short Hajj Package, 17-18 Days Stay, Maktab-B"
       }
     ]
   },
@@ -836,19 +914,49 @@ export const partnersData: Partner[] = [
     pilgrims: 90,
     logo: "/partners/muawin.png",
     shortName: "MUAWIN",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Mr. Raja Akhter Abbas",
+    address: "SM-13, Al-Kamran Centre, 7/A, Block-6, P.E.C.H.S. Shahrah-e-Faisal, Karachi",
+    contactNumber: "+92 21 3453 8307",
+    email: "muawin4218@hotmail.com",
+    website: "http://www.muawinulhujjaj.com",
+    dtsLicenceNo: "2922",
+    iataNo: "27310146",
     packageBrochures: [
       {
         id: "pkg-4218-1",
-        title: "Muawin Support Hajj",
-        image: "",
-        description: "Full assistance for elderly."
+        title: "Standard Long Package-1",
+        image: "/packages/muawin1.webp",
+        description: "Long Hajj Package-1, 30-32 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4218-2",
+        title: "Standard Short Package-2",
+        image: "/packages/muawin2.webp",
+        description: "Short Hajj Package-2, 17 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4218-3",
+        title: "Standard Short Package-3",
+        image: "/packages/muawin3.webp",
+        description: "Short Hajj Package-3, 14 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4218-4",
+        title: "Standard Long Package-4",
+        image: "/packages/muawin4.webp",
+        description: "Long Hajj Package-4, 35-36 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4218-5",
+        title: "Standard Short Package-5",
+        image: "/packages/muawin5.webp",
+        description: "Short Hajj Package-5, 22 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4218-6",
+        title: "Standard Short Package-6",
+        image: "/packages/muawin6.webp",
+        description: "Short Hajj Package-6, 14 Days Stay, Maktab-B"
       }
     ]
   },
@@ -871,12 +979,6 @@ export const partnersData: Partner[] = [
         title: "Sakhi Classic Hajj",
         image: "",
         description: "Trusted group travel."
-      },
-      {
-        id: "pkg-4201-2",
-        title: "Umrah with Ziyarat",
-        image: "",
-        description: "Historical sites visit."
       }
     ]
   },
