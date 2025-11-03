@@ -50,19 +50,31 @@ export const partnersData: Partner[] = [
     pilgrims: 90,
     logo: "/partners/tayyaba.png",
     shortName: "AL TAYABA",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
+    contactPerson: "Mr. Muhammad Ashfaq",
+    address: "Suit No. 63, Motiwala Market, Near Farooqi Masjid, Kharadar, Karachi",
+    contactNumber: "+92 21 3243 9988",
+    email: "info@altayaba.com",
+    website: "http://www.altayaba.com",
     dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4151-1",
-        title: "Tayaba Executive Hajj",
-        image: "",
-        description: "Business class flights, 5-star hotels."
+        title: "Standard Short Package-1",
+        image: "/packages/tayaba1.jpg",
+        description: "Short Package-1, 17-18 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4151-2",
+        title: "Standard Short Package-2",
+        image: "/packages/tayaba2.jpg",
+        description: "Short Package-2, 21-22 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4151-3",
+        title: "Standard Short Package-3",
+        image: "/packages/tayaba3.jpg",
+        description: "Short Package-3, 17-18 Days Stay, Maktab-D"
       }
     ]
   },
@@ -187,9 +199,9 @@ export const partnersData: Partner[] = [
     packageBrochures: [
       {
         id: "pkg-4337-1",
-        title: "Charter Hajj Flight",
-        image: "",
-        description: "Dedicated aircraft for group."
+        title: "Standard Long Package",
+        image: "/packages/aviation.jpg",
+        description: "Standard Long Package 30 - 31 Days, Maktab D"
       }
     ]
   },
@@ -943,20 +955,32 @@ export const partnersData: Partner[] = [
     name: "KARWAN E RFIQUL HARMAIN (PVT) LTD.",
     pilgrims: 80,
     logo: "/partners/rafeeq.png",
-    shortName: "RFIQUL HARMAIN",
+    shortName: "RAFIQUL HARMAIN",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
+    address: "Office No. 103, Iconic Trade Centre, Bahadurabad, Karachi",
+    contactNumber: "+92 21 3485 7005",
+    email: "rafiqulharmain1@hotmail.com",
     website: "-",
-    dtsLicenceNo: "-",
+    dtsLicenceNo: "2267",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4154-1",
-        title: "Rafiqul Harmain Hajj",
-        image: "",
-        description: "Complete spiritual journey."
+        title: "Standard Hajj Pakcage-2",
+        image: "/packages/rafiq1.jpb",
+        description: "Hajj Package-2, 28 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4154-2",
+        title: "Standard Hajj Pakcage-3",
+        image: "/packages/rafiq2.jpg",
+        description: "Short Hajj Package-3, 17 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4154-3",
+        title: "Standard Hajj Pakcage-6",
+        image: "/packages/rafiq3.jpg",
+        description: "Short Hajj Package-6, 23 Days Stay, Maktab-B"
       }
     ]
   },
@@ -994,13 +1018,13 @@ export const partnersData: Partner[] = [
     pilgrims: 80,
     logo: "/partners/karramzani.png",
     shortName: "KARWAN-E-RAMZANI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Malik Muhammad Nadeem Ramzani",
+    address: "Plot No. R-446-447, Sector 1-A, Lines Area, Karachi",
+    contactNumber: "+92 21 3279 0379",
+    email: "ramzani4@hotmail.com",
+    website: "http://www.karwaneramzani.com",
+    dtsLicenceNo: "2993",
+    iataNo: "27-3-13053",
     packageBrochures: [
       {
         id: "-",
@@ -1016,19 +1040,19 @@ export const partnersData: Partner[] = [
     pilgrims: 147,
     logo: "/partners/majramzani.png",
     shortName: "MAJMU-E-RAMZANI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
+    contactPerson: "Mr. Malik Muhammad Sohail Ramzani",
+    address: "Suit No. 1/1, Block-H, Jacob Line, Lines Area, Karachi",
+    contactNumber: "+92 21 3279 0378",
+    email: "ramzani2@hotmail.com",
     website: "-",
     dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4128-1",
-        title: "Majmu Platinum Hajj",
-        image: "",
-        description: "Private Aziziya residence, Saudi Airlines direct."
+        title: "Hajj 2026 Packages",
+        image: "/packages/mramzani.jpg",
+        description: "Short Package, 14-16 Days | Long Package 28-32 Days | Maktab-D"
       }
     ]
   },
