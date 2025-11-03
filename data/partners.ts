@@ -680,10 +680,10 @@ export const partnersData: Partner[] = [
     contactPerson: "Mr. Ibrahim Usman",
     address: "Shop No. 5, Khulfa-e-Rashedin Masjid, Tayab Ali Alvi Road, Memon Society, Karachi",
     contactNumber: "+92 21 3888 8011",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    email: "kr_hajjgroup@hotmail.com",
+    website: "http://www.alrashedin.com",
+    dtsLicenceNo: "3048",
+    iataNo: "27310253",
     packageBrochures: [
       {
         id: "pkg-4152-1",
