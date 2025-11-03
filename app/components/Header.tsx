@@ -160,8 +160,8 @@ export default function Header() {
 
   const menuItems = [
     { name: "Home", href: "/" },
-    { name: "Packages", href: "/packages" },
     { name: "Partners", href: "/partners" },
+    { name: "Packages", href: "/packages" },    
     { name: "Notifications", href: "/notifications" },
     { name: "Contact Us", href: "/contact" },
   ];
