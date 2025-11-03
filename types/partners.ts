@@ -12,6 +12,7 @@ export interface Partner {
   name: string;
   pilgrims: number;
   logo: string;
+  shortName: string;
   contactPerson: string;
   address: string;
   contactNumber: string;

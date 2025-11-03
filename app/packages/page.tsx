@@ -225,7 +225,7 @@ export default function Packages() {
                     {/* Partner Badge */}
                     <div className="absolute top-3 left-3">
                       <span className="bg-green-600 text-white px-2 py-1 rounded-full text-xs font-semibold">
-                        {pkg.partner.name.split(' ')[0]}
+                        {pkg.partner.shortName}
                       </span>
                     </div>
 
