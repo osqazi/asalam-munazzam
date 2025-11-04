@@ -25,7 +25,7 @@
 //       <Header/>
 //       <div className='mt-56 md:mt-36'>
 //       <body className={inter.className}>
-       
+
 //         {children}
 //         <Analytics />
 //         </body>
@@ -48,7 +48,8 @@ config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.assalammunazzam.com.pk";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.assalammunazzam.com.pk";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -65,6 +66,43 @@ export const metadata: Metadata = {
     "As Salam Munazzam",
     "Private Hajj companies Pakistan",
     "Umrah and Hajj packages",
+    "Munazzam",
+    "DHCs",
+    "PIRWANI HAJJ GROUP (PVT) LTD.",
+    "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD",
+    "AL TAYABA TRAVELS & TOURS (PVT) LTD",
+    "HUJAJ-AL-ANSAR HAJJ & UMRAH TOURS (PVT) LTD",
+    "AROMA TRAVEL SERVICES (PVT) LTD",
+    "AROMA AVIATION (PVT) LTD",
+    "AL SYED TRAVELS (PVT) LTD",
+    "KHIZER TRAVELS (PVT) LTD",
+    "CITI TRAVELS (PVT) LTD",
+    "SUPER TRAVELS (PVT) LTD",
+    "BUKHARI TOURS (PVT) LTD",
+    "BUKHARI ASSOCIATE (PVT) LTD",
+    "BUKHARI & SONS (PVT) LTD",
+    "TRAVEL SHOP (PVT) LTD HAJJ UNIRAII TRAVEL & TOUR SERVICES",
+    "FAIZAN E NOORI INTERNATIONAL (PVT) LTD.",
+    "RAZA E NOOR (PVT) LTD.",
+    "KARWAN E ZIA E NOORI INTERNATIONAL (PVT) LTD.",
+    "KARWAN E MUSTAFAI (PVT) LTD.",
+    "KARWAN E SURIYA HAJJ & UMRAH (PVT) LTD.",
+    "TAIR E HARAM INTERNATIONAL (PVT) LTD.",
+    "MOIN UL HUJJAJ HAJJ & UMRAH (PVT) LTD.",
+    "KARWAN E MAKKAH MADINA (PVT) LTD",
+    "AL RASHEDIN HAJJ & UMRAH SERVCES (PVT) LTD.",
+    "KARWAN E MALIK (PVT) LTD.",
+    "NEW INTL KARWAN E ARFAT (PVT) LTD.",
+    "KARWAN E MEEZAB REHMAN (PVT) LTD.",
+    "KARWAN E AMJADIA HAJJ & UMRAH SERVICES (PVT) LTD.",
+    "MUAWIN UL HUJJAJ (PVT) LTD.",
+    "SAKHI WAHAB HAJJ COMPANY (PVT) LTD.",
+    "AL MOAZZIN HAJJ & UMRAH SERVICES (PVT) LTD.",
+    "KARWAN E RFIQUL HARMAIN (PVT) LTD.",
+    "KARWAN E AHL E SUNNAT TRAVELS & TOURS (PVT) LTD.",
+    "KARWAN-E-RAMZANI (PVT) LTD.",
+    "MAJMU-E-RAMZANI (PVT) LTD.",
+    "KARWAN-E-REHMANI TOURS AND TRA",
   ],
   authors: [{ name: "MetaLog Inc.", url: "https://owais-qazi.vercel.app" }],
   creator: "As Salam Munazzam (Private) Limited",
