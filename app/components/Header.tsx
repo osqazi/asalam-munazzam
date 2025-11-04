@@ -184,6 +184,7 @@ export default function Header() {
     { name: "Home", href: "/" },
     { name: "Partners", href: "/partners" },
     { name: "Packages", href: "/packages" },
+    { name: "Our Team", href: "/team" },
     { name: "Notifications", href: "/notifications" },
     { name: "Contact Us", href: "/contact" },
   ];
