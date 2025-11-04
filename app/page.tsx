@@ -90,7 +90,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
     description:
-      "Explore official Hajj 2026 packages from 35 trusted Dependent Hajj Companies under As Salam Munazzam (Pvt) Ltd.",
+      "Explore official Hajj 2026 packages from 35 trusted Dependent Hajj Companies under As Salam Munazzam (Private) Limited",
     images: ["https://www.assalammunazzam.com.pk/og-image.jpg"],
   },
 };
@@ -99,7 +99,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50">
       {/* Hero and Marquees */}
-      <div className="pt-12">
+      <div className="pt-16">
         <div className="text-center mb-4">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Our Trusted Dependent Hajj Companies (DHCs)
