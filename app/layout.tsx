@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { Analytics } from "@vercel/analytics/next"
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ['latin'] });
@@ -25,7 +26,9 @@ export default function RootLayout({
       <div className='mt-56 md:mt-36'>
       <body className={inter.className}>
        
-        {children}</body>
+        {children}
+        <Analytics />
+        </body>
       </div>
       <Footer/>
     </html>
