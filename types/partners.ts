@@ -10,6 +10,7 @@ export interface PackageBrochure {
 export interface Partner {
   enrl: number;
   name: string;
+  slug: string;
   pilgrims: number;
   logo: string;
   shortName: string;

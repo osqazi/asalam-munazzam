@@ -3,6 +3,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4171,
     name: "PIRWANI HAJJ GROUP (PVT) LTD.",
+    slug: "pirwani-hajj-group-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/pirwani.png",
     shortName: "PIRWANI",
@@ -25,6 +26,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 2263,
     name: "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD",
+    slug: "al-sajideen-travels-tours-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/sajideen.png",
     shortName: "AL SAJIDEEN",
@@ -47,6 +49,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4151,
     name: "AL TAYABA TRAVELS & TOURS (PVT) LTD",
+    slug: "al-tayaba-travels-tours-pvt-ltd",
     pilgrims: 90,
     logo: "/partners/tayyaba.png",
     shortName: "AL TAYABA",
@@ -81,6 +84,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4153,
     name: "HUJAJ-AL-ANSAR HAJJ & UMRAH TOURS (PVT) LTD",
+    slug: "hujaj-al-ansar-hajj-umrah-tours-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/hujajulansar.png",
     shortName: "HUJAJ-AL-ANSAR",
@@ -122,12 +126,12 @@ export const partnersData: Partner[] = [
         image: "/packages/ansar5.webp",
         description: "Long Package-5 32 - 33 Days, Maktab D"
       }
-      
     ]
   },
   {
     enrl: 4156,
     name: "AROMA TRAVEL SERVICES (PVT) LTD",
+    slug: "aroma-travel-services-pvt-ltd",
     pilgrims: 176,
     logo: "/partners/aroma.png",
     shortName: "AROMA TRAVEL",
@@ -186,6 +190,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4337,
     name: "AROMA AVIATION (PVT) LTD",
+    slug: "aroma-aviation-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/aviation.png",
     shortName: "AROMA AVIATION",
@@ -208,6 +213,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4157,
     name: "AL SYED TRAVELS (PVT) LTD",
+    slug: "al-syed-travels-pvt-ltd",
     pilgrims: 147,
     logo: "/partners/alsyed.png",
     shortName: "AL SYED",
@@ -242,6 +248,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4343,
     name: "KHIZER TRAVELS (PVT) LTD",
+    slug: "khizer-travels-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/khizer.png",
     shortName: "KHIZER",
@@ -264,6 +271,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4330,
     name: "CITI TRAVELS (PVT) LTD",
+    slug: "citi-travels-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/citi.png",
     shortName: "CITI",
@@ -316,6 +324,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4327,
     name: "SUPER TRAVELS (PVT) LTD",
+    slug: "super-travels-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/super.png",
     shortName: "SUPER",
@@ -368,6 +377,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4291,
     name: "BUKHARI TOURS (PVT) LTD",
+    slug: "bukhari-tours-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/buktour.png",
     shortName: "BUKHARI TOURS",
@@ -390,6 +400,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4307,
     name: "BUKHARI ASSOCIATE (PVT) LTD",
+    slug: "bukhari-associate-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/bukasso.png",
     shortName: "BUKHARI ASSOCIATE",
@@ -412,6 +423,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4306,
     name: "BUKHARI & SONS (PVT) LTD",
+    slug: "bukhari-sons-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/buksons.png",
     shortName: "BUKHARI & SONS",
@@ -434,6 +446,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 3313,
     name: "TRAVEL SHOP (PVT) LTD HAJJ UNIRAII TRAVEL & TOUR SERVICES",
+    slug: "travel-shop-pvt-ltd-hajj-uniraii-travel-tour-services",
     pilgrims: 32,
     logo: "/partners/travshop.png",
     shortName: "TRAVEL SHOP",
@@ -456,6 +469,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4168,
     name: "FAIZAN E NOORI INTERNATIONAL (PVT) LTD.",
+    slug: "faizan-e-noori-international-pvt-ltd",
     pilgrims: 75,
     logo: "/partners/FaizanNoori.png",
     shortName: "FAIZAN E NOORI",
@@ -490,6 +504,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4325,
     name: "RAZA E NOOR (PVT) LTD.",
+    slug: "raza-e-noor-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/razanoor.png",
     shortName: "RAZA E NOOR",
@@ -512,6 +527,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4365,
     name: "KARWAN E ZIA E NOORI INTERNATIONAL (PVT) LTD.",
+    slug: "karwan-e-zia-e-noori-international-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/ziaenoori.png",
     shortName: "ZIA E NOORI",
@@ -534,6 +550,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4219,
     name: "KARWAN E MUSTAFAI (PVT) LTD.",
+    slug: "karwan-e-mustafai-pvt-ltd",
     pilgrims: 75,
     logo: "/partners/mustafai.png",
     shortName: "MUSTAFAI",
@@ -556,6 +573,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4386,
     name: "KARWAN E SURIYA HAJJ & UMRAH (PVT) LTD.",
+    slug: "karwan-e-suriya-hajj-umrah-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/suriya.png",
     shortName: "SURIYA",
@@ -578,6 +596,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4210,
     name: "TAIR E HARAM INTERNATIONAL (PVT) LTD.",
+    slug: "tair-e-haram-international-pvt-ltd",
     pilgrims: 90,
     logo: "/partners/haram.png",
     shortName: "TAIR E HARAM",
@@ -630,6 +649,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4284,
     name: "MOIN UL HUJJAJ HAJJ & UMRAH (PVT) LTD.",
+    slug: "moin-ul-hujjaj-hajj-umrah-pvt-ltd",
     pilgrims: 63,
     logo: "/partners/moin.png",
     shortName: "MOIN UL HUJJAJ",
@@ -676,6 +696,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4212,
     name: "KARWAN E MAKKAH MADINA (PVT) LTD",
+    slug: "karwan-e-makkah-madina-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/kmm.png",
     shortName: "MAKKAH MADINA",
@@ -698,6 +719,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4152,
     name: "AL RASHEDIN HAJJ & UMRAH SERVCES (PVT) LTD.",
+    slug: "al-rashedin-hajj-umrah-servces-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/rashidien.png",
     shortName: "RASHEDIN",
@@ -732,6 +754,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4378,
     name: "KARWAN E MALIK (PVT) LTD.",
+    slug: "karwan-e-malik-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/malik.png",
     shortName: "MALIK",
@@ -754,6 +777,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4268,
     name: "NEW INTL KARWAN E ARFAT (PVT) LTD.",
+    slug: "new-intl-karwan-e-arfat-pvt-ltd",
     pilgrims: 66,
     logo: "/partners/arfat.png",
     shortName: "ARFAT",
@@ -788,6 +812,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4393,
     name: "KARWAN E MEEZAB REHMAN (PVT) LTD.",
+    slug: "karwan-e-meezab-rehman-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/KMeezab.png",
     shortName: "MEEZAB",
@@ -817,12 +842,12 @@ export const partnersData: Partner[] = [
         image: "/packages/meezab3.webp",
         description: "Short Package-3 12-13 Days Stay, Maktab-B"
       }
-      
     ]
   },
   {
     enrl: 4193,
     name: "KARWAN E AMJADIA HAJJ & UMRAH SERVICES (PVT) LTD.",
+    slug: "karwan-e-amjadia-hajj-umrah-services-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/karwan.png",
     shortName: "AMJADIA",
@@ -857,6 +882,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4218,
     name: "MUAWIN UL HUJJAJ (PVT) LTD.",
+    slug: "muawin-ul-hujjaj-pvt-ltd",
     pilgrims: 90,
     logo: "/partners/muawin.png",
     shortName: "MUAWIN",
@@ -909,6 +935,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4201,
     name: "SAKHI WAHAB HAJJ COMPANY (PVT) LTD.",
+    slug: "sakhi-wahab-hajj-company-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/sakhi.png",
     shortName: "SAKHI WAHAB",
@@ -931,6 +958,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4126,
     name: "AL MOAZZIN HAJJ & UMRAH SERVICES (PVT) LTD.",
+    slug: "al-moazzin-hajj-umrah-services-pvt-ltd",
     pilgrims: 147,
     logo: "/partners/moazzin.png",
     shortName: "MOAZZIN",
@@ -953,6 +981,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4154,
     name: "KARWAN E RFIQUL HARMAIN (PVT) LTD.",
+    slug: "karwan-e-rfiqul-harmain-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/rafeeq.png",
     shortName: "RAFIQUL HARMAIN",
@@ -987,6 +1016,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4140,
     name: "KARWAN E AHL E SUNNAT TRAVELS & TOURS (PVT) LTD.",
+    slug: "karwan-e-ahl-e-sunnat-travels-tours-pvt-ltd",
     pilgrims: 90,
     logo: "/partners/ahlesunnat.png",
     shortName: "AHL E SUNNAT",
@@ -1015,6 +1045,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4127,
     name: "KARWAN-E-RAMZANI (PVT) LTD.",
+    slug: "karwan-e-ramzani-pvt-ltd",
     pilgrims: 80,
     logo: "/partners/karramzani.png",
     shortName: "KARWAN-E-RAMZANI",
@@ -1037,6 +1068,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4128,
     name: "MAJMU-E-RAMZANI (PVT) LTD.",
+    slug: "majmu-e-ramzani-pvt-ltd",
     pilgrims: 147,
     logo: "/partners/majramzani.png",
     shortName: "MAJMU-E-RAMZANI",
@@ -1059,6 +1091,7 @@ export const partnersData: Partner[] = [
   {
     enrl: 4272,
     name: "KARWAN-E-REHMANI TOURS AND TRA",
+    slug: "karwan-e-rehmani-tours-and-tra",
     pilgrims: 63,
     logo: "/partners/rehmani.png",
     shortName: "KARWAN-E-REHMANI",
@@ -1079,4 +1112,3 @@ export const partnersData: Partner[] = [
     ]
   }
 ];
-;

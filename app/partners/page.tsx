@@ -127,7 +127,7 @@ export default function Partners() {
                     <span className="font-bold text-amber-600 text-lg">{partner.pilgrims}</span>
                   </div>
                 </div>
-                <Link href={`/partners/${partner.name}`}>
+                <Link href={`/partners/${partner.slug}`}>
                 <div className="bg-gradient-to-l from-gray-500 to-gray-700 text-white text-lg text-center rounded-full w-full mt-2 py-2">
                   Show Detail & Packages
 
