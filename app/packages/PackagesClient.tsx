@@ -283,7 +283,7 @@ export default function Packages() {
 
                     <div className="flex justify-between items-center pt-3 border-t border-gray-100">
                       <Link
-                        href={`/partners/${encodeURIComponent(pkg.partner.name)}`}
+                        href={`/partners/${encodeURIComponent(pkg.partner.slug)}`}
                         className="text-green-600 hover:text-green-700 font-semibold text-sm transition-colors"
                       >
                         View Partner

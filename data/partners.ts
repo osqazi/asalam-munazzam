@@ -56,10 +56,10 @@ export const partnersData: Partner[] = [
     contactPerson: "Mr. Muhammad Ashfaq",
     address: "Suit No. 63, Motiwala Market, Near Farooqi Masjid, Kharadar, Karachi",
     contactNumber: "+92 21 3243 9988",
-    email: "info@altayaba.com",
+    email: "altayabatravel@gmail.com",
     website: "http://www.altayaba.com",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    dtsLicenceNo: "2492",
+    iataNo: "27-3-09903",
     packageBrochures: [
       {
         id: "pkg-4151-1",
