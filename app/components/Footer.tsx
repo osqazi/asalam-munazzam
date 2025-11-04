@@ -1,26 +1,3 @@
-// import React from 'react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-
-// export default function Footer(){
-//   return (
-//     <div>
-//         {/* Footer */}
-//       <footer className="bg-gray-800 text-white py-8 mt-16">
-//         <div className="container mx-auto px-4 text-center">
-//           <h4 className="text-xl font-bold mb-2">As Salam Munazzam (Private) Limited</h4>
-//           <p className="text-gray-400">Your Trusted Partner in Spiritual Journey</p>
-//           <p className="text-gray-300 mt-4">Developed by: MetaLog Inc. © - 2025-26</p>
-//           <div className='text-center text-gray-300 text-sm'>
-//            <span>Developer's  </span><FontAwesomeIcon icon={faWhatsapp} /><span> +92-335-3221003</span>
-//            </div>
-           
-//         </div>
-//       </footer>
-//     </div>
-//   )
-// }
-
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";

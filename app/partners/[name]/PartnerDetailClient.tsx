@@ -1,9 +1,8 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { 
-  ArrowLeft, 
+ 
   Phone, 
   MapPin, 
   User, 
@@ -55,15 +54,6 @@ export default function PartnerDetailClient({ partnerData }: PartnerDetailClient
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         
-        {/* Back Button */}
-        {/* <Link 
-          href="/partners"
-          className="inline-flex items-center space-x-2 text-green-700 hover:text-green-800 mb-6 transition-colors"
-        >
-          <ArrowLeft className="w-5 h-5" />
-          <span>Back to Partners</span>
-        </Link> */}
-
         {/* Partner Header Section */}
         <div className="bg-white rounded-2xl shadow-xl p-8 mb-8 border border-green-100">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-center">

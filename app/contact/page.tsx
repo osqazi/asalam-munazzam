@@ -55,8 +55,8 @@ export default function Contact() {
     },
     {
       icon: <MapPin className="w-6 h-6" />,
-      title: "Office",
-      details: "Main Office, Pakistan",
+      title: "Head Office",
+      details: "Main Offfice, Karachi, Pakistan",
       subtitle: "Visit us for consultation",
       color: "text-amber-600",
       bgColor: "bg-amber-50",
@@ -66,7 +66,7 @@ export default function Contact() {
       icon: <Clock className="w-6 h-6" />,
       title: "Working Hours",
       details: "9:00 AM - 6:00 PM",
-      subtitle: "Saturday to Thursday",
+      subtitle: "Monday to Saturday",
       color: "text-purple-600",
       bgColor: "bg-purple-50",
       borderColor: "border-purple-200"
@@ -196,6 +196,7 @@ export default function Contact() {
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                     <span>2,407+ Pilgrims Served</span>
                   </li>
+                  
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-white rounded-full"></div>
                     <span>Expert Guidance</span>

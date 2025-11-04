@@ -111,14 +111,6 @@ export default function Packages() {
             <div className="text-gray-600">Trusted Partners</div>
           </div>
           
-          {/* <div className="bg-white rounded-2xl shadow-xl p-6 text-center border border-green-100 transform hover:scale-105 transition-all duration-300">
-            <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-3">
-              <Star className="w-6 h-6 text-white" />
-            </div>
-            <div className="text-2xl font-bold text-blue-600">{averagePackagesPerPartner}</div>
-            <div className="text-gray-600">Avg per Partner</div>
-          </div> */}
-          
           <div className="bg-white rounded-2xl shadow-xl p-6 text-center border border-green-100 transform hover:scale-105 transition-all duration-300">
             <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-3">
               <Heart className="w-6 h-6 text-white" />

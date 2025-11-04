@@ -13,28 +13,6 @@ const secondHalfPartners = partnersData.slice(firstHalfLength);
 const partners = secondHalfPartners
 
 
-//   const partners = [
-//   { id: 1, name: "Moazzin Travel", logo: "/partners/moazzin.png" },
-//   { id: 2, name: "Moin Travel", logo: "/partners/moin.png" },
-//   { id: 3, name: "Muawin Travel", logo: "/partners/muawin.png" },
-//   { id: 4, name: "Rafeeq Travel", logo: "/partners/rafeeq.png" },
-//   { id: 5, name: "Rashidien Travel", logo: "/partners/rashidien.png" },
-//   { id: 6, name: "Rehmani Travel", logo: "/partners/rehmani.png" },
-//   { id: 7, name: "Sajideen Travel", logo: "/partners/sajideen.png" },
-//   { id: 8, name: "Sakhi Travel", logo: "/partners/sakhi.png" },
-//   { id: 9, name: "Super Travel", logo: "/partners/super.png" },
-//   { id: 10, name: "Tayyaba Travel", logo: "/partners/tayyaba.png" },
-//   { id: 11, name: "Travshop Travel", logo: "/partners/travshop.png" },
-//   { id: 12, name: "Hujaj-ul-Ansar", logo: "/partners/hujajulansar.png" },
-//   { id: 13, name: "Arfat Travel", logo: "/partners/arfat.png" },
-//   { id: 14, name: "Aroma Aviation", logo: "/partners/aviation.png" },
-//   { id: 15, name: "Karwan e Meezan", logo: "/partners/KMeezab.png" },
-//   { id: 16, name: "Raza e Noori ", logo: "/partners/razanoor.png" },
-//   { id: 17, name: "Pirwani Hajj", logo: "/partners/pirwani.png" },
-//   { id: 18, name: "Faizan e Noori", logo: "/partners/FaizanNoori.png" },
-// ];
-
-
   return (
     <div className="relative overflow-hidden py-6 bg-gray-50">
       <div className="flex animate-marquee-right-to-left space-x-16">
