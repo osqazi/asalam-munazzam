@@ -1096,18 +1096,24 @@ export const partnersData: Partner[] = [
     logo: "/partners/rehmani.png",
     shortName: "KARWAN-E-REHMANI",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    address: "Suite No 1 Nara Heights Buisness Recorder Road Gurumandir, Karachi",
+    contactNumber: "+92 21 3485 3808",
+    email: "karwanerehmani@yahoo.com",
+    website: "www.karwanerehmani.net",
+    dtsLicenceNo: "2313",
+    iataNo: "27-3-10286",
     packageBrochures: [
       {
         id: "pkg-4272-1",
-        title: "Rehmani Standard Hajj",
-        image: "",
-        description: "Complete Hajj with training camps in Karachi."
+        title: "Standard Hajj Package-1",
+        image: "/packages/rehmani1.webp",
+        description: "Short Hajj Package-1, 21-22 Days Stay, Maktab-D"
+      },
+      {
+        id: "pkg-4272-2",
+        title: "Standard Hajj Package-2",
+        image: "/packages/rehmani2.webp",
+        description: "Short Hajj Package-2, 17-18 Days Stay, Maktab-D"
       }
     ]
   }

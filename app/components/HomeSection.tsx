@@ -224,7 +224,14 @@ export default function HomeSection() {
           </div>
         </div> */}
 
-        <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 mb-16 border border-green-200 relative overflow-hidden">
+       <div className="relative bg-white rounded-3xl shadow-2xl p-8 md:p-12 mb-16 border border-green-200 overflow-hidden">
+  {/* Background Image Layer */}
+  <div
+    className="absolute inset-0 bg-[url('/mak.webp')] bg-cover bg-center opacity-25"
+    aria-hidden="true"
+  ></div>
+
+  {/* Overlay content */}
   <div className="relative">
     {/* Main Content */}
     <div className="pr-0 lg:pr-80">
