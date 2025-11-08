@@ -331,7 +331,7 @@
               </a>
               {partnerData.website && (
                 <a
-                  href={`https://${partnerData.website}`}
+                  href={`${partnerData.website}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-green-700 transition-all duration-200"

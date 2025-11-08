@@ -12,6 +12,7 @@ const secondHalfPartners = partnersData.slice(firstHalfLength);
 
 const partners = firstHalfPartners
 
+
   return (
     <div className="relative overflow-hidden py-6 bg-gray-50">
       <div className="flex animate-marquee-left-to-right space-x-16">

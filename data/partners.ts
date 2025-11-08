@@ -34,7 +34,7 @@ export const partnersData: Partner[] = [
     address: "Office No. F-2, 1st Floor, Plot No. 29-E/A, Block-A, Sector O-9, National Police Foundation, Islamabad",
     contactNumber: "+92 51 517 0564 ",
     email: "alsajideentrvl@yahoo.com",
-    website: "http://www.asjtravel.com",
+    website: "https://www.asjtravel.com",
     dtsLicenceNo: "1101",
     iataNo: "-",
     packageBrochures: [
@@ -57,7 +57,7 @@ export const partnersData: Partner[] = [
     address: "Suit No. 63, Motiwala Market, Near Farooqi Masjid, Kharadar, Karachi",
     contactNumber: "+92 21 3243 9988",
     email: "altayabatravel@gmail.com",
-    website: "http://www.altayaba.com",
+    website: "https://www.altayaba.com",
     dtsLicenceNo: "2492",
     iataNo: "27-3-09903",
     packageBrochures: [
@@ -92,7 +92,7 @@ export const partnersData: Partner[] = [
     address: "Office No. 2, Mehrunnisa Rafiq Manzil, Street #4, Siraj Colony, Mosalane, Lyari, Karachi",
     contactNumber: "Mr. Irfan",
     email: "hujaj_alansar@yahoo.com",
-    website: "http://www.hujajalansar.com",
+    website: "https://www.hujajalansar.com",
     dtsLicenceNo: "3030",
     iataNo: "27-3-10404",
     packageBrochures: [
@@ -139,7 +139,7 @@ export const partnersData: Partner[] = [
     address: "16, Sidco Avenue Centre, Stratchen Road, Saddar, Karachi",
     contactNumber: "+92 21 99205704",
     email: "hajj@aromatravel.com",
-    website: "http://www.aromatravel.com",
+    website: "https://www.aromatravel.com",
     dtsLicenceNo: "1108",
     iataNo: "27-3-00125",
     packageBrochures: [
@@ -198,7 +198,7 @@ export const partnersData: Partner[] = [
     address: "20/1, 15-A, Sidco Avenue Centre, Stratchen Road, Karachi",
     contactNumber: "+92 21 3565 2157",
     email: "hajj@aromaaviation.com",
-    website: "http://www.aromaaviation.com",
+    website: "https://www.aromaaviation.com",
     dtsLicenceNo: "2003",
     iataNo: "27-3-06160",
     packageBrochures: [
@@ -221,7 +221,7 @@ export const partnersData: Partner[] = [
     address: "15, Sidco Avenue Centre, Stratchen Road, Saddar, Karachi",
     contactNumber: "+92 21 3568 7300",
     email: "hajj@alsyedtravels.com",
-    website: "http://www.alsyedtravels.com",
+    website: "https://www.alsyedtravels.com",
     dtsLicenceNo: "1084",
     iataNo: "27-3-02096",
     packageBrochures: [
@@ -279,7 +279,7 @@ export const partnersData: Partner[] = [
     address: "13-A, Court View Appartment, Court Road, Karachi",
     contactNumber: "+92 21 3568 7959",
     email: "cititravels1981@gmail.com",
-    website: "http://www.cititravels.com.pk",
+    website: "https://www.cititravels.com.pk",
     dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
@@ -332,7 +332,7 @@ export const partnersData: Partner[] = [
     address: "8, Lotia Building, Club Road, Karachi",
     contactNumber: "+92 21 111 111 STL(785)",
     email: "info@stl.com.pk",
-    website: "http://www.stl.com.pk",
+    website: "https://www.stl.com.pk",
     dtsLicenceNo: "58",
     iataNo: "27-3-24522",
     packageBrochures: [
@@ -385,7 +385,7 @@ export const partnersData: Partner[] = [
     address: "Shop No. 5-6, Danishgah, St-13, Block-9, Clifton, Karachi",
     contactNumber: "-",
     email: "shahidrafiq@bukharigroup.com.pk",
-    website: "http://www.bukharitours.com.pk",
+    website: "https://www.bukharitours.com.pk",
     dtsLicenceNo: "2098",
     iataNo: "27-3-00140",
     packageBrochures: [
@@ -408,7 +408,7 @@ export const partnersData: Partner[] = [
     address: "Office No. 1&2, Lakson Square Bldg., Sarwar Shaheed Road, Karachi",
     contactNumber: "+92 21 3563 2321",
     email: "naveed@bukharigroup.com.pk",
-    website: "http://www.bukhariassociates.com.pk",
+    website: "https://www.bukhariassociates.com.pk",
     dtsLicenceNo: "2862",
     iataNo: "27-3-05961 ",
     packageBrochures: [
@@ -604,7 +604,7 @@ export const partnersData: Partner[] = [
     address: "B-1068/1AB, Jinnah Chowk, Kabari Bazar, Sukkur",
     contactNumber: "+92 71 562 0189",
     email: "taireharam2621@hotmail.com",
-    website: "http://www.taireharam.com",
+    website: "https://www.taireharam.com",
     dtsLicenceNo: "2621",
     iataNo: "27-3-10754",
     packageBrochures: [
@@ -657,7 +657,7 @@ export const partnersData: Partner[] = [
     address: "Office No. B-2067, 1st Floor, Lakra Mandi chowk, Miani Road, Sukkur",
     contactNumber: "+92 71 561 6649",
     email: "moinulhujjaj@gmail.com",
-    website: "http://www.moinulhujjaj.com",
+    website: "https://www.moinulhujjaj.com",
     dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
@@ -727,7 +727,7 @@ export const partnersData: Partner[] = [
     address: "Shop No. 5, Khulfa-e-Rashedin Masjid, Tayab Ali Alvi Road, Memon Society, Karachi",
     contactNumber: "+92 21 3888 8011",
     email: "kr_hajjgroup@hotmail.com",
-    website: "http://www.alrashedin.com",
+    website: "https://www.alrashedin.com",
     dtsLicenceNo: "3048",
     iataNo: "27-3-10253",
     packageBrochures: [
@@ -762,7 +762,7 @@ export const partnersData: Partner[] = [
     address: "Shop No. 24, Iqbal Market, Near Habib Cold Storage, Soldier Bazar, Karachi",
     contactNumber: "+92 21 3225 4435",
     email: "khilji33@gmail.com",
-    website: "http://www.karwan-e-malik.com",
+    website: "https://www.karwan-e-malik.com",
     dtsLicenceNo: "2744",
     iataNo: "27-3-17010",
     packageBrochures: [
@@ -785,7 +785,7 @@ export const partnersData: Partner[] = [
     address: "No. 3, Shams Arcade, Risala Road, Gari Khata, Hyderabad",
     contactNumber: "+92 22 278 2447",
     email: "karwan_e_arfat@yahoo.com",
-    website: "http://www.karwanearfat.com",
+    website: "https://www.karwanearfat.com",
     dtsLicenceNo: "2905",
     iataNo: "27-3-11200",
     packageBrochures: [
@@ -855,7 +855,7 @@ export const partnersData: Partner[] = [
     address: "Shop # 3-A, Al-Jaffar Square, Opp. Aaj Tv, Guru Mandir, Karachi",
     contactNumber: "+92 21 ",
     email: "karwan_e_amjadia@hotmail.com",
-    website: "http://karwaneamjadia.com",
+    website: "https://karwaneamjadia.com",
     dtsLicenceNo: "3074",
     iataNo: "27-3-12084",
     packageBrochures: [
@@ -890,7 +890,7 @@ export const partnersData: Partner[] = [
     address: "SM-13, Al-Kamran Centre, 7/A, Block-6, P.E.C.H.S. Shahrah-e-Faisal, Karachi",
     contactNumber: "+92 21 3453 8307",
     email: "muawin4218@hotmail.com",
-    website: "http://www.muawinulhujjaj.com",
+    website: "https://www.muawinulhujjaj.com",
     dtsLicenceNo: "2922",
     iataNo: "27-3-10146",
     packageBrochures: [
@@ -962,19 +962,43 @@ export const partnersData: Partner[] = [
     pilgrims: 147,
     logo: "/partners/moazzin.png",
     shortName: "MOAZZIN",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Mr. Syed Haji Allah Rakha",
+    address: "Plot No. 104, Office No. 407, Indigo Business Centre, B.Y.J.C.H.S/, Karachi",
+    contactNumber: "+92 21 3414 2288",
+    email: "almoazzin2405@gmail.com",
+    website: "https://www.almoazzin.com",
+    dtsLicenceNo: "2405",
+    iataNo: "27-3-08724",
     packageBrochures: [
       {
         id: "pkg-4126-1",
-        title: "Moazzin Luxury Hajj",
-        image: "",
-        description: "5-star experience."
+        title: "Golden Package",
+        image: "/packages/moazzin1.webp",
+        description: "Golden Package, 32 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4126-2",
+        title: "Silver Package",
+        image: "/packages/moazzin2.webp",
+        description: "Silver Package, 28 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4126-3",
+        title: "Standard Package",
+        image: "/packages/moazzin3.webp",
+        description: "Standard Package, 20 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4126-4",
+        title: "Diamond Package",
+        image: "/packages/moazzin4.webp",
+        description: "Diamond Package, 17 Days Stay, Maktab-B"
+      },
+      {
+        id: "pkg-4126-5",
+        title: "Short Package",
+        image: "/packages/moazzin5.webp",
+        description: "Short Package, 14 Days Stay, Maktab-B"
       }
     ]
   },
@@ -1024,7 +1048,7 @@ export const partnersData: Partner[] = [
     address: "Mona Square, Ground Floor, Suit No. 1, Jehangir Sethna Road, Garden, Karachi",
     contactNumber: "+92 21 3412 6838",
     email: "karwane_sunnat@yahoo.com",
-    website: "http://www.karwaneahlesunnat.com.pk",
+    website: "https://www.karwaneahlesunnat.com.pk",
     dtsLicenceNo: "3197",
     iataNo: "27-3-13123",
     packageBrochures: [
@@ -1053,7 +1077,7 @@ export const partnersData: Partner[] = [
     address: "Plot No. R-446-447, Sector 1-A, Lines Area, Karachi",
     contactNumber: "+92 21 3279 0379",
     email: "ramzani4@hotmail.com",
-    website: "http://www.karwaneramzani.com",
+    website: "https://www.karwaneramzani.com",
     dtsLicenceNo: "2993",
     iataNo: "27-3-13053",
     packageBrochures: [
@@ -1090,8 +1114,8 @@ export const partnersData: Partner[] = [
   },
   {
     enrl: 4272,
-    name: "KARWAN-E-REHMANI TOURS AND TRA",
-    slug: "karwan-e-rehmani-tours-and-tra",
+    name: "KARWAN-E-REHMANI TOURS AND TRAVELS (PVT) LTD.",
+    slug: "karwan-e-rehmani-tours-and-travels-pvt-ltd",
     pilgrims: 63,
     logo: "/partners/rehmani.png",
     shortName: "KARWAN-E-REHMANI",

@@ -1,39 +1,3 @@
-// import type { Metadata } from 'next';
-// import { Inter } from 'next/font/google';
-// import './globals.css';
-// import Header from './components/Header';
-// import Footer from './components/Footer';
-// import { config } from "@fortawesome/fontawesome-svg-core";
-// import "@fortawesome/fontawesome-svg-core/styles.css";
-// import { Analytics } from "@vercel/analytics/next"
-// config.autoAddCss = false;
-
-// const inter = Inter({ subsets: ['latin'] });
-
-// export const metadata: Metadata = {
-//   title: 'As Salam Munazzam (Private) Limited',
-//   description: 'Premium Hajj Packages for 2026 - Your Spiritual Journey Awaits',
-// };
-
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode;
-// }) {
-//   return (
-//     <html lang="en">
-//       <Header/>
-//       <div className='mt-56 md:mt-36'>
-//       <body className={inter.className}>
-
-//         {children}
-//         <Analytics />
-//         </body>
-//       </div>
-//       <Footer/>
-//     </html>
-//   );
-// }
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -120,7 +84,7 @@ export const metadata: Metadata = {
     siteName: "As Salam Munazzam (Pvt) Ltd",
     images: [
       {
-        url: `${siteUrl}/og-image.jpg`,
+        url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
@@ -132,7 +96,7 @@ export const metadata: Metadata = {
     title: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
     description:
       "Your trusted Hajj 2026 travel partner in Pakistan. Explore packages from our 35 partner companies.",
-    images: [`${siteUrl}/og-image.jpg`],
+    images: [`${siteUrl}/og-image.png`],
   },
   icons: {
     icon: "/favicon.ico",
@@ -177,8 +141,8 @@ export default function RootLayout({
               ],
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+92-XXX-XXXXXXX",
-                contactType: "Customer Service",
+                telephone: "+92-335-3221003",
+                contactType: "Developer",
                 areaServed: "PK",
                 availableLanguage: ["English", "Urdu"],
               },
