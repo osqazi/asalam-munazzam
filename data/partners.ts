@@ -945,19 +945,36 @@ export const partnersData: Partner[] = [
     pilgrims: 80,
     logo: "/partners/sakhi.png",
     shortName: "SAKHI WAHAB",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
+    contactPerson: "Mr.  Wahabuddin Shaikh",
+    address: "S. No. 29, Liaquat Shopping Centre, Opp. Gymkhana, Thandi Sarak, Hyderabad, Pakistan",
+    contactNumber: "+92 22 2787225",
+    email: "sakhiwahabtravels@hotmail.com",
+    website: "https://www.sakhiwahabhajj.com",
+    dtsLicenceNo: "2698",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4201-1",
-        title: "Sakhi Classic Hajj",
-        image: "",
-        description: "Trusted group travel."
+        title: "30/32 Days Package-1",
+        image: "/packages/sakhi1.webp",
+        description: "30/32 Days Stay Package, Maktab-D"
+      },
+      {
+        id: "pkg-4201-2",
+        title: "17/18 Days Package-1",
+        image: "/packages/sakhi2.webp",
+        description: "17/18 Days Stay Package, Maktab-D"
+      },{
+        id: "pkg-4201-3",
+        title: "30/32 Days Package-2",
+        image: "/packages/sakhi3.webp",
+        description: "30/32 Days Stay Package, Maktab-B"
+      },
+      {
+        id: "pkg-4201-4",
+        title: "17/18 Days Package-2",
+        image: "/packages/sakhi4.webp",
+        description: "17/18 Days Stay Package, Maktab-B"
       }
     ]
   },
