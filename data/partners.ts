@@ -445,24 +445,30 @@ export const partnersData: Partner[] = [
   },
   {
     enrl: 3313,
-    name: "TRAVEL SHOP (PVT) LTD HAJJ UNIRAII TRAVEL & TOUR SERVICES",
-    slug: "travel-shop-pvt-ltd-hajj-uniraii-travel-tour-services",
+    name: "TRAVEL SHOP (PVT) LTD.",
+    slug: "travel-shop-pvt-ltd",
     pilgrims: 32,
     logo: "/partners/travshop.png",
     shortName: "TRAVEL SHOP",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
+    contactPerson: "Mr. Ashfaq Ahmed Mirza",
+    address: "LG 5 & 10, Hill View Arcade, 5 Davis Road, Lahore",
+    contactNumber: "+92 42 36363889",
+    email: "trvlshop2@gmail.com",
+    website: "https://www.MyTravelShop.com",
+    dtsLicenceNo: "1904",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-3313-1",
-        title: "Shop & Pray Umrah",
-        image: "",
-        description: "Umrah + shopping in Makkah."
+        title: "Gold Hajj Package",
+        image: "/packages/tshop2.webp",
+        description: "Gold Hajj Package, "
+      },
+      {
+        id: "pkg-3313-2",
+        title: "Diamond Hajj Package",
+        image: "/packages/tshop1.webp",
+        description: "Diamond Hajj Package, "
       }
     ]
   },
