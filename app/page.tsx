@@ -114,7 +114,7 @@ export default function Home() {
 
       {/* Hero Image Section */}
       <div className="py-8">
-        <div className="h-auto py-4 bg-amber-400 text-center text-white md:flex md:justify-center md:items-center md:gap-10">
+        <div className="h-auto py-4 bg-gradient-to-b from-amber-400 to-amber-500 shadow-xl border-t border-amber-400 text-center text-white md:flex md:justify-center md:items-center md:gap-10">
           <p className="text-3xl md:text-4xl font-bold mb-2 md:mb-0">HAJJ 2026</p>
           <p className="text-2xl md:text-4xl font-bold">حج ۱۴۴۷ ہجری</p>
         </div>
