@@ -1043,7 +1043,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4154-1",
         title: "Standard Hajj Pakcage-2",
-        image: "/packages/rafiq1.jpb",
+        image: "/packages/rafiq1.jpg",
         description: "Hajj Package-2, 28 Days Stay, Maktab-B"
       },
       {
@@ -1104,11 +1104,36 @@ export const partnersData: Partner[] = [
     dtsLicenceNo: "2993",
     iataNo: "27-3-13053",
     packageBrochures: [
+      
       {
-        id: "-",
-        title: "-",
-        image: "",
-        description: "-"
+        id: "pkg-4127-2",
+        title: "Short Package-1",
+        image: "/packages/kramzani2.webp",
+        description: "Short Package-1, 17-18 Days Stay, Maktab D & B"
+      },
+      {
+        id: "pkg-4127-3",
+        title: "Short Package-2",
+        image: "/packages/kramzani3.webp",
+        description: "Short Package-2, 21-22 Days Stay, Maktab D & B"
+      },
+      {
+        id: "pkg-4127-4",
+        title: "Short Package-3",
+        image: "/packages/kramzani4.webp",
+        description: "Short Package-3, 17-18 Days Stay, Maktab D & B"
+      },
+      {
+        id: "pkg-4127-5",
+        title: "Short Package-4",
+        image: "/packages/kramzani5.webp",
+        description: "Short Package-4, 17-18 Days Stay, Maktab D & B"
+      },
+      {
+        id: "pkg-4127-1",
+        title: "Long Package-5",
+        image: "/packages/kramzani1.webp",
+        description: "Long Package-5, 32-33 Days Stay, Maktab-D & B"
       },
     ]
   },
