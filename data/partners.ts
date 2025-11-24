@@ -515,18 +515,18 @@ export const partnersData: Partner[] = [
     logo: "/partners/razanoor.png",
     shortName: "RAZA E NOOR",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    address: "Suit No. 10-B, UBL Building, Gurumandar, Karachi",
+    contactNumber: "+92 300 8252611",
+    email: "razaenoor@yahoo.com",
+    website: "https://www.razaenoor.com",
+    dtsLicenceNo: "3364",
+    iataNo: "27-3-16833",
     packageBrochures: [
       {
         id: "pkg-4325-1",
-        title: "Raza Economy Hajj",
-        image: "",
-        description: "Affordable and reliable."
+        title: "Long Stay Package",
+        image: "/packages/razanoor1.webp",
+        description: "Long Stay Package, 30-31 Days Stay, Maktab D"
       }
     ]
   },
@@ -538,18 +538,18 @@ export const partnersData: Partner[] = [
     logo: "/partners/ziaenoori.png",
     shortName: "ZIA E NOORI",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    address: "Shop No. 5, Al-Raza Mansion, Plot No. 102/A, Mirza Qaleej Baig Road, Soldier Bazar No. 2, Karachi",
+    contactNumber: "+92 321 2526111",
+    email: "kznipv1@yahoo.com",
+    website: "https://www.ziaenoori.com",
+    dtsLicenceNo: "2473",
+    iataNo: "27-3-10323",
     packageBrochures: [
       {
         id: "pkg-4365-1",
-        title: "Zia Noori Hajj",
-        image: "",
-        description: "Traditional Hajj with scholarly guidance."
+        title: "Long Stay Package",
+        image: "/packages/zianoori1.webp",
+        description: "Long Stay Hajj Package, 30-31 Days Stay, Maktab D"
       }
     ]
   },
@@ -560,19 +560,19 @@ export const partnersData: Partner[] = [
     pilgrims: 75,
     logo: "/partners/mustafai.png",
     shortName: "MUSTAFAI",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Mr. Faisal Qazi",
+    address: "D-59, Office No. 1, Block-1, Clifton, Near Altamash Hospital, Karachi",
+    contactNumber: "+92 333 2311257 ",
+    email: "faisalqazi1947@gmail.com",
+    website: "https://www.karwan-e-mustafai.net",
+    dtsLicenceNo: "2520",
+    iataNo: "27-3-16870",
     packageBrochures: [
       {
         id: "pkg-4219-1",
-        title: "Mustafai Deluxe Hajj",
-        image: "",
-        description: "Comfortable stay near Haram."
+        title: "Long Stay Hajj Package",
+        image: "/packages/kmustafai1.webp",
+        description: "Long Stay Hajj Package, 30-31 Days Stay, Maktab D"
       }
     ]
   },
@@ -584,18 +584,24 @@ export const partnersData: Partner[] = [
     logo: "/partners/suriya.png",
     shortName: "SURIYA",
     contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    address: "SM-07, 2nd Floor, Al-Kamran Centre, 7/A, Block-6, Opp. Delhi Sweets, Shahrah-e-Faisal, Nursery, Karachi",
+    contactNumber: "+92 300 2050476",
+    email: "karwanesuriya786@gmail.com",
+    website: "https://www.karwane-e-suriya.net",
+    dtsLicenceNo: "3478",
+    iataNo: "27-3-35825",
     packageBrochures: [
       {
         id: "pkg-4386-1",
-        title: "Suriya Women Hajj",
-        image: "",
-        description: "Female-only group with privacy."
+        title: "Short Stay Package-1",
+        image: "/packages/ksuriya1.webp",
+        description: "Short Stay Hajj Package-1, 16-17 Days Stay, Maktab D"
+      },
+      {
+        id: "pkg-4386-2",
+        title: "Short Stay Package-2",
+        image: "/packages/ksuriya2.webp",
+        description: "Short Stay Hajj Package-2, 16-17 Days Stay, Maktab D"
       }
     ]
   },
