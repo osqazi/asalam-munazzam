@@ -712,19 +712,37 @@ export const partnersData: Partner[] = [
     pilgrims: 80,
     logo: "/partners/kmm.png",
     shortName: "MAKKAH MADINA",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
+    contactPerson: "Mr. Muhammad Asif Memon",
+    address: "Mezzanine Floor, Al-Raheem Tower, Bunder Road, Sukkur.",
+    contactNumber: "+92  71 5621221",
+    email: "kmm4212@gmail.com",
+    website: "https://www.kMakkahMadina.com",
     dtsLicenceNo: "-",
     iataNo: "-",
     packageBrochures: [
       {
         id: "pkg-4212-1",
-        title: "KMM Classic Hajj",
-        image: "",
-        description: "Full Hajj with Ziyarat."
+        title: "Package-A Makkah-1",
+        image: "/packages/kmm1.webp",
+        description: "Package-A Makkah-1, 30 Days Stay, Maktab D"
+      },
+      {
+        id: "pkg-4212-2",
+        title: "Package-A Makkah-2",
+        image: "/packages/kmm2.webp",
+        description: "Package-A Makkah-2, 30 Days Stay, Maktab D"
+      },
+      {
+        id: "pkg-4212-3",
+        title: "Hajj Package-3",
+        image: "/packages/kmm3.webp",
+        description: "Hajj Package-3, 17 Days Stay, Maktab D"
+      },
+      {
+        id: "pkg-4212-4",
+        title: "Hajj Package-4",
+        image: "/packages/kmm4.webp",
+        description: "Hajj Package-4, 14 Days Stay, Maktab D"
       }
     ]
   },
