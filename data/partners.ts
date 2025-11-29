@@ -252,20 +252,27 @@ export const partnersData: Partner[] = [
     pilgrims: 32,
     logo: "/partners/khizer.png",
     shortName: "KHIZER",
-    contactPerson: "-",
-    address: "-",
-    contactNumber: "-",
-    email: "-",
-    website: "-",
-    dtsLicenceNo: "-",
-    iataNo: "-",
+    contactPerson: "Mr. Muhammad Modabbir Siddiqui",
+    address: "16, Hotel Metropole Building, Ground Floor, Abdullah Haroon Road, Karachi",
+    contactNumber: "+92 345 8685875",
+    email: "khizertravels@gmail.com",
+    website: "https://www.khizertravels.com",
+    dtsLicenceNo: "1515",
+    iataNo: "27-3-04281",
     packageBrochures: [
       {
         id: "pkg-4343-1",
-        title: "Khizer Economy Hajj",
-        image: "",
-        description: "Basic package with full compliance."
+        title: "Platinum Package",
+        image: "/packages/khizer1.webp",
+        description: "Platinum Hajj Package, 13 Days Stay, Maktab A."
+      },
+      {
+        id: "pkg-4343-2",
+        title: "Executive Package",
+        image: "/packages/khizer2.webp",
+        description: "Executie Hajj Package, 16 Days Stay, Maktab A."
       }
+      
     ]
   },
   {

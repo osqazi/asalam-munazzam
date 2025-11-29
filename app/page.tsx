@@ -77,7 +77,7 @@ export const metadata = {
     siteName: "As Salam Munazzam (Pvt) Ltd",
     images: [
       {
-        url: "https://www.assalammunazzam.com.pk/og-image.jpg",
+        url: "https://www.assalammunazzam.com.pk/og-image.png",
         width: 1200,
         height: 630,
         alt: "Hajj 2026 Packages – As Salam Munazzam (Pvt) Ltd",

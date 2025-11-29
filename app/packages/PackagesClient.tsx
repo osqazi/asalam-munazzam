@@ -139,13 +139,13 @@ export default function Packages() {
 
         {/* Search and Filters */}
         <div className="bg-white rounded-2xl shadow-xl p-6 mb-8 border border-green-100">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {/* Search */}
             <div className="relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               <input
                 type="text"
-                placeholder="Search packages, partners..."
+                placeholder="Search packages, Maktab, partners..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
@@ -168,7 +168,7 @@ export default function Packages() {
             </div>
 
             {/* Price Range Filter */}
-            <div className="relative">
+            {/* <div className="relative">
               <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">💰</span>
               <select
                 value={priceRange}
@@ -181,7 +181,7 @@ export default function Packages() {
                 <option value="premium">Premium</option>
                 <option value="vip">VIP</option>
               </select>
-            </div>
+            </div> */}
           </div>
         </div>
 
