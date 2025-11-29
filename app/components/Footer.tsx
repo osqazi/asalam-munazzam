@@ -230,6 +230,7 @@ export default function Footer() {
     { name: "Home", href: "/" },
     { name: "Packages", href: "/packages" },
     { name: "Partners", href: "/partners" },
+    { name: "Our Team", href: "/team" },
     { name: "Notifications", href: "/notifications" },
     { name: "Contact Us", href: "/contact" },
   ];
@@ -253,8 +254,8 @@ export default function Footer() {
     },
     {
       icon: faEnvelope,
-      text: "info@assalamunazzam.com",
-      link: "mailto:info@assalamunazzam.com",
+      text: "info@assalamunazzam.com.pk",
+      link: "mailto:info@assalamunazzam.com.pk",
     },
     {
       icon: faMapMarkerAlt,
