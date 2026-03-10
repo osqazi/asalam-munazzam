@@ -460,7 +460,7 @@ export default function Footer() {
               <p className="text-gray-400 text-sm">
                 Developed by{" "}
                 <a
-                  href="https://owais-qazi.vercel.app"
+                  href="https://metalogai.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-400 font-semibold hover:underline"
