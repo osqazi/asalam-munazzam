@@ -18,7 +18,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4171-1",
         title: "Standard Long Package",
-        image: "/packages/pirwaniStd1.jpg",
+        image: "/packages/pirwaniStd1.webp",
         description: "Standard Long Package 30 - 31 Days, Maktab D"
       }
     ]
@@ -64,19 +64,19 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4151-1",
         title: "Standard Short Package-1",
-        image: "/packages/tayaba1.jpg",
+        image: "/packages/tayaba1.webp",
         description: "Short Package-1, 17-18 Days Stay, Maktab-D"
       },
       {
         id: "pkg-4151-2",
         title: "Standard Short Package-2",
-        image: "/packages/tayaba2.jpg",
+        image: "/packages/tayaba2.webp",
         description: "Short Package-2, 21-22 Days Stay, Maktab-D"
       },
       {
         id: "pkg-4151-3",
         title: "Standard Short Package-3",
-        image: "/packages/tayaba3.jpg",
+        image: "/packages/tayaba3.webp",
         description: "Short Package-3, 17-18 Days Stay, Maktab-D"
       }
     ]
@@ -205,7 +205,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4337-1",
         title: "Standard Long Package",
-        image: "/packages/aviation.jpg",
+        image: "/packages/aviation.webp",
         description: "Standard Long Package 30 - 31 Days, Maktab D"
       }
     ]
@@ -399,7 +399,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4291-1",
         title: "22 Days Gold Package",
-        image: "/packages/buktours.jpg",
+        image: "/packages/buktours.webp",
         description: "Gold Package 22 Days, Maktab B"
       }
     ]
@@ -422,7 +422,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4307-1",
         title: "15 Days Silver Package",
-        image: "/packages/bukass.jpg",
+        image: "/packages/bukass.webp",
         description: "Silver+ Package 15 Days, Maktab-B"
       }
     ]
@@ -445,7 +445,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4306-1",
         title: "17 Days Gold Package",
-        image: "/packages/buksons.jpg",
+        image: "/packages/buksons.webp",
         description: "Gold Package 17 Days, Maktab-B"
       }
     ]
@@ -806,7 +806,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4378-1",
         title: "Standard Short Package",
-        image: "/packages/malik.jpg",
+        image: "/packages/malik.webp",
         description: "Short Hajj Package, 17-18 Days Stay, Maktab-B"
       }
     ]
@@ -899,19 +899,19 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4193-1",
         title: "Stadard Long Package-1",
-        image: "/packages/amjadia1.jpg",
+        image: "/packages/amjadia1.webp",
         description: "Long Package-1, 30-32 Days Stay, Maktab-D Plus"
       },
       {
         id: "pkg-4193-2",
         title: "Stadard Short Package-2",
-        image: "/packages/amjadia2.jpg",
+        image: "/packages/amjadia2.webp",
         description: "Short Package-2, 17 Days Stay, Maktab-D Plus"
       },
       {
         id: "pkg-4193-3",
         title: "Stadard Short Package-3",
-        image: "/packages/amjadia3.jpg",
+        image: "/packages/amjadia3.webp",
         description: "Short Package-3, 14 Days Stay, Maktab-D Plus"
       }
     ]
@@ -1074,19 +1074,19 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4154-1",
         title: "Standard Hajj Pakcage-2",
-        image: "/packages/rafiq1.jpg",
+        image: "/packages/rafiq1.webp",
         description: "Hajj Package-2, 28 Days Stay, Maktab-B"
       },
       {
         id: "pkg-4154-2",
         title: "Standard Hajj Pakcage-3",
-        image: "/packages/rafiq2.jpg",
+        image: "/packages/rafiq2.webp",
         description: "Short Hajj Package-3, 17 Days Stay, Maktab-B"
       },
       {
         id: "pkg-4154-3",
         title: "Standard Hajj Pakcage-6",
-        image: "/packages/rafiq3.jpg",
+        image: "/packages/rafiq3.webp",
         description: "Short Hajj Package-6, 23 Days Stay, Maktab-B"
       }
     ]
@@ -1186,7 +1186,7 @@ export const partnersData: Partner[] = [
       {
         id: "pkg-4128-1",
         title: "Hajj 2026 Packages",
-        image: "/packages/mramzani.jpg",
+        image: "/packages/mramzani.webp",
         description: "Short Package, 14-16 Days | Long Package 28-32 Days | Maktab-D"
       }
     ]
