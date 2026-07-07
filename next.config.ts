@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
 
   // Image optimization - allow your domain (and a couple fallback patterns)
   images: {
+     unoptimized: true,
     // If partner logos are hosted externally, add their hostnames here.
     // Example: remotePatterns: [{ protocol: "https", hostname: "cdn.example.com" }]
     remotePatterns: [
