@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import { partnersData } from "@/data/partners";
+import type { Partner } from "@/types/partners";
 
-export default function RightToLeftMarquee() {
+export default function RightToLeftMarquee({ partnersData }: { partnersData: Partner[] }) {
   // First half (17 partners)
 const firstHalfLength = Math.floor(partnersData.length / 2); // 17
 const firstHalfPartners = partnersData.slice(0, firstHalfLength);

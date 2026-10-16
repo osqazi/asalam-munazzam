@@ -187,7 +187,7 @@
 //             <div className="text-center md:text-right">
 //               <p className="text-gray-400 text-sm">
 //                 Developed by{' '}
-//                 <span className="text-green-400 font-semibold">MetaLog Inc.</span>
+//                 <span className="text-green-400 font-semibold">MetaLog Technologies</span>
 //               </p>
 //               <a 
 //                 href="https://wa.me/923353221003" 
@@ -236,7 +236,7 @@ export default function Footer() {
   ];
 
   const services = [
-    "Hajj Packages 2026",
+    "Hajj Packages",
     "Overseas Pakistani Hajj Packages",
     "Group Hajj Packages",
   ];
@@ -460,13 +460,13 @@ export default function Footer() {
               <p className="text-gray-400 text-sm">
                 Developed by{" "}
                 <a
-                  href="https://metalogai.vercel.app"
+                  href="https://tech.metalogintl.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-green-400 font-semibold hover:underline"
-                  aria-label="Visit MetaLog Inc developer portfolio"
+                  aria-label="Visit MetaLog Technologies developer portfolio"
                 >
-                  MetaLog Inc.
+                  MetaLog Technologies
                 </a>
               </p>
 
@@ -475,7 +475,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center md:justify-end space-x-2 text-gray-400 hover:text-green-400 transition-colors mt-1"
-                aria-label="Contact MetaLog Inc via WhatsApp"
+                aria-label="Contact MetaLog Technologies via WhatsApp"
               >
                 <FontAwesomeIcon icon={faWhatsapp} className="w-3 h-3" />
                 <span className="text-sm">+92-335-3221003</span>

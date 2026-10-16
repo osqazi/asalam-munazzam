@@ -1,5 +1,6 @@
   "use client";
-  import { useState } from "react";
+  import { SeasonNotice } from "@/app/components/SeasonPicker";
+import { useState } from "react";
   import Image from "next/image";
   import { 
   
@@ -16,11 +17,9 @@
   } from "lucide-react";
   import { Partner } from "@/types/partners";
 
-  interface PartnerDetailClientProps {
-    partnerData: Partner;
-  }
+  interface PartnerDetailClientProps { partnerData: Partner; year: number; years?: number[]; allocationNotice?:string }
 
-  export default function PartnerDetailClient({ partnerData }: PartnerDetailClientProps) {
+  export default function PartnerDetailClient({ partnerData, year, allocationNotice }: PartnerDetailClientProps) {
     const [selectedBrochure, setSelectedBrochure] = useState<string | null>(null);
     const packageBrochures = partnerData.packageBrochures;
 
@@ -38,7 +37,7 @@
         try {
           await navigator.share({
             title: partnerData.name,
-            text: `Check out ${partnerData.name} - Hajj Packages 2026`,
+            text: `Check out ${partnerData.name} - Hajj Packages ${year}`,
             url: window.location.href,
           });
         } catch (error) {
@@ -51,7 +50,7 @@
     };
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-16 px-4">
+      <><SeasonNotice message={allocationNotice} /><div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           
           {/* Partner Header Section */}
@@ -222,7 +221,7 @@
           <div className="mb-8">
             <div className="flex justify-between items-center mb-6">
               <h2 className="text-2xl md:text-3xl font-bold text-green-800">
-                Hajj Packages 2026
+                Hajj Packages {year}
               </h2>
               <p className="text-gray-600">
                 {packageBrochures.length} packages available
@@ -382,6 +381,6 @@
             </div>
           </div>
         )}
-      </div>
+      </div></>
     );
   }

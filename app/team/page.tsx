@@ -1,4 +1,12 @@
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Team | As Salam Munazzam",
+  description: "Meet the Hajj and Umrah operations team at As Salam Munazzam.",
+  robots: { index: false, follow: true },
+};
+
 export default function () {
 
   return (

@@ -1,49 +1,17 @@
 import type { Metadata } from "next";
 import PackagesClient from "./PackagesClient";
+import { getSeason, getPublicSeasonYears } from "@/lib/seasons";
 
-export const metadata: Metadata = {
-  title: "Hajj Packages 2026 – Compare & Choose | As Salam Munazzam (Private) Limited",
-  description:
-    "Explore premium, economy, and VIP Hajj 2026 packages from 35 trusted partner companies of As Salam Munazzam (Private) Limited. View and download official brochures easily.",
-  keywords: [
-    "Hajj 2026 packages",
-    "As Salam Munazzam",
-    "Hajj packages Pakistan",
-    "VIP Hajj package",
-    "Economy Hajj package",
-    "Hajj travel companies Pakistan",
-    "Makkah Madinah tour 2026",
-    "Hajj packages Karachi Lahore Islamabad",
-  ],
-  openGraph: {
-    title: "Hajj Packages 2026 – As Salam Munazzam (Private) Limited",
-    description:
-      "Compare and select the best Hajj 2026 packages from our 35 partner companies. Official brochures available for download.",
-    url: "https://www.assalammunazzam.com.pk/packages",
-    siteName: "As Salam Munazzam (Private) Limited",
-    images: [
-      {
-        url: "https://www.assalammunazzam.com.pk/og-hajj-packages.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Hajj Packages 2026 – As Salam Munazzam (Private) Limited",
-      },
-    ],
-    locale: "en_PK",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Hajj Packages 2026 | As Salam Munazzam (Private) Limited",
-    description:
-      "Discover official Hajj 2026 packages from 35 partner travel companies. Economy, Standard, and VIP options available.",
-    images: ["https://www.assalammunazzam.com.pk/og-hajj-packages.jpg"],
-  },
-  alternates: {
-    canonical: "https://www.assalammunazzam.com.pk/packages",
-  },
-};
+type Props={searchParams:Promise<{year?:string}>};
+export async function generateMetadata({searchParams}:Props):Promise<Metadata>{
+  const q=await searchParams; const season=await getSeason(q.year); const packageCount=season.partners.reduce((n,p)=>n+p.packageBrochures.length,0); const title=packageCount?(season.seo.pages?.packages?.title||`Hajj ${season.year} Packages | As Salam Munazzam`):`Hajj ${season.year} Packages Coming Soon | As Salam Munazzam`;
+  const description=packageCount?(season.seo.pages?.packages?.description||`Compare ${packageCount} Hajj ${season.year} package brochures from As Salam Munazzam partner companies.`):`Hajj ${season.year} partner allocations are available. Package brochures have not yet been published.`;
+  const url=`https://www.assalammunazzam.com.pk/packages?year=${season.year}`;
+  return {title,description,...(packageCount===0?{robots:{index:false,follow:true}}:{}),alternates:{canonical:url},openGraph:{title,description,url,siteName:"As Salam Munazzam (Private) Limited",images:[{url:"https://www.assalammunazzam.com.pk/og-hajj-packages.jpg",width:1200,height:630,alt:title}],locale:"en_PK",type:"website"},twitter:{card:"summary_large_image",title,description,images:["https://www.assalammunazzam.com.pk/og-hajj-packages.jpg"]}};
+}
 
-export default function PackagesPage() {
-  return <PackagesClient />;
+export default async function PackagesPage({searchParams}:Props) {
+  const q=await searchParams; const [season,years]=await Promise.all([getSeason(q.year),getPublicSeasonYears()]);
+  const allocationNotice=season.allocationsConfirmed===false?`Hajj ${season.year} allocations were copied from ${season.copiedFrom} and still need confirmation.`:undefined;
+  return <PackagesClient partnersData={season.partners} year={season.year} years={years} allocationNotice={allocationNotice}/>;
 }

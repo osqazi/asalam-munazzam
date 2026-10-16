@@ -16,7 +16,7 @@ import {
   Plane,
   Heart
 } from "lucide-react";
-import { partnersData } from "@/data/partners";
+import { SeasonNotice } from "@/app/components/SeasonPicker";
 import { PackageBrochure, Partner } from "@/types/partners";
 
 // HD Placeholder images for Kaaba and Madinah
@@ -27,7 +27,7 @@ const holyImages = [
   "/madinah-2.jpg"
 ];
 
-export default function Packages() {
+export default function Packages({ partnersData, year, allocationNotice }: { partnersData: Partner[]; year: number; years?: number[]; allocationNotice?:string }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedPartner, setSelectedPartner] = useState<string>("all");
   const [priceRange, setPriceRange] = useState<string>("all");
@@ -71,7 +71,7 @@ export default function Packages() {
   const averagePackagesPerPartner = Math.round(totalPackages / partnersData.length);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-8 md:py-6">
+    <><SeasonNotice message={allocationNotice} /><div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-8 md:py-6">
       {/* Hero Section with Kaaba Image */}
       <div className="relative h-96 overflow-hidden">
         <Image
@@ -84,7 +84,7 @@ export default function Packages() {
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-              Hajj Packages 2026
+              Hajj Packages {year}
             </h1>
             <p className="text-xl md:text-2xl opacity-90 max-w-2xl mx-auto drop-shadow-lg">
               Discover the Perfect Spiritual Journey from Our Trusted Partners
@@ -116,7 +116,7 @@ export default function Packages() {
             <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-3">
               <Heart className="w-6 h-6 text-white" />
             </div>
-            <div className="text-2xl font-bold text-purple-600">2026</div>
+            <div className="text-2xl font-bold text-purple-600">{year}</div>
             <div className="text-gray-600">Hajj Season</div>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function Packages() {
 
                     <div className="flex justify-between items-center pt-3 border-t border-gray-100">
                       <Link
-                        href={`/partners/${encodeURIComponent(pkg.partner.slug)}`}
+                        href={`/partners/${encodeURIComponent(pkg.partner.slug)}?year=${year}`}
                         className="text-green-600 hover:text-green-700 font-semibold text-sm transition-colors"
                       >
                         View Partner
@@ -312,9 +312,9 @@ export default function Packages() {
               <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Search className="w-8 h-8 text-gray-400" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-600 mb-2">No Packages Found</h3>
-              <p className="text-gray-500 mb-6">Try adjusting your search criteria</p>
-              <button
+              <h3 className="text-xl font-semibold text-gray-600 mb-2">{totalPackages === 0 ? `Hajj ${year} packages are not published yet` : "No Packages Found"}</h3>
+              <p className="text-gray-500 mb-6">{totalPackages === 0 ? "Package offers and brochures will appear here when they are added." : "Try adjusting your search criteria"}</p>
+              {totalPackages > 0 && <button
                 onClick={() => {
                   setSearchTerm("");
                   setSelectedPartner("all");
@@ -323,7 +323,7 @@ export default function Packages() {
                 className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
               >
                 Reset Filters
-              </button>
+              </button>}
             </div>
           )}
         </div>
@@ -418,6 +418,6 @@ export default function Packages() {
           </div>
         </div>
       )}
-    </div>
+    </div></>
   );
 }

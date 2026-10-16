@@ -5,10 +5,12 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
+import { Suspense } from "react";
+import SeasonPicker from "@/app/components/SeasonPicker";
 import logo from "@/public/assalamlogo.png";
 import logo2 from "@/public/AssalamLogoFinal.png";
 
-export default function Header() {
+export default function Header({ year, years }: { year: number; years: number[] }) {
   const pathname = usePathname();
   const isHomePage = pathname === "/";
   const [isScrolled, setIsScrolled] = useState(false);
@@ -123,7 +125,8 @@ export default function Header() {
 
           <div className="container mx-auto px-4 relative z-10">
             {/* Desktop Menu */}
-            <div className="hidden md:flex justify-center items-center">
+            <div className="hidden md:flex items-center justify-between">
+              <div className="flex flex-1 justify-center items-center">
               {menuItems.map((item) => (
                 <Link
                   key={item.name}
@@ -138,6 +141,12 @@ export default function Header() {
                   {item.name}
                 </Link>
               ))}
+              </div>
+              <div className="absolute right-4">
+                <Suspense fallback={<span className="rounded-lg bg-white/90 px-3 py-2 text-sm font-semibold text-green-950">Hajj {year}</span>}>
+                  <SeasonPicker year={year} years={years} />
+                </Suspense>
+              </div>
             </div>
 
             {/* Mobile Menu Button */}
@@ -150,9 +159,10 @@ export default function Header() {
               >
                 {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
               </button>
-              <span className="text-sm font-medium text-amber-900">
-                Navigation Menu
-              </span>
+              <span className="text-sm font-medium text-amber-900">Navigation Menu</span>
+              <Suspense fallback={<span className="text-xs font-semibold text-amber-950">Hajj {year}</span>}>
+                <SeasonPicker year={year} years={years} />
+              </Suspense>
             </div>
 
             {/* Mobile Menu Dropdown */}

@@ -1,57 +1,18 @@
 "use client";
+import { SeasonNotice } from "@/app/components/SeasonPicker";
 import { useState } from "react";
 import Image from "next/image";
 import { Search, Filter, Download, ZoomIn, Calendar, FileText, Signpost, IdCardIcon } from "lucide-react";
 
-export default function Notifications() {
+type Notice = {id:number;title:string;description:string;image:string;type:string;source:string;date:string;category:string};
+export default function Notifications({ notifications, year, allocationNotice }: {notifications:Notice[];year:number;years?:number[];allocationNotice?:string}) {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [filter, setFilter] = useState("all");
   
   
 
-  const notifications = [
-    {
-      id: 1,
-      title: "MORA Approval Letter - Page 1",
-      description: "Official recognition letter from Ministry of Religious Affairs for Hajj 2026 operations",
-      image: "/morap1.jpg",
-      type: "official",
-      source: "Ministry of Religious Affairs",
-      date: "2024-12-15",
-      category: "Recognition Letter"
-    },
-    {
-      id: 2,
-      title: "MORA Approval Letter - Page 2",
-      description: "Continuation of official recognition letter of Ministry of Religiuous Affairs for Hajj 2026",
-      image: "/morap2.jpg",
-      type: "official",
-      source: "Ministry of Religious Affairs",
-      date: "2024-12-15",
-      category: "Recognition Letter"
-    },
-    {
-      id: 3,
-      title: "Hajj Policy Guidelines 2026",
-      description: "Comprehensive guidelines and policies for Hajj 2026 operations",
-      image: "", // Add more images as needed
-      type: "guideline",
-      source: "MORA Policy Division",
-      date: "2024-11-20",
-      category: "Policy"
-    },
-    {
-      id: 4,
-      title: "Operator Certification",
-      description: "Certification document for approved Hajj operators",
-      image: "",
-      type: "certificate",
-      source: "Hajj Regulatory Authority",
-      date: "2024-12-10",
-      category: "Certification"
-    }
-  ];
+
 
   const categories = [
     { value: "all", label: "All Notifications" },
@@ -78,7 +39,7 @@ export default function Notifications() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-20 px-4">
+    <><SeasonNotice message={allocationNotice}/><div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-20 px-4">
       <div className="max-w-7xl mx-auto">
         
         {/* Header Section */}
@@ -100,7 +61,7 @@ export default function Notifications() {
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
             <Calendar className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-            <div className="text-2xl font-bold text-blue-700">2026</div>
+            <div className="text-2xl font-bold text-blue-700">{year}</div>
             <div className="text-gray-600">Hajj Season</div>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 text-center">
@@ -153,6 +114,7 @@ export default function Notifications() {
         </div>
 
         {/* Notifications Grid */}
+        {filteredNotifications.length === 0 && <p className="mb-8 text-center text-gray-600">No notifications have been published for Hajj {year} yet.</p>}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredNotifications.map((notification) => (
             <div
@@ -301,6 +263,6 @@ export default function Notifications() {
           </div>
         </div>
       )}
-    </div>
+    </div></>
   );
 }

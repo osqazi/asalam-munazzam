@@ -1,0 +1,1291 @@
+{
+  "year": 2026,
+  "status": "published",
+  "lastModified": "2026-10-16T13:37:23.089Z",
+  "partners": [
+    {
+      "enrl": 4171,
+      "name": "PIRWANI HAJJ GROUP (PVT) LTD.",
+      "slug": "pirwani-hajj-group-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/pirwani.webp",
+      "shortName": "PIRWANI",
+      "contactPerson": "Mr. Yousuf Pirwani",
+      "address": "Office # 106, 1st Floor, Balad Trade Centre, Bahadurabad, Karachi",
+      "contactNumber": "+92 21 3413 3006",
+      "email": "pirwanitours@hotmail.com",
+      "website": "https://www.pirwanitravels.com",
+      "dtsLicenceNo": "2990",
+      "iataNo": "27-3-10183",
+      "packageBrochures": [
+        {
+          "id": "pkg-4171-1",
+          "title": "Standard Long Package",
+          "image": "/seasons/2026/packages/pirwaniStd1.webp",
+          "description": "Standard Long Package 30 - 31 Days, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 2263,
+      "name": "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD",
+      "slug": "al-sajideen-travels-tours-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/sajideen.webp",
+      "shortName": "AL SAJIDEEN",
+      "contactPerson": "Mr. Muhammad Iqbal",
+      "address": "Office No. F-2, 1st Floor, Plot No. 29-E/A, Block-A, Sector O-9, National Police Foundation, Islamabad",
+      "contactNumber": "+92 51 517 0564 ",
+      "email": "alsajideentrvl@yahoo.com",
+      "website": "https://www.asjtravel.com",
+      "dtsLicenceNo": "1101",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-2263-1",
+          "title": "Ecpnomy Hajj Package",
+          "image": "/seasons/2026/packages/sajideen.webp",
+          "description": "Economy Hajj Package, 20-21 Days Stay, Maktab-D"
+        }
+      ]
+    },
+    {
+      "enrl": 4151,
+      "name": "AL TAYABA TRAVELS & TOURS (PVT) LTD",
+      "slug": "al-tayaba-travels-tours-pvt-ltd",
+      "pilgrims": 90,
+      "logo": "/seasons/2026/partners/tayyaba.webp",
+      "shortName": "AL TAYABA",
+      "contactPerson": "Mr. Muhammad Ashfaq",
+      "address": "Suit No. 63, Motiwala Market, Near Farooqi Masjid, Kharadar, Karachi",
+      "contactNumber": "+92 21 3243 9988",
+      "email": "altayabatravel@gmail.com",
+      "website": "https://www.altayaba.com",
+      "dtsLicenceNo": "2492",
+      "iataNo": "27-3-09903",
+      "packageBrochures": [
+        {
+          "id": "pkg-4151-1",
+          "title": "Standard Short Package-1",
+          "image": "/seasons/2026/packages/tayaba1.webp",
+          "description": "Short Package-1, 17-18 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4151-2",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/tayaba2.webp",
+          "description": "Short Package-2, 21-22 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4151-3",
+          "title": "Standard Short Package-3",
+          "image": "/seasons/2026/packages/tayaba3.webp",
+          "description": "Short Package-3, 17-18 Days Stay, Maktab-D"
+        }
+      ]
+    },
+    {
+      "enrl": 4153,
+      "name": "HUJAJ-AL-ANSAR HAJJ & UMRAH TOURS (PVT) LTD",
+      "slug": "hujaj-al-ansar-hajj-umrah-tours-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/hujajulansar.webp",
+      "shortName": "HUJAJ-AL-ANSAR",
+      "contactPerson": "-",
+      "address": "Office No. 2, Mehrunnisa Rafiq Manzil, Street #4, Siraj Colony, Mosalane, Lyari, Karachi",
+      "contactNumber": "Mr. Irfan",
+      "email": "hujaj_alansar@yahoo.com",
+      "website": "https://www.hujajalansar.com",
+      "dtsLicenceNo": "3030",
+      "iataNo": "27-3-10404",
+      "packageBrochures": [
+        {
+          "id": "pkg-4153-1",
+          "title": "Standard Short Package-1",
+          "image": "/seasons/2026/packages/ansar1.webp",
+          "description": "Short Package-1 17 - 18 Days, Maktab D"
+        },
+        {
+          "id": "pkg-4153-2",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/ansar2.webp",
+          "description": "Short Package-2 21 - 22 Days, Maktab D"
+        },
+        {
+          "id": "pkg-4153-3",
+          "title": "Standard Short Package-3",
+          "image": "/seasons/2026/packages/ansar3.webp",
+          "description": "Short Package-3 17 - 18 Days, Maktab D"
+        },
+        {
+          "id": "pkg-4153-4",
+          "title": "Standard Short Package-4",
+          "image": "/seasons/2026/packages/ansar4.webp",
+          "description": "Short Package-4 17 - 18 Days, Maktab D"
+        },
+        {
+          "id": "pkg-4153-5",
+          "title": "Standard Long Package-5",
+          "image": "/seasons/2026/packages/ansar5.webp",
+          "description": "Long Package-5 32 - 33 Days, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4156,
+      "name": "AROMA TRAVEL SERVICES (PVT) LTD",
+      "slug": "aroma-travel-services-pvt-ltd",
+      "pilgrims": 176,
+      "logo": "/seasons/2026/partners/aroma.webp",
+      "shortName": "AROMA TRAVEL",
+      "contactPerson": "Mr. Nadeem Sharif",
+      "address": "16, Sidco Avenue Centre, Stratchen Road, Saddar, Karachi",
+      "contactNumber": "+92 21 99205704",
+      "email": "hajj@aromatravel.com",
+      "website": "https://www.aromatravel.com",
+      "dtsLicenceNo": "1108",
+      "iataNo": "27-3-00125",
+      "packageBrochures": [
+        {
+          "id": "pkg-4156-1",
+          "title": "Gold Makkah Package-1",
+          "image": "/seasons/2026/packages/aromat1.webp",
+          "description": "Gold Makkah Package-1, 17-18 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4156-2",
+          "title": "Gold Madinah Package-2",
+          "image": "/seasons/2026/packages/aromat2.webp",
+          "description": "Gold Madinah Package-2, 17-18 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4156-3",
+          "title": "Madinah Platinum Package-3",
+          "image": "/seasons/2026/packages/aromat3.webp",
+          "description": "Madinah Platinum Package-3, 10 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4156-4",
+          "title": "Short Package-4 Madinah",
+          "image": "/seasons/2026/packages/aromat4.webp",
+          "description": "Short Package-4 Madinah, 10 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4156-5",
+          "title": "Madinah Semi-Platinum Pkg-5",
+          "image": "/seasons/2026/packages/aromat5.webp",
+          "description": "Madinah Semi Platinum Pkg-5, 10 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4156-6",
+          "title": "Pearl Azizia Package-6",
+          "image": "/seasons/2026/packages/aromat6.webp",
+          "description": "Pearl Azizia Package-6, 14 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4156-7",
+          "title": "Madinah Semi-Platinum Pkg-7",
+          "image": "/seasons/2026/packages/aromat7.webp",
+          "description": "Madinah Semi Platinum Pkg-7, 14 Days Stay, Maktab-A"
+        }
+      ]
+    },
+    {
+      "enrl": 4337,
+      "name": "AROMA AVIATION (PVT) LTD",
+      "slug": "aroma-aviation-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/aviation.webp",
+      "shortName": "AROMA AVIATION",
+      "contactPerson": "Mr. Adil Naeem",
+      "address": "20/1, 15-A, Sidco Avenue Centre, Stratchen Road, Karachi",
+      "contactNumber": "+92 21 3565 2157",
+      "email": "hajj@aromaaviation.com",
+      "website": "https://www.aromaaviation.com",
+      "dtsLicenceNo": "2003",
+      "iataNo": "27-3-06160",
+      "packageBrochures": [
+        {
+          "id": "pkg-4337-1",
+          "title": "Standard Long Package",
+          "image": "/seasons/2026/packages/aviation.webp",
+          "description": "Standard Long Package 30 - 31 Days, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4157,
+      "name": "AL SYED TRAVELS (PVT) LTD",
+      "slug": "al-syed-travels-pvt-ltd",
+      "pilgrims": 147,
+      "logo": "/seasons/2026/partners/alsyed.webp",
+      "shortName": "AL SYED",
+      "contactPerson": "Mr. Khurram Latif",
+      "address": "15, Sidco Avenue Centre, Stratchen Road, Saddar, Karachi",
+      "contactNumber": "+92 21 3568 7300",
+      "email": "hajj@alsyedtravels.com",
+      "website": "https://www.alsyedtravels.com",
+      "dtsLicenceNo": "1084",
+      "iataNo": "27-3-02096",
+      "packageBrochures": [
+        {
+          "id": "pkg-4157-1",
+          "title": "Standard Short Package-1",
+          "image": "/seasons/2026/packages/alsyed1.webp",
+          "description": "Short Package-1, 17-18 Days Stay, Maktab-D & Maktab-B"
+        },
+        {
+          "id": "pkg-4157-2",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/alsyed1.webp",
+          "description": "Short Package-2, 21-22 Days Stay, Maktab-D & Maktab-B"
+        },
+        {
+          "id": "pkg-4157-3",
+          "title": "Standard Short Package-3",
+          "image": "/seasons/2026/packages/alsyed1.webp",
+          "description": "Short Package-3, 17-18 Days Stay, Maktab-D & Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4343,
+      "name": "KHIZER TRAVELS (PVT) LTD",
+      "slug": "khizer-travels-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/khizer.webp",
+      "shortName": "KHIZER",
+      "contactPerson": "Mr. Muhammad Modabbir Siddiqui",
+      "address": "16, Hotel Metropole Building, Ground Floor, Abdullah Haroon Road, Karachi",
+      "contactNumber": "+92 345 8685875",
+      "email": "khizertravels@gmail.com",
+      "website": "https://www.khizertravels.com",
+      "dtsLicenceNo": "1515",
+      "iataNo": "27-3-04281",
+      "packageBrochures": [
+        {
+          "id": "pkg-4343-1",
+          "title": "Platinum Package",
+          "image": "/seasons/2026/packages/khizer1.webp",
+          "description": "Platinum Hajj Package, 13 Days Stay, Maktab A."
+        },
+        {
+          "id": "pkg-4343-2",
+          "title": "Executive Package",
+          "image": "/seasons/2026/packages/khizer2.webp",
+          "description": "Executie Hajj Package, 16 Days Stay, Maktab A."
+        }
+      ]
+    },
+    {
+      "enrl": 4330,
+      "name": "CITI TRAVELS (PVT) LTD",
+      "slug": "citi-travels-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/citi.webp",
+      "shortName": "CITI",
+      "contactPerson": "Mr. Tafseer ul Islam",
+      "address": "13-A, Court View Appartment, Court Road, Karachi",
+      "contactNumber": "+92 21 3568 7959",
+      "email": "cititravels1981@gmail.com",
+      "website": "https://www.cititravels.com.pk",
+      "dtsLicenceNo": "-",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4330-1",
+          "title": "Diamond Makkah Package-1",
+          "image": "/seasons/2026/packages/citi1.webp",
+          "description": "Diamond Makkah Package-1, 21-22 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4330-2",
+          "title": "Sapphire Makkah Package-2",
+          "image": "/seasons/2026/packages/citi2.webp",
+          "description": "Sapphire Makkah Package-2, 17-18 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4330-3",
+          "title": "Sapphire Aziziah Package-3",
+          "image": "/seasons/2026/packages/citi3.webp",
+          "description": "Sapphire Azizia Package-3, 14-15 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4330-4",
+          "title": "Silver Makkah Package-4",
+          "image": "/seasons/2026/packages/citi4.webp",
+          "description": "Silverr Makkah Package-4, 21-22 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4330-5",
+          "title": "Sapphire Silver Package-5",
+          "image": "/seasons/2026/packages/citi5.webp",
+          "description": "Sapphire Silver Package-5, 17-18 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4330-6",
+          "title": "Silver Aziziah Package-6",
+          "image": "/seasons/2026/packages/citi6.webp",
+          "description": "Silver Azizia Package-6, 14-15 Days Stay, Maktab-A"
+        }
+      ]
+    },
+    {
+      "enrl": 4327,
+      "name": "SUPER TRAVELS (PVT) LTD",
+      "slug": "super-travels-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/super.webp",
+      "shortName": "SUPER",
+      "contactPerson": "Mr. Jameel A. Sakrani",
+      "address": "8, Lotia Building, Club Road, Karachi",
+      "contactNumber": "+92 21 111 111 STL(785)",
+      "email": "info@stl.com.pk",
+      "website": "https://www.stl.com.pk",
+      "dtsLicenceNo": "58",
+      "iataNo": "27-3-24522",
+      "packageBrochures": [
+        {
+          "id": "pkg-4327-1",
+          "title": "Diamond Makkah Package-1",
+          "image": "/seasons/2026/packages/super1.webp",
+          "description": "Diamond Makkah Package-1, 21-22 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4327-2",
+          "title": "Sapphire Makkah Package-2",
+          "image": "/seasons/2026/packages/super2.webp",
+          "description": "Sapphire Makkah Package-2, 17-18 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4327-3",
+          "title": "Sapphire Aziziah Package-3",
+          "image": "/seasons/2026/packages/super3.webp",
+          "description": "Sapphire Azizia Package-3, 14-15 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4327-4",
+          "title": "Silver Makkah Package-4",
+          "image": "/seasons/2026/packages/super4.webp",
+          "description": "Silverr Makkah Package-4, 21-22 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4327-5",
+          "title": "Sapphire Silver Package-5",
+          "image": "/seasons/2026/packages/super5.webp",
+          "description": "Sapphire Silver Package-5, 17-18 Days Stay, Maktab-A"
+        },
+        {
+          "id": "pkg-4327-6",
+          "title": "Silver Aziziah Package-6",
+          "image": "/seasons/2026/packages/super6.webp",
+          "description": "Silver Azizia Package-6, 14-15 Days Stay, Maktab-A"
+        }
+      ]
+    },
+    {
+      "enrl": 4291,
+      "name": "BUKHARI TOURS (PVT) LTD",
+      "slug": "bukhari-tours-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/buktour.webp",
+      "shortName": "BUKHARI TOURS",
+      "contactPerson": "-",
+      "address": "Shop No. 5-6, Danishgah, St-13, Block-9, Clifton, Karachi",
+      "contactNumber": "-",
+      "email": "shahidrafiq@bukharigroup.com.pk",
+      "website": "https://www.bukharitours.com.pk",
+      "dtsLicenceNo": "2098",
+      "iataNo": "27-3-00140",
+      "packageBrochures": [
+        {
+          "id": "pkg-4291-1",
+          "title": "22 Days Gold Package",
+          "image": "/seasons/2026/packages/buktours.webp",
+          "description": "Gold Package 22 Days, Maktab B"
+        }
+      ]
+    },
+    {
+      "enrl": 4307,
+      "name": "BUKHARI ASSOCIATE (PVT) LTD",
+      "slug": "bukhari-associate-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/bukasso.webp",
+      "shortName": "BUKHARI ASSOCIATE",
+      "contactPerson": "-",
+      "address": "Office No. 1&2, Lakson Square Bldg., Sarwar Shaheed Road, Karachi",
+      "contactNumber": "+92 21 3563 2321",
+      "email": "naveed@bukharigroup.com.pk",
+      "website": "https://www.bukhariassociates.com.pk",
+      "dtsLicenceNo": "2862",
+      "iataNo": "27-3-05961 ",
+      "packageBrochures": [
+        {
+          "id": "pkg-4307-1",
+          "title": "15 Days Silver Package",
+          "image": "/seasons/2026/packages/bukass.webp",
+          "description": "Silver+ Package 15 Days, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4306,
+      "name": "BUKHARI & SONS (PVT) LTD",
+      "slug": "bukhari-sons-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/buksons.webp",
+      "shortName": "BUKHARI & SONS",
+      "contactPerson": "-",
+      "address": "11, Lakson Square Building No. 1, Sarwar Shaheed Road, Karachi",
+      "contactNumber": "+92 21 3563 2420 ",
+      "email": "nabeelkaimkhani@bukharigroup.com.pk",
+      "website": "https://www.bukhariandson.com",
+      "dtsLicenceNo": "2862",
+      "iataNo": "27-3-05880",
+      "packageBrochures": [
+        {
+          "id": "pkg-4306-1",
+          "title": "17 Days Gold Package",
+          "image": "/seasons/2026/packages/buksons.webp",
+          "description": "Gold Package 17 Days, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 3313,
+      "name": "TRAVEL SHOP (PVT) LTD.",
+      "slug": "travel-shop-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/travshop.webp",
+      "shortName": "TRAVEL SHOP",
+      "contactPerson": "Mr. Ashfaq Ahmed Mirza",
+      "address": "LG 5 & 10, Hill View Arcade, 5 Davis Road, Lahore",
+      "contactNumber": "+92 42 36363889",
+      "email": "trvlshop2@gmail.com",
+      "website": "https://www.MyTravelShop.com",
+      "dtsLicenceNo": "1904",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-3313-1",
+          "title": "Gold Hajj Package",
+          "image": "/seasons/2026/packages/tshop2.webp",
+          "description": "Gold Hajj Package, "
+        },
+        {
+          "id": "pkg-3313-2",
+          "title": "Diamond Hajj Package",
+          "image": "/seasons/2026/packages/tshop1.webp",
+          "description": "Diamond Hajj Package, "
+        }
+      ]
+    },
+    {
+      "enrl": 4168,
+      "name": "FAIZAN E NOORI INTERNATIONAL (PVT) LTD.",
+      "slug": "faizan-e-noori-international-pvt-ltd",
+      "pilgrims": 75,
+      "logo": "/seasons/2026/partners/FaizanNoori.webp",
+      "shortName": "FAIZAN E NOORI",
+      "contactPerson": "-",
+      "address": "-",
+      "contactNumber": "+92 21 3413 3007",
+      "email": "faizanenooriint@outlook.com",
+      "website": "https://www.faizanenooriintl.com",
+      "dtsLicenceNo": "3141",
+      "iataNo": "27-3-1115",
+      "packageBrochures": [
+        {
+          "id": "pkg-4168-1",
+          "title": "Standard Short Package-1",
+          "image": "/seasons/2026/packages/faizannoor1.webp",
+          "description": "Short Package-1 21-22 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4168-2",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/faizannoor2.webp",
+          "description": "Short Package-2 16-17 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4168-3",
+          "title": "Standard Short Package-3",
+          "image": "/seasons/2026/packages/faizannoor3.webp",
+          "description": "Short Package-3 21-22 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4325,
+      "name": "RAZA E NOOR (PVT) LTD.",
+      "slug": "raza-e-noor-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/razanoor.webp",
+      "shortName": "RAZA E NOOR",
+      "contactPerson": "-",
+      "address": "Suit No. 10-B, UBL Building, Gurumandar, Karachi",
+      "contactNumber": "+92 300 8252611",
+      "email": "razaenoor@yahoo.com",
+      "website": "https://www.razaenoor.com",
+      "dtsLicenceNo": "3364",
+      "iataNo": "27-3-16833",
+      "packageBrochures": [
+        {
+          "id": "pkg-4325-1",
+          "title": "Long Stay Package",
+          "image": "/seasons/2026/packages/razanoor1.webp",
+          "description": "Long Stay Package, 30-31 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4365,
+      "name": "KARWAN E ZIA E NOORI INTERNATIONAL (PVT) LTD.",
+      "slug": "karwan-e-zia-e-noori-international-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/ziaenoori.webp",
+      "shortName": "ZIA E NOORI",
+      "contactPerson": "-",
+      "address": "Shop No. 5, Al-Raza Mansion, Plot No. 102/A, Mirza Qaleej Baig Road, Soldier Bazar No. 2, Karachi",
+      "contactNumber": "+92 321 2526111",
+      "email": "kznipv1@yahoo.com",
+      "website": "https://www.ziaenoori.com",
+      "dtsLicenceNo": "2473",
+      "iataNo": "27-3-10323",
+      "packageBrochures": [
+        {
+          "id": "pkg-4365-1",
+          "title": "Long Stay Package",
+          "image": "/seasons/2026/packages/zianoori1.webp",
+          "description": "Long Stay Hajj Package, 30-31 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4219,
+      "name": "KARWAN E MUSTAFAI (PVT) LTD.",
+      "slug": "karwan-e-mustafai-pvt-ltd",
+      "pilgrims": 75,
+      "logo": "/seasons/2026/partners/mustafai.webp",
+      "shortName": "MUSTAFAI",
+      "contactPerson": "Mr. Faisal Qazi",
+      "address": "D-59, Office No. 1, Block-1, Clifton, Near Altamash Hospital, Karachi",
+      "contactNumber": "+92 333 2311257 ",
+      "email": "faisalqazi1947@gmail.com",
+      "website": "https://www.karwan-e-mustafai.net",
+      "dtsLicenceNo": "2520",
+      "iataNo": "27-3-16870",
+      "packageBrochures": [
+        {
+          "id": "pkg-4219-1",
+          "title": "Long Stay Hajj Package",
+          "image": "/seasons/2026/packages/kmustafai1.webp",
+          "description": "Long Stay Hajj Package, 30-31 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4386,
+      "name": "KARWAN E SURIYA HAJJ & UMRAH (PVT) LTD.",
+      "slug": "karwan-e-suriya-hajj-umrah-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/suriya.webp",
+      "shortName": "SURIYA",
+      "contactPerson": "-",
+      "address": "SM-07, 2nd Floor, Al-Kamran Centre, 7/A, Block-6, Opp. Delhi Sweets, Shahrah-e-Faisal, Nursery, Karachi",
+      "contactNumber": "+92 300 2050476",
+      "email": "karwanesuriya786@gmail.com",
+      "website": "https://www.karwane-e-suriya.net",
+      "dtsLicenceNo": "3478",
+      "iataNo": "27-3-35825",
+      "packageBrochures": [
+        {
+          "id": "pkg-4386-1",
+          "title": "Short Stay Package-1",
+          "image": "/seasons/2026/packages/ksuriya1.webp",
+          "description": "Short Stay Hajj Package-1, 16-17 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4386-2",
+          "title": "Short Stay Package-2",
+          "image": "/seasons/2026/packages/ksuriya2.webp",
+          "description": "Short Stay Hajj Package-2, 16-17 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4210,
+      "name": "TAIR E HARAM INTERNATIONAL (PVT) LTD.",
+      "slug": "tair-e-haram-international-pvt-ltd",
+      "pilgrims": 90,
+      "logo": "/seasons/2026/partners/haram.webp",
+      "shortName": "TAIR E HARAM",
+      "contactPerson": "Mr. Muhammad Akhtar Qadri",
+      "address": "B-1068/1AB, Jinnah Chowk, Kabari Bazar, Sukkur",
+      "contactNumber": "+92 71 562 0189",
+      "email": "taireharam2621@hotmail.com",
+      "website": "https://www.taireharam.com",
+      "dtsLicenceNo": "2621",
+      "iataNo": "27-3-10754",
+      "packageBrochures": [
+        {
+          "id": "pkg-4210-1",
+          "title": "Standard Long Package-1",
+          "image": "/seasons/2026/packages/tair1.webp",
+          "description": "Long Hajj Package-1, 32 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4210-2",
+          "title": "Standard Long Package-2",
+          "image": "/seasons/2026/packages/tair2.webp",
+          "description": "Long Hajj Package-2, 32 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4210-3",
+          "title": "Standard Short Package-3",
+          "image": "/seasons/2026/packages/tair3.webp",
+          "description": "Short Hajj Package-3, 17 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4210-4",
+          "title": "Standard Short Package-4",
+          "image": "/seasons/2026/packages/tair4.webp",
+          "description": "Short Hajj Package-4, 17 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4210-5",
+          "title": "Standard Package-5",
+          "image": "/seasons/2026/packages/tair5.webp",
+          "description": "Standard Hajj Package-5, 27 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4210-6",
+          "title": "Standard Package-6",
+          "image": "/seasons/2026/packages/tair6.webp",
+          "description": "Standard Hajj Package-6, 23 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4284,
+      "name": "MOIN UL HAJJAJ HAJJ & UMRAH (PVT) LTD.",
+      "slug": "moin-ul-hajjaj-hajj-umrah-pvt-ltd",
+      "pilgrims": 63,
+      "logo": "/seasons/2026/partners/moin.webp",
+      "shortName": "MOIN UL HAJJAJ",
+      "contactPerson": "Syed Rasheed Uddin (CEO)",
+      "address": "Office No. B-2067, 1st Floor, Lakkar Mandi chowk, Miani Road, Sukkur",
+      "contactNumber": "+92 71 561 6649, +92 333 7131198",
+      "email": "moinullhajjaj@gmail.com",
+      "website": "https://www.moinulhajjaj.com",
+      "dtsLicenceNo": "3169",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4284-1",
+          "title": "Golden Package-1",
+          "image": "/seasons/2026/packages/moin1.webp",
+          "description": "Golden Package-1, Zone-5, 30 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4284-2",
+          "title": "Standard Package-2",
+          "image": "/seasons/2026/packages/moin2.webp",
+          "description": "Standard Package-2, Zone-5, 30 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4284-3",
+          "title": "Short Package-3",
+          "image": "/seasons/2026/packages/moin3.webp",
+          "description": "Short Package-3, Zone-5, 16-22 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4284-4",
+          "title": "Short Package-4",
+          "image": "/seasons/2026/packages/moin4.webp",
+          "description": "Short Package-4, Zone-5, 28 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4284-5",
+          "title": "Short Package-5",
+          "image": "/seasons/2026/packages/moin5.webp",
+          "description": "Short Package-5, Zone-5, 17 Days Stay, Maktab-D"
+        }
+      ]
+    },
+    {
+      "enrl": 4212,
+      "name": "KARWAN E MAKKAH MADINA (PVT) LTD",
+      "slug": "karwan-e-makkah-madina-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/kmm.webp",
+      "shortName": "MAKKAH MADINA",
+      "contactPerson": "Mr. Muhammad Asif Memon",
+      "address": "Mezzanine Floor, Al-Raheem Tower, Bunder Road, Sukkur.",
+      "contactNumber": "+92  71 5621221",
+      "email": "kmm4212@gmail.com",
+      "website": "https://www.kMakkahMadina.com",
+      "dtsLicenceNo": "-",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4212-1",
+          "title": "Package-A Makkah-1",
+          "image": "/seasons/2026/packages/kmm1.webp",
+          "description": "Package-A Makkah-1, 30 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4212-2",
+          "title": "Package-A Makkah-2",
+          "image": "/seasons/2026/packages/kmm2.webp",
+          "description": "Package-A Makkah-2, 30 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4212-3",
+          "title": "Hajj Package-3",
+          "image": "/seasons/2026/packages/kmm3.webp",
+          "description": "Hajj Package-3, 17 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4212-4",
+          "title": "Hajj Package-4",
+          "image": "/seasons/2026/packages/kmm4.webp",
+          "description": "Hajj Package-4, 14 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4152,
+      "name": "AL RASHEDIN HAJJ & UMRAH SERVCES (PVT) LTD.",
+      "slug": "al-rashedin-hajj-umrah-servces-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/rashidien.webp",
+      "shortName": "RASHEDIN",
+      "contactPerson": "Mr. Ibrahim Usman",
+      "address": "Shop No. 5, Khulfa-e-Rashedin Masjid, Tayab Ali Alvi Road, Memon Society, Karachi",
+      "contactNumber": "+92 21 3888 8011",
+      "email": "kr_hajjgroup@hotmail.com",
+      "website": "https://www.alrashedin.com",
+      "dtsLicenceNo": "3048",
+      "iataNo": "27-3-10253",
+      "packageBrochures": [
+        {
+          "id": "pkg-4152-1",
+          "title": "Standard Long Package",
+          "image": "/seasons/2026/packages/rashedin1.webp",
+          "description": "Long Package 30 - 32 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4152-2",
+          "title": "Standard Short Package-1",
+          "image": "/seasons/2026/packages/rashedin2.webp",
+          "description": "Long Package 16 - 17 Days Stay, Maktab D"
+        },
+        {
+          "id": "pkg-4152-3",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/rashedin3.webp",
+          "description": "Short Package-2 14 - 15 Days Stay, Maktab D"
+        }
+      ]
+    },
+    {
+      "enrl": 4378,
+      "name": "KARWAN E MALIK (PVT) LTD.",
+      "slug": "karwan-e-malik-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/malik.webp",
+      "shortName": "MALIK",
+      "contactPerson": "Mr. Akbar Malik",
+      "address": "Shop No. 24, Iqbal Market, Near Habib Cold Storage, Soldier Bazar, Karachi",
+      "contactNumber": "+92 323 2455224",
+      "email": "khilji33@gmail.com",
+      "website": "https://www.karwan-e-malik.com",
+      "dtsLicenceNo": "2744",
+      "iataNo": "27-3-17010",
+      "packageBrochures": [
+        {
+          "id": "pkg-4378-1",
+          "title": "Standard Short Package",
+          "image": "/seasons/2026/packages/malik.webp",
+          "description": "Short Hajj Package, 17-18 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4268,
+      "name": "NEW INTL KARWAN E ARFAT (PVT) LTD.",
+      "slug": "new-intl-karwan-e-arfat-pvt-ltd",
+      "pilgrims": 66,
+      "logo": "/seasons/2026/partners/arfat.webp",
+      "shortName": "ARFAT",
+      "contactPerson": "Mr. Yahya Memon Punjani",
+      "address": "No. 3, Shams Arcade, Risala Road, Gari Khata, Hyderabad",
+      "contactNumber": "+92 22 278 2447",
+      "email": "karwan_e_arfat@yahoo.com",
+      "website": "https://www.karwanearfat.com",
+      "dtsLicenceNo": "2905",
+      "iataNo": "27-3-11200",
+      "packageBrochures": [
+        {
+          "id": "pkg-4268-1",
+          "title": "Standard Long Pakcage-1",
+          "image": "/seasons/2026/packages/arfat1.webp",
+          "description": "Long Package-1, 30-32 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4268-2",
+          "title": "Standard Short Pakcage-2",
+          "image": "/seasons/2026/packages/arfat1.webp",
+          "description": "Short Package-2, 17 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4268-3",
+          "title": "Standard Short Pakcage-3",
+          "image": "/seasons/2026/packages/arfat1.webp",
+          "description": "Short Package-3, 14 Days Stay, Maktab-D"
+        }
+      ]
+    },
+    {
+      "enrl": 4393,
+      "name": "KARWAN E MEEZAB REHMAN (PVT) LTD.",
+      "slug": "karwan-e-meezab-rehman-pvt-ltd",
+      "pilgrims": 32,
+      "logo": "/seasons/2026/partners/KMeezab.webp",
+      "shortName": "MEEZAB",
+      "contactPerson": "-",
+      "address": "B-58, Gulshan-e-Iqbal, Block-6, Karachi",
+      "contactNumber": "+92 30 2123 2297 ",
+      "email": "meezab-e-rehman@hotmail.com",
+      "website": "-",
+      "dtsLicenceNo": "-",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4393-1",
+          "title": "Standard Short Pakcage-1",
+          "image": "/seasons/2026/packages/meezab1.webp",
+          "description": "Short Package-1 21-22 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4393-2",
+          "title": "Standard Short Pakcage-2",
+          "image": "/seasons/2026/packages/meezab2.webp",
+          "description": "Short Package-2 16-17 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4393-3",
+          "title": "Standard Short Pakcage-3",
+          "image": "/seasons/2026/packages/meezab3.webp",
+          "description": "Short Package-3 12-13 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4193,
+      "name": "KARWAN E AMJADIA HAJJ & UMRAH SERVICES (PVT) LTD.",
+      "slug": "karwan-e-amjadia-hajj-umrah-services-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/karwan.webp",
+      "shortName": "AMJADIA",
+      "contactPerson": "Mr. Muhammad Faisal",
+      "address": "Shop # 3-A, Al-Jaffar Square, Opp. Aaj Tv, Guru Mandir, Karachi",
+      "contactNumber": "+92 21 ",
+      "email": "karwan_e_amjadia@hotmail.com",
+      "website": "https://karwaneamjadia.com",
+      "dtsLicenceNo": "3074",
+      "iataNo": "27-3-12084",
+      "packageBrochures": [
+        {
+          "id": "pkg-4193-1",
+          "title": "Stadard Long Package-1",
+          "image": "/seasons/2026/packages/amjadia1.webp",
+          "description": "Long Package-1, 30-32 Days Stay, Maktab-D Plus"
+        },
+        {
+          "id": "pkg-4193-2",
+          "title": "Stadard Short Package-2",
+          "image": "/seasons/2026/packages/amjadia2.webp",
+          "description": "Short Package-2, 17 Days Stay, Maktab-D Plus"
+        },
+        {
+          "id": "pkg-4193-3",
+          "title": "Stadard Short Package-3",
+          "image": "/seasons/2026/packages/amjadia3.webp",
+          "description": "Short Package-3, 14 Days Stay, Maktab-D Plus"
+        }
+      ]
+    },
+    {
+      "enrl": 4218,
+      "name": "MUAWIN UL HUJJAJ (PVT) LTD.",
+      "slug": "muawin-ul-hujjaj-pvt-ltd",
+      "pilgrims": 90,
+      "logo": "/seasons/2026/partners/muawin.webp",
+      "shortName": "MUAWIN",
+      "contactPerson": "Mr. Raja Akhter Abbas",
+      "address": "SM-13, Al-Kamran Centre, 7/A, Block-6, P.E.C.H.S. Shahrah-e-Faisal, Karachi",
+      "contactNumber": "+92 21 3453 8307",
+      "email": "muawin4218@hotmail.com",
+      "website": "https://www.muawinulhujjaj.com",
+      "dtsLicenceNo": "2922",
+      "iataNo": "27-3-10146",
+      "packageBrochures": [
+        {
+          "id": "pkg-4218-1",
+          "title": "Standard Long Package-1",
+          "image": "/seasons/2026/packages/muawin1.webp",
+          "description": "Long Hajj Package-1, 30-32 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4218-2",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/muawin2.webp",
+          "description": "Short Hajj Package-2, 17 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4218-3",
+          "title": "Standard Short Package-3",
+          "image": "/seasons/2026/packages/muawin3.webp",
+          "description": "Short Hajj Package-3, 14 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4218-4",
+          "title": "Standard Long Package-4",
+          "image": "/seasons/2026/packages/muawin4.webp",
+          "description": "Long Hajj Package-4, 35-36 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4218-5",
+          "title": "Standard Short Package-5",
+          "image": "/seasons/2026/packages/muawin5.webp",
+          "description": "Short Hajj Package-5, 22 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4218-6",
+          "title": "Standard Short Package-6",
+          "image": "/seasons/2026/packages/muawin6.webp",
+          "description": "Short Hajj Package-6, 14 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4201,
+      "name": "SAKHI WAHAB HAJJ COMPANY (PVT) LTD.",
+      "slug": "sakhi-wahab-hajj-company-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/sakhi.webp",
+      "shortName": "SAKHI WAHAB",
+      "contactPerson": "Mr.  Wahabuddin Shaikh",
+      "address": "S. No. 29, Liaquat Shopping Centre, Opp. Gymkhana, Thandi Sarak, Hyderabad, Pakistan",
+      "contactNumber": "+92 22 2787225",
+      "email": "sakhiwahabtravels@hotmail.com",
+      "website": "https://www.sakhiwahabhajj.com",
+      "dtsLicenceNo": "2698",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4201-1",
+          "title": "30/32 Days Package-1",
+          "image": "/seasons/2026/packages/sakhi1.webp",
+          "description": "30/32 Days Stay Package, Maktab-D"
+        },
+        {
+          "id": "pkg-4201-2",
+          "title": "17/18 Days Package-1",
+          "image": "/seasons/2026/packages/sakhi2.webp",
+          "description": "17/18 Days Stay Package, Maktab-D"
+        },
+        {
+          "id": "pkg-4201-3",
+          "title": "30/32 Days Package-2",
+          "image": "/seasons/2026/packages/sakhi3.webp",
+          "description": "30/32 Days Stay Package, Maktab-B"
+        },
+        {
+          "id": "pkg-4201-4",
+          "title": "17/18 Days Package-2",
+          "image": "/seasons/2026/packages/sakhi4.webp",
+          "description": "17/18 Days Stay Package, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4126,
+      "name": "AL MOAZZIN HAJJ & UMRAH SERVICES (PVT) LTD.",
+      "slug": "al-moazzin-hajj-umrah-services-pvt-ltd",
+      "pilgrims": 147,
+      "logo": "/seasons/2026/partners/moazzin.webp",
+      "shortName": "MOAZZIN",
+      "contactPerson": "Mr. Syed Haji Allah Rakha",
+      "address": "Plot No. 104, Office No. 407, Indigo Business Centre, B.Y.J.C.H.S/, Karachi",
+      "contactNumber": "+92 21 3414 2288",
+      "email": "almoazzin2405@gmail.com",
+      "website": "https://www.almoazzin.com",
+      "dtsLicenceNo": "2405",
+      "iataNo": "27-3-08724",
+      "packageBrochures": [
+        {
+          "id": "pkg-4126-1",
+          "title": "Golden Package",
+          "image": "/seasons/2026/packages/moazzin1.webp",
+          "description": "Golden Package, 32 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4126-2",
+          "title": "Silver Package",
+          "image": "/seasons/2026/packages/moazzin2.webp",
+          "description": "Silver Package, 28 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4126-3",
+          "title": "Standard Package",
+          "image": "/seasons/2026/packages/moazzin3.webp",
+          "description": "Standard Package, 20 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4126-4",
+          "title": "Diamond Package",
+          "image": "/seasons/2026/packages/moazzin4.webp",
+          "description": "Diamond Package, 17 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4126-5",
+          "title": "Short Package",
+          "image": "/seasons/2026/packages/moazzin5.webp",
+          "description": "Short Package, 14 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4154,
+      "name": "KARWAN E RFIQUL HARMAIN (PVT) LTD.",
+      "slug": "karwan-e-rfiqul-harmain-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/rafeeq.webp",
+      "shortName": "RAFIQUL HARMAIN",
+      "contactPerson": "-",
+      "address": "Office No. 103, Iconic Trade Centre, Bahadurabad, Karachi",
+      "contactNumber": "+92 21 3485 7005",
+      "email": "rafiqulharmain1@hotmail.com",
+      "website": "-",
+      "dtsLicenceNo": "2267",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4154-1",
+          "title": "Standard Hajj Pakcage-2",
+          "image": "/seasons/2026/packages/rafiq1.webp",
+          "description": "Hajj Package-2, 28 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4154-2",
+          "title": "Standard Hajj Pakcage-3",
+          "image": "/seasons/2026/packages/rafiq2.webp",
+          "description": "Short Hajj Package-3, 17 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4154-3",
+          "title": "Standard Hajj Pakcage-6",
+          "image": "/seasons/2026/packages/rafiq3.webp",
+          "description": "Short Hajj Package-6, 23 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4140,
+      "name": "KARWAN E AHL E SUNNAT TRAVELS & TOURS (PVT) LTD.",
+      "slug": "karwan-e-ahl-e-sunnat-travels-tours-pvt-ltd",
+      "pilgrims": 90,
+      "logo": "/seasons/2026/partners/ahlesunnat.webp",
+      "shortName": "AHL E SUNNAT",
+      "contactPerson": "-",
+      "address": "Mona Square, Ground Floor, Suit No. 1, Jehangir Sethna Road, Garden, Karachi",
+      "contactNumber": "+92 21 3412 6838",
+      "email": "karwane_sunnat@yahoo.com",
+      "website": "https://www.karwaneahlesunnat.com.pk",
+      "dtsLicenceNo": "3197",
+      "iataNo": "27-3-13123",
+      "packageBrochures": [
+        {
+          "id": "pkg-4140-1",
+          "title": "Standard Long Package-1",
+          "image": "/seasons/2026/packages/sunnat1.webp",
+          "description": "Long Hajj Package-1, 35-40 Days Stay, Maktab-B"
+        },
+        {
+          "id": "pkg-4140-2",
+          "title": "Standard Short Package-2",
+          "image": "/seasons/2026/packages/sunnat2.webp",
+          "description": "Short Hajj Package-2, 15-20 Days Stay, Maktab-B"
+        }
+      ]
+    },
+    {
+      "enrl": 4127,
+      "name": "KARWAN-E-RAMZANI (PVT) LTD.",
+      "slug": "karwan-e-ramzani-pvt-ltd",
+      "pilgrims": 80,
+      "logo": "/seasons/2026/partners/karramzani.webp",
+      "shortName": "KARWAN-E-RAMZANI",
+      "contactPerson": "Malik Muhammad Nadeem Ramzani",
+      "address": "Plot No. R-446-447, Sector 1-A, Lines Area, Karachi",
+      "contactNumber": "+92 21 3279 0379",
+      "email": "ramzani4@hotmail.com",
+      "website": "https://www.karwaneramzani.com",
+      "dtsLicenceNo": "2993",
+      "iataNo": "27-3-13053",
+      "packageBrochures": [
+        {
+          "id": "pkg-4127-2",
+          "title": "Short Package-1",
+          "image": "/seasons/2026/packages/kramzani2.webp",
+          "description": "Short Package-1, 17-18 Days Stay, Maktab D & B"
+        },
+        {
+          "id": "pkg-4127-3",
+          "title": "Short Package-2",
+          "image": "/seasons/2026/packages/kramzani3.webp",
+          "description": "Short Package-2, 21-22 Days Stay, Maktab D & B"
+        },
+        {
+          "id": "pkg-4127-4",
+          "title": "Short Package-3",
+          "image": "/seasons/2026/packages/kramzani4.webp",
+          "description": "Short Package-3, 17-18 Days Stay, Maktab D & B"
+        },
+        {
+          "id": "pkg-4127-5",
+          "title": "Short Package-4",
+          "image": "/seasons/2026/packages/kramzani5.webp",
+          "description": "Short Package-4, 17-18 Days Stay, Maktab D & B"
+        },
+        {
+          "id": "pkg-4127-1",
+          "title": "Long Package-5",
+          "image": "/seasons/2026/packages/kramzani1.webp",
+          "description": "Long Package-5, 32-33 Days Stay, Maktab-D & B"
+        }
+      ]
+    },
+    {
+      "enrl": 4128,
+      "name": "MAJMU-E-RAMZANI (PVT) LTD.",
+      "slug": "majmu-e-ramzani-pvt-ltd",
+      "pilgrims": 147,
+      "logo": "/seasons/2026/partners/majramzani.webp",
+      "shortName": "MAJMU-E-RAMZANI",
+      "contactPerson": "Mr. Malik Muhammad Sohail Ramzani",
+      "address": "Suit No. 1/1, Block-H, Jacob Line, Lines Area, Karachi",
+      "contactNumber": "+92 21 3279 0378",
+      "email": "ramzani2@hotmail.com",
+      "website": "-",
+      "dtsLicenceNo": "-",
+      "iataNo": "-",
+      "packageBrochures": [
+        {
+          "id": "pkg-4128-1",
+          "title": "Hajj 2026 Packages",
+          "image": "/seasons/2026/packages/mramzani.webp",
+          "description": "Short Package, 14-16 Days | Long Package 28-32 Days | Maktab-D"
+        }
+      ]
+    },
+    {
+      "enrl": 4272,
+      "name": "KARWAN-E-REHMANI TOURS AND TRAVELS (PVT) LTD.",
+      "slug": "karwan-e-rehmani-tours-and-travels-pvt-ltd",
+      "pilgrims": 63,
+      "logo": "/seasons/2026/partners/rehmani.webp",
+      "shortName": "KARWAN-E-REHMANI",
+      "contactPerson": "-",
+      "address": "Suite No 1 Nara Heights Buisness Recorder Road Gurumandir, Karachi",
+      "contactNumber": "+92 21 3485 3808",
+      "email": "karwanerehmani@yahoo.com",
+      "website": "www.karwanerehmani.net",
+      "dtsLicenceNo": "2313",
+      "iataNo": "27-3-10286",
+      "packageBrochures": [
+        {
+          "id": "pkg-4272-1",
+          "title": "Standard Hajj Package-1",
+          "image": "/seasons/2026/packages/rehmani1.webp",
+          "description": "Short Hajj Package-1, 21-22 Days Stay, Maktab-D"
+        },
+        {
+          "id": "pkg-4272-2",
+          "title": "Standard Hajj Package-2",
+          "image": "/seasons/2026/packages/rehmani2.webp",
+          "description": "Short Hajj Package-2, 17-18 Days Stay, Maktab-D"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Hajj 2026 DHC Partners and Packages | As Salam Munazzam",
+    "description": "View Hajj 2026 season DHC information, pilgrim allocations and packages from As Salam Munazzam.",
+    "pages": {
+      "home": {
+        "title": "Hajj 2026 Season | As Salam Munazzam",
+        "description": "Explore the Hajj 2026 season, DHC partners and pilgrim allocations from As Salam Munazzam."
+      },
+      "partners": {
+        "title": "Hajj 2026 DHC Partners | As Salam Munazzam",
+        "description": "View Hajj 2026 Dependent Hajj Companies, pilgrim allocations and partner details."
+      },
+      "packages": {
+        "title": "Hajj 2026 Packages | As Salam Munazzam",
+        "description": "Compare Hajj 2026 package offers and brochures from As Salam Munazzam partner companies."
+      },
+      "notifications": {
+        "title": "Hajj 2026 Notifications | As Salam Munazzam",
+        "description": "View official Hajj 2026 letters, policy documents and season notifications."
+      }
+    }
+  },
+  "notifications": [
+    {
+      "id": 1,
+      "title": "MORA Approval Letter - Page 1",
+      "description": "Official recognition letter from Ministry of Religious Affairs for Hajj 2026 operations",
+      "image": "/seasons/2026/notifications/morap1.jpg",
+      "type": "official",
+      "source": "Ministry of Religious Affairs",
+      "date": "2024-12-15",
+      "category": "Recognition Letter"
+    },
+    {
+      "id": 2,
+      "title": "MORA Approval Letter - Page 2",
+      "description": "Continuation of official recognition letter of Ministry of Religious Affairs for Hajj 2026",
+      "image": "/seasons/2026/notifications/morap2.jpg",
+      "type": "official",
+      "source": "Ministry of Religious Affairs",
+      "date": "2024-12-15",
+      "category": "Recognition Letter"
+    },
+    {
+      "id": 3,
+      "title": "Hajj Policy Guidelines 2026",
+      "description": "Comprehensive guidelines and policies for Hajj 2026 operations",
+      "image": "",
+      "type": "guideline",
+      "source": "MORA Policy Division",
+      "date": "2024-11-20",
+      "category": "Policy"
+    },
+    {
+      "id": 4,
+      "title": "Operator Certification",
+      "description": "Certification document for approved Hajj operators",
+      "image": "",
+      "type": "certificate",
+      "source": "Hajj Regulatory Authority",
+      "date": "2024-12-10",
+      "category": "Certification"
+    }
+  ],
+  "allocationsConfirmed": true
+}

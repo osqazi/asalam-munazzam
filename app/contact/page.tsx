@@ -4,7 +4,7 @@ import ContactClient from "./ContactClient";
 export const metadata: Metadata = {
   title: "Contact Us | As Salam Munazzam (Private) Limited",
   description:
-    "Get in touch with As Salam Munazzam (Private) Limited for Hajj 2026, Umrah, or partnership inquiries. Our team is available to guide you with expert support and consultation.",
+    "Get in touch with As Salam Munazzam (Private) Limited for Hajj, Umrah, or partnership inquiries. Our team is available to guide you with expert support and consultation.",
   openGraph: {
     title: "Contact Us | As Salam Munazzam (Private) Limited",
     description:

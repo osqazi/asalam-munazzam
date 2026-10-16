@@ -9,9 +9,10 @@ import {
   Heart,
   Calendar,
 } from "lucide-react";
-import CertificateSection from "./CertificateSection";
+import type { Partner } from "@/types/partners";
 
-export default function HomeSection() {
+export default function HomeSection({ partners, year }: { partners: Partner[]; year: number }) {
+  const totalPilgrims = partners.reduce((total, partner) => total + partner.pilgrims, 0);
   const stats = [
     {
       icon: <Shield className="w-8 h-8" />,
@@ -21,15 +22,15 @@ export default function HomeSection() {
     },
     {
       icon: <Users className="w-8 h-8" />,
-      value: "35+",
+      value: String(partners.length),
       label: "Trusted Partners",
       description: "Dependent Hajj Companies",
     },
     {
       icon: <Heart className="w-8 h-8" />,
-      value: "2,407",
-      label: "Pilgrims to Serve",
-      description: "Blessed Journeys Completed",
+      value: totalPilgrims.toLocaleString(),
+      label: "Allocated Pilgrims",
+      description: `Hajj ${year} season allocation`,
     },
     {
       icon: <Award className="w-8 h-8" />,
@@ -89,12 +90,12 @@ export default function HomeSection() {
       <div className="max-w-7xl mx-auto">
         {/* Header Section with SEO Optimization */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-6xl font-bold text-green-800 mb-6 leading-tight">
+          <h2 className="text-4xl md:text-6xl font-bold text-green-800 mb-6 leading-tight">
             As Salam Munazzam
             <span className="block text-2xl md:text-3xl text-emerald-600 mt-2 font-light">
               (Private) Limited
             </span>
-          </h1>
+          </h2>
           <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
             Your Trusted Partner for Spiritual Journeys to the Holy Lands -
             Making Hajj & Umrah Experiences Memorable Since Inception
@@ -123,7 +124,7 @@ export default function HomeSection() {
             </div>
           ))}
         </div>
-        <CertificateSection/>
+        <div className="mb-10 rounded-xl bg-green-50 p-4 text-center text-green-900"><strong>Hajj {year} season</strong> · {partners.length} listed DHCs · {totalPilgrims.toLocaleString()} allocated pilgrims</div>
 
         {/* Quick Links Grid */}
         <div className="mb-16">
@@ -157,8 +158,8 @@ export default function HomeSection() {
             Ready for Your Spiritual Journey?
           </h2>
           <p className="text-xl mb-6 opacity-90 max-w-2xl mx-auto">
-            Join thousands of satisfied pilgrims who have trusted As Salam
-            Munazzam for their Hajj and Umrah journeys.
+            Explore the current season's partner companies, allocations, and
+            package information from As Salam Munazzam.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

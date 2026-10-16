@@ -1,103 +1,22 @@
-// import Image from 'next/image';
-// import Header from '../app/components/Header';
-// import RightToLeftMarquee from './components/LeftToRight';
-// import LeftToRightMarquee from './components/RightToLeft';
-// import hero from '@/public/hero.jpg'
-// import HomeSection from './components/HomeSection';
-
-// export default function Home() {
-//   return (
-//     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50">
-//       {/* Header */}
-//       <Header />
-//       {/* <div>
-//         <Partners/>
-//       </div> */}
-// <div className='pt-12'>
-//   <div className="text-center mb-4">
-//         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-//              Our Trusted Dependent Hajj Companies (DHCs)
-//            </h2>
-//            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-//              Cluster of leading organizations to provide you with the best Hajj experience
-//            </p>
-//          </div>
-//   <RightToLeftMarquee />
-
-//   <LeftToRightMarquee />
-// </div>
-// <div className='py-8'>
-//   <div className='h-auto py-4 bg-amber-400 text-center text-white md:flex md:justify-center md:items-center md:gap-10'>
-//     <p className='text-3xl md:text-4xl font-bold mb-2 md:mb-0'>
-//       HAJJ 2026
-//     </p>
-//     <p className='text-2xl md:text-4xl font-bold'>
-//       حج ۱۴۴۷ ہجری
-//     </p>
-//   </div>
-//   <div className='relative w-full'>
-//     <Image 
-//       src={hero}
-//       alt='Hajj 2026 - حج ۱۴۴۷ ہجری'
-//       className='w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover'
-//       priority // For above-the-fold images
-//     />
-//   </div>
-// </div>
-// <HomeSection/>
-      
-      
-//     </div>
-//   );
-// }
-
 import Image from "next/image";
 import RightToLeftMarquee from "./components/LeftToRight";
 import LeftToRightMarquee from "./components/RightToLeft";
 import hero from "@/public/hero.jpg";
 import HomeSection from "./components/HomeSection";
+import { getSeason } from "@/lib/seasons";
+import { SeasonNotice } from "@/app/components/SeasonPicker";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "As Salam Munazzam (Pvt) Ltd – Official Hajj 2026 Packages",
-  description:
-    "Explore official Hajj 2026 packages from As Salam Munazzam (Pvt) Ltd and its 35 Dependent Hajj Companies (DHCs), approved by the Ministry of Religious Affairs Pakistan. Find economy to premium packages for a memorable spiritual journey.",
-  keywords: [
-    "Hajj 2026 Pakistan",
-    "As Salam Munazzam",
-    "Hajj packages 2026",
-    "Umrah and Hajj travel Pakistan",
-    "Dependent Hajj Companies",
-    "MORA approved Hajj operators",
-  ],
-  openGraph: {
-    title: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
-    description:
-      "Official portal of As Salam Munazzam (Pvt) Ltd representing 35 Dependent Hajj Companies for Hajj 2026 approved by MORA Pakistan.",
-    url: "https://www.assalammunazzam.com.pk",
-    siteName: "As Salam Munazzam (Pvt) Ltd",
-    images: [
-      {
-        url: "https://www.assalammunazzam.com.pk/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Hajj 2026 Packages – As Salam Munazzam (Pvt) Ltd",
-      },
-    ],
-    type: "website",
-    locale: "en_PK",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
-    description:
-      "Explore official Hajj 2026 packages from 35 trusted Dependent Hajj Companies under As Salam Munazzam (Private) Limited",
-    images: ["https://www.assalammunazzam.com.pk/og-image.jpg"],
-  },
-};
+export async function generateMetadata({searchParams}:{searchParams:Promise<{year?:string}>}):Promise<Metadata>{
+  const q=await searchParams;const season=await getSeason(q.year);const title=season.seo.pages?.home?.title||`As Salam Munazzam | Hajj ${season.year} Partners and Packages`;const description=season.seo.pages?.home?.description||`View Hajj ${season.year} season information and partner allocations from As Salam Munazzam.`;const url=`https://www.assalammunazzam.com.pk/?year=${season.year}`;
+  return {title,description,alternates:{canonical:url},openGraph:{title,description,url,siteName:"As Salam Munazzam (Pvt) Ltd",images:[{url:"https://www.assalammunazzam.com.pk/og-image.png",width:1200,height:630,alt:title}],type:"website",locale:"en_PK"},twitter:{card:"summary_large_image",title,description,images:["https://www.assalammunazzam.com.pk/og-image.png"]}};
+}
 
-export default function Home() {
+export default async function Home({searchParams}:{searchParams:Promise<{year?:string}>}) {
+  const q=await searchParams;const season=await getSeason(q.year);
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50">
+      <SeasonNotice message={season.allocationsConfirmed===false?`Hajj ${season.year} allocations were copied from ${season.copiedFrom} as a starting point and still need confirmation.`:undefined}/>
       {/* Hero and Marquees */}
       <div className="pt-16">
         <div className="text-center mb-4">
@@ -108,20 +27,20 @@ export default function Home() {
             Cluster of leading organizations to provide you with the best Hajj experience
           </p>
         </div>
-        <RightToLeftMarquee />
-        <LeftToRightMarquee />
+        <RightToLeftMarquee partnersData={season.partners} />
+        <LeftToRightMarquee partnersData={season.partners} />
       </div>
 
       {/* Hero Image Section */}
       <div className="py-8">
         <div className="h-auto py-4 bg-gradient-to-b from-amber-400 to-amber-500 shadow-xl border-t border-amber-400 text-center text-white md:flex md:justify-center md:items-center md:gap-10">
-          <p className="text-3xl md:text-4xl font-bold mb-2 md:mb-0">HAJJ 2026</p>
-          <p className="text-2xl md:text-4xl font-bold">حج ۱۴۴۷ ہجری</p>
+          <p className="text-3xl md:text-4xl font-bold mb-2 md:mb-0">HAJJ {season.year}</p>
+          <p className="text-2xl md:text-4xl font-bold">حج {String(season.year - 579).replace(/[0-9]/g, digit => "٠١٢٣٤٥٦٧٨٩"[Number(digit)])} ہجری</p>
         </div>
         <div className="relative w-full">
           <Image
             src={hero}
-            alt="Hajj 2026 – حج ۱۴۴۷ ہجری"
+            alt={`Hajj ${season.year} – Kaaba and holy sites`}
             className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover"
             priority
           />
@@ -129,7 +48,7 @@ export default function Home() {
       </div>
 
       {/* Main Home Section */}
-      <HomeSection />
+      <HomeSection partners={season.partners} year={season.year} />
 
       {/* Structured Data for Home Page */}
       <script
@@ -140,12 +59,6 @@ export default function Home() {
             "@type": "WebSite",
             name: "As Salam Munazzam (Pvt) Ltd",
             url: "https://www.assalammunazzam.com.pk",
-            potentialAction: {
-              "@type": "SearchAction",
-              target:
-                "https://www.assalammunazzam.com.pk/search?query={search_term_string}",
-              "query-input": "required name=search_term_string",
-            },
           }),
         }}
       />

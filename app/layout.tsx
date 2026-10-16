@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { Analytics } from "@vercel/analytics/next";
+import { getPublicSeasonYears, getSeason } from "@/lib/seasons";
 
 config.autoAddCss = false;
 
@@ -18,57 +19,13 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
-    template: "%s | As Salam Munazzam (Pvt) Ltd",
+    default: "As Salam Munazzam (Pvt) Ltd | Hajj & Umrah Pakistan",
+    template: "%s",
   },
   description:
-    "As Salam Munazzam (Pvt) Ltd proudly represents 35 Dependent Hajj Companies (DHCs) offering premium Hajj 2026 packages approved by MORA Pakistan. Your trusted spiritual travel partner.",
-  applicationName: "As Salam Munazzam Hajj 2026",
-  keywords: [
-    "Hajj 2026 Pakistan",
-    "Hajj packages 2026",
-    "As Salam Munazzam",
-    "Private Hajj companies Pakistan",
-    "Umrah and Hajj packages",
-    "Munazzam",
-    "DHCs",
-    "PIRWANI HAJJ GROUP (PVT) LTD.",
-    "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD",
-    "AL TAYABA TRAVELS & TOURS (PVT) LTD",
-    "HUJAJ-AL-ANSAR HAJJ & UMRAH TOURS (PVT) LTD",
-    "AROMA TRAVEL SERVICES (PVT) LTD",
-    "AROMA AVIATION (PVT) LTD",
-    "AL SYED TRAVELS (PVT) LTD",
-    "KHIZER TRAVELS (PVT) LTD",
-    "CITI TRAVELS (PVT) LTD",
-    "SUPER TRAVELS (PVT) LTD",
-    "BUKHARI TOURS (PVT) LTD",
-    "BUKHARI ASSOCIATE (PVT) LTD",
-    "BUKHARI & SONS (PVT) LTD",
-    "TRAVEL SHOP (PVT) LTD HAJJ UNIRAII TRAVEL & TOUR SERVICES",
-    "FAIZAN E NOORI INTERNATIONAL (PVT) LTD.",
-    "RAZA E NOOR (PVT) LTD.",
-    "KARWAN E ZIA E NOORI INTERNATIONAL (PVT) LTD.",
-    "KARWAN E MUSTAFAI (PVT) LTD.",
-    "KARWAN E SURIYA HAJJ & UMRAH (PVT) LTD.",
-    "TAIR E HARAM INTERNATIONAL (PVT) LTD.",
-    "MOIN UL HUJJAJ HAJJ & UMRAH (PVT) LTD.",
-    "KARWAN E MAKKAH MADINA (PVT) LTD",
-    "AL RASHEDIN HAJJ & UMRAH SERVCES (PVT) LTD.",
-    "KARWAN E MALIK (PVT) LTD.",
-    "NEW INTL KARWAN E ARFAT (PVT) LTD.",
-    "KARWAN E MEEZAB REHMAN (PVT) LTD.",
-    "KARWAN E AMJADIA HAJJ & UMRAH SERVICES (PVT) LTD.",
-    "MUAWIN UL HUJJAJ (PVT) LTD.",
-    "SAKHI WAHAB HAJJ COMPANY (PVT) LTD.",
-    "AL MOAZZIN HAJJ & UMRAH SERVICES (PVT) LTD.",
-    "KARWAN E RFIQUL HARMAIN (PVT) LTD.",
-    "KARWAN E AHL E SUNNAT TRAVELS & TOURS (PVT) LTD.",
-    "KARWAN-E-RAMZANI (PVT) LTD.",
-    "MAJMU-E-RAMZANI (PVT) LTD.",
-    "KARWAN-E-REHMANI TOURS AND TRA",
-  ],
-  authors: [{ name: "MetaLog Inc.", url: "https://owais-qazi.vercel.app" }],
+    "As Salam Munazzam (Pvt) Ltd connects pilgrims with its Dependent Hajj Companies and Hajj season information in Pakistan.",
+  applicationName: "As Salam Munazzam",
+  authors: [{ name: "As Salam Munazzam (Private) Limited" }],
   creator: "As Salam Munazzam (Private) Limited",
   publisher: "As Salam Munazzam (Private) Limited",
   alternates: {
@@ -78,24 +35,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_PK",
     url: siteUrl,
-    title: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
+    title: "As Salam Munazzam (Pvt) Ltd – Hajj & Umrah Services",
     description:
-      "Explore premium Hajj 2026 packages from our 35 partner companies. Approved by MORA Pakistan.",
+      "Explore Hajj season information and partner companies from As Salam Munazzam.",
     siteName: "As Salam Munazzam (Pvt) Ltd",
     images: [
       {
         url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
+        alt: "As Salam Munazzam (Pvt) Ltd",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "As Salam Munazzam (Pvt) Ltd – Hajj 2026 Packages",
+    title: "As Salam Munazzam (Pvt) Ltd – Hajj & Umrah Services",
     description:
-      "Your trusted Hajj 2026 travel partner in Pakistan. Explore packages from our 35 partner companies.",
+      "Your trusted Hajj travel partner in Pakistan. Explore season information and partner companies.",
     images: [`${siteUrl}/og-image.png`],
   },
   icons: {
@@ -112,15 +69,16 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const [season, years] = await Promise.all([getSeason(), getPublicSeasonYears()]);
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
+        <Header year={season.year} years={years} />
         <main className="mt-56 md:mt-36">{children}</main>
         <Footer />
         <Analytics />
@@ -142,7 +100,7 @@ export default function RootLayout({
               contactPoint: {
                 "@type": "ContactPoint",
                 telephone: "+92-335-3221003",
-                contactType: "Developer",
+                contactType: "Customer Support",
                 areaServed: "PK",
                 availableLanguage: ["English", "Urdu"],
               },

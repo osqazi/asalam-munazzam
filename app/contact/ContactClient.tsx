@@ -27,7 +27,7 @@ export default function ContactClient() {
 
   const packageTypes = [
     { value: "general", label: "General Inquiry" },
-    { value: "hajj-2026", label: "Hajj 2026 Packages" },
+    { value: "hajj", label: "Hajj Packages" },
     { value: "umrah", label: "Umrah Packages" },
     { value: "group", label: "Group Pilgrimage" },
     { value: "vip", label: "VIP Services" },
