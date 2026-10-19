@@ -1,7 +1,7 @@
 {
   "year": 2027,
   "status": "published",
-  "lastModified": "2026-10-16T13:37:23.092Z",
+  "lastModified": "2026-10-19T17:54:32.006Z",
   "seo": {
     "title": "Hajj 2027 DHC Partners and Packages | As Salam Munazzam",
     "description": "View Hajj 2027 season DHC information, pilgrim allocations and packages from As Salam Munazzam.",
@@ -29,7 +29,7 @@
       "enrl": 4171,
       "name": "PIRWANI HAJJ GROUP (PVT) LTD.",
       "slug": "pirwani-hajj-group-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/pirwani.webp",
       "shortName": "PIRWANI",
       "contactPerson": "Mr. Yousuf Pirwani",
@@ -45,7 +45,7 @@
       "enrl": 2263,
       "name": "AL SAJIDEEN TRAVELS & TOURS (PVT) LTD",
       "slug": "al-sajideen-travels-tours-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/sajideen.webp",
       "shortName": "AL SAJIDEEN",
       "contactPerson": "Mr. Muhammad Iqbal",
@@ -55,13 +55,20 @@
       "website": "https://www.asjtravel.com",
       "dtsLicenceNo": "1101",
       "iataNo": "-",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-2263-1",
+          "title": "Hajj 2027 Package - 1",
+          "image": "/seasons/2027/packages/sajideen.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4151,
       "name": "AL TAYABA TRAVELS & TOURS (PVT) LTD",
       "slug": "al-tayaba-travels-tours-pvt-ltd",
-      "pilgrims": 90,
+      "pilgrims": 108,
       "logo": "/seasons/2027/partners/tayyaba.webp",
       "shortName": "AL TAYABA",
       "contactPerson": "Mr. Muhammad Ashfaq",
@@ -71,13 +78,26 @@
       "website": "https://www.altayaba.com",
       "dtsLicenceNo": "2492",
       "iataNo": "27-3-09903",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4151-1",
+          "title": "Hajj 2027 Package - 1",
+          "image": "/seasons/2027/packages/tayaba1.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4151-2",
+          "title": "Hajj 2027 Package - 2",
+          "image": "/seasons/2027/packages/tayaba2.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4153,
       "name": "HUJAJ-AL-ANSAR HAJJ & UMRAH TOURS (PVT) LTD",
       "slug": "hujaj-al-ansar-hajj-umrah-tours-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/hujajulansar.webp",
       "shortName": "HUJAJ-AL-ANSAR",
       "contactPerson": "-",
@@ -93,7 +113,7 @@
       "enrl": 4156,
       "name": "AROMA TRAVEL SERVICES (PVT) LTD",
       "slug": "aroma-travel-services-pvt-ltd",
-      "pilgrims": 176,
+      "pilgrims": 210,
       "logo": "/seasons/2027/partners/aroma.webp",
       "shortName": "AROMA TRAVEL",
       "contactPerson": "Mr. Nadeem Sharif",
@@ -109,7 +129,7 @@
       "enrl": 4337,
       "name": "AROMA AVIATION (PVT) LTD",
       "slug": "aroma-aviation-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/aviation.webp",
       "shortName": "AROMA AVIATION",
       "contactPerson": "Mr. Adil Naeem",
@@ -125,7 +145,7 @@
       "enrl": 4157,
       "name": "AL SYED TRAVELS (PVT) LTD",
       "slug": "al-syed-travels-pvt-ltd",
-      "pilgrims": 147,
+      "pilgrims": 175,
       "logo": "/seasons/2027/partners/alsyed.webp",
       "shortName": "AL SYED",
       "contactPerson": "Mr. Khurram Latif",
@@ -141,7 +161,7 @@
       "enrl": 4343,
       "name": "KHIZER TRAVELS (PVT) LTD",
       "slug": "khizer-travels-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/khizer.webp",
       "shortName": "KHIZER",
       "contactPerson": "Mr. Muhammad Modabbir Siddiqui",
@@ -157,7 +177,7 @@
       "enrl": 4330,
       "name": "CITI TRAVELS (PVT) LTD",
       "slug": "citi-travels-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/citi.webp",
       "shortName": "CITI",
       "contactPerson": "Mr. Tafseer ul Islam",
@@ -173,7 +193,7 @@
       "enrl": 4327,
       "name": "SUPER TRAVELS (PVT) LTD",
       "slug": "super-travels-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/super.webp",
       "shortName": "SUPER",
       "contactPerson": "Mr. Jameel A. Sakrani",
@@ -189,7 +209,7 @@
       "enrl": 4291,
       "name": "BUKHARI TOURS (PVT) LTD",
       "slug": "bukhari-tours-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/buktour.webp",
       "shortName": "BUKHARI TOURS",
       "contactPerson": "-",
@@ -205,7 +225,7 @@
       "enrl": 4307,
       "name": "BUKHARI ASSOCIATE (PVT) LTD",
       "slug": "bukhari-associate-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/bukasso.webp",
       "shortName": "BUKHARI ASSOCIATE",
       "contactPerson": "-",
@@ -221,7 +241,7 @@
       "enrl": 4306,
       "name": "BUKHARI & SONS (PVT) LTD",
       "slug": "bukhari-sons-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/buksons.webp",
       "shortName": "BUKHARI & SONS",
       "contactPerson": "-",
@@ -237,7 +257,7 @@
       "enrl": 3313,
       "name": "TRAVEL SHOP (PVT) LTD.",
       "slug": "travel-shop-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/travshop.webp",
       "shortName": "TRAVEL SHOP",
       "contactPerson": "Mr. Ashfaq Ahmed Mirza",
@@ -253,7 +273,7 @@
       "enrl": 4168,
       "name": "FAIZAN E NOORI INTERNATIONAL (PVT) LTD.",
       "slug": "faizan-e-noori-international-pvt-ltd",
-      "pilgrims": 75,
+      "pilgrims": 90,
       "logo": "/seasons/2027/partners/FaizanNoori.webp",
       "shortName": "FAIZAN E NOORI",
       "contactPerson": "-",
@@ -269,7 +289,7 @@
       "enrl": 4325,
       "name": "RAZA E NOOR (PVT) LTD.",
       "slug": "raza-e-noor-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/razanoor.webp",
       "shortName": "RAZA E NOOR",
       "contactPerson": "-",
@@ -285,7 +305,7 @@
       "enrl": 4365,
       "name": "KARWAN E ZIA E NOORI INTERNATIONAL (PVT) LTD.",
       "slug": "karwan-e-zia-e-noori-international-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/ziaenoori.webp",
       "shortName": "ZIA E NOORI",
       "contactPerson": "-",
@@ -301,7 +321,7 @@
       "enrl": 4219,
       "name": "KARWAN E MUSTAFAI (PVT) LTD.",
       "slug": "karwan-e-mustafai-pvt-ltd",
-      "pilgrims": 75,
+      "pilgrims": 90,
       "logo": "/seasons/2027/partners/mustafai.webp",
       "shortName": "MUSTAFAI",
       "contactPerson": "Mr. Faisal Qazi",
@@ -317,7 +337,7 @@
       "enrl": 4386,
       "name": "KARWAN E SURIYA HAJJ & UMRAH (PVT) LTD.",
       "slug": "karwan-e-suriya-hajj-umrah-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/suriya.webp",
       "shortName": "SURIYA",
       "contactPerson": "-",
@@ -333,7 +353,7 @@
       "enrl": 4210,
       "name": "TAIR E HARAM INTERNATIONAL (PVT) LTD.",
       "slug": "tair-e-haram-international-pvt-ltd",
-      "pilgrims": 90,
+      "pilgrims": 108,
       "logo": "/seasons/2027/partners/haram.webp",
       "shortName": "TAIR E HARAM",
       "contactPerson": "Mr. Muhammad Akhtar Qadri",
@@ -349,7 +369,7 @@
       "enrl": 4284,
       "name": "MOIN UL HAJJAJ HAJJ & UMRAH (PVT) LTD.",
       "slug": "moin-ul-hajjaj-hajj-umrah-pvt-ltd",
-      "pilgrims": 63,
+      "pilgrims": 75,
       "logo": "/seasons/2027/partners/moin.webp",
       "shortName": "MOIN UL HAJJAJ",
       "contactPerson": "Syed Rasheed Uddin (CEO)",
@@ -365,7 +385,7 @@
       "enrl": 4212,
       "name": "KARWAN E MAKKAH MADINA (PVT) LTD",
       "slug": "karwan-e-makkah-madina-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/kmm.webp",
       "shortName": "MAKKAH MADINA",
       "contactPerson": "Mr. Muhammad Asif Memon",
@@ -381,7 +401,7 @@
       "enrl": 4152,
       "name": "AL RASHEDIN HAJJ & UMRAH SERVCES (PVT) LTD.",
       "slug": "al-rashedin-hajj-umrah-servces-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/rashidien.webp",
       "shortName": "RASHEDIN",
       "contactPerson": "Mr. Ibrahim Usman",
@@ -397,7 +417,7 @@
       "enrl": 4378,
       "name": "KARWAN E MALIK (PVT) LTD.",
       "slug": "karwan-e-malik-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/malik.webp",
       "shortName": "MALIK",
       "contactPerson": "Mr. Akbar Malik",
@@ -413,7 +433,7 @@
       "enrl": 4268,
       "name": "NEW INTL KARWAN E ARFAT (PVT) LTD.",
       "slug": "new-intl-karwan-e-arfat-pvt-ltd",
-      "pilgrims": 66,
+      "pilgrims": 78,
       "logo": "/seasons/2027/partners/arfat.webp",
       "shortName": "ARFAT",
       "contactPerson": "Mr. Yahya Memon Punjani",
@@ -429,7 +449,7 @@
       "enrl": 4393,
       "name": "KARWAN E MEEZAB REHMAN (PVT) LTD.",
       "slug": "karwan-e-meezab-rehman-pvt-ltd",
-      "pilgrims": 32,
+      "pilgrims": 38,
       "logo": "/seasons/2027/partners/KMeezab.webp",
       "shortName": "MEEZAB",
       "contactPerson": "-",
@@ -445,7 +465,7 @@
       "enrl": 4193,
       "name": "KARWAN E AMJADIA HAJJ & UMRAH SERVICES (PVT) LTD.",
       "slug": "karwan-e-amjadia-hajj-umrah-services-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/karwan.webp",
       "shortName": "AMJADIA",
       "contactPerson": "Mr. Muhammad Faisal",
@@ -455,13 +475,32 @@
       "website": "https://karwaneamjadia.com",
       "dtsLicenceNo": "3074",
       "iataNo": "27-3-12084",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4193-1",
+          "title": "Hajj 2027 Package - 1",
+          "image": "/seasons/2027/packages/amjadia1.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4193-2",
+          "title": "Hajj 2027 Package - 2",
+          "image": "/seasons/2027/packages/amjadia2.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4193-3",
+          "title": "Hajj 2027 Package - 3",
+          "image": "/seasons/2027/packages/amjadia3.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4218,
       "name": "MUAWIN UL HUJJAJ (PVT) LTD.",
       "slug": "muawin-ul-hujjaj-pvt-ltd",
-      "pilgrims": 90,
+      "pilgrims": 108,
       "logo": "/seasons/2027/partners/muawin.webp",
       "shortName": "MUAWIN",
       "contactPerson": "Mr. Raja Akhter Abbas",
@@ -477,7 +516,7 @@
       "enrl": 4201,
       "name": "SAKHI WAHAB HAJJ COMPANY (PVT) LTD.",
       "slug": "sakhi-wahab-hajj-company-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/sakhi.webp",
       "shortName": "SAKHI WAHAB",
       "contactPerson": "Mr.  Wahabuddin Shaikh",
@@ -493,7 +532,7 @@
       "enrl": 4126,
       "name": "AL MOAZZIN HAJJ & UMRAH SERVICES (PVT) LTD.",
       "slug": "al-moazzin-hajj-umrah-services-pvt-ltd",
-      "pilgrims": 147,
+      "pilgrims": 175,
       "logo": "/seasons/2027/partners/moazzin.webp",
       "shortName": "MOAZZIN",
       "contactPerson": "Mr. Syed Haji Allah Rakha",
@@ -503,13 +542,56 @@
       "website": "https://www.almoazzin.com",
       "dtsLicenceNo": "2405",
       "iataNo": "27-3-08724",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4126-1",
+          "title": "Hajj 2027 Package - 1",
+          "image": "/seasons/2027/packages/moazzin1.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4126-2",
+          "title": "Hajj 2027 Package - 2",
+          "image": "/seasons/2027/packages/moazzin2.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4126-3",
+          "title": "Hajj 2027 Package - 3",
+          "image": "/seasons/2027/packages/moazzin3.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4126-4",
+          "title": "Hajj 2027 Package - 4",
+          "image": "/seasons/2027/packages/moazzin4.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4126-5",
+          "title": "Hajj 2027 Package - 5",
+          "image": "/seasons/2027/packages/moazzin5.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4126-6",
+          "title": "Hajj 2027 Package - 6",
+          "image": "/seasons/2027/packages/moazzin6.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4126-7",
+          "title": "Hajj 2027 Package - 7",
+          "image": "/seasons/2027/packages/moazzin7.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4154,
       "name": "KARWAN E RFIQUL HARMAIN (PVT) LTD.",
       "slug": "karwan-e-rfiqul-harmain-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/rafeeq.webp",
       "shortName": "RAFIQUL HARMAIN",
       "contactPerson": "-",
@@ -519,13 +601,38 @@
       "website": "-",
       "dtsLicenceNo": "2267",
       "iataNo": "-",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4154-1",
+          "title": "Hajj 2027 Package - 1",
+          "image": "/seasons/2027/packages/rafiq1.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4154-2",
+          "title": "Hajj 2027 Package - 2",
+          "image": "/seasons/2027/packages/rafiq2.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4154-3",
+          "title": "Hajj 2027 Package - 3",
+          "image": "/seasons/2027/packages/rafiq3.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4154-4",
+          "title": "Hajj 2027 Package - 4",
+          "image": "/seasons/2027/packages/rafiq4.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4140,
       "name": "KARWAN E AHL E SUNNAT TRAVELS & TOURS (PVT) LTD.",
       "slug": "karwan-e-ahl-e-sunnat-travels-tours-pvt-ltd",
-      "pilgrims": 90,
+      "pilgrims": 108,
       "logo": "/seasons/2027/partners/ahlesunnat.webp",
       "shortName": "AHL E SUNNAT",
       "contactPerson": "-",
@@ -535,13 +642,26 @@
       "website": "https://www.karwaneahlesunnat.com.pk",
       "dtsLicenceNo": "3197",
       "iataNo": "27-3-13123",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4140-1",
+          "title": "Hajj 2027 Package - 1",
+          "image": "/seasons/2027/packages/sunnat1.webp",
+          "description": ""
+        },
+        {
+          "id": "pkg-4140-2",
+          "title": "Hajj 2027 Package - 2",
+          "image": "/seasons/2027/packages/sunnat2.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4127,
       "name": "KARWAN-E-RAMZANI (PVT) LTD.",
       "slug": "karwan-e-ramzani-pvt-ltd",
-      "pilgrims": 80,
+      "pilgrims": 95,
       "logo": "/seasons/2027/partners/karramzani.webp",
       "shortName": "KARWAN-E-RAMZANI",
       "contactPerson": "Malik Muhammad Nadeem Ramzani",
@@ -557,7 +677,7 @@
       "enrl": 4128,
       "name": "MAJMU-E-RAMZANI (PVT) LTD.",
       "slug": "majmu-e-ramzani-pvt-ltd",
-      "pilgrims": 147,
+      "pilgrims": 175,
       "logo": "/seasons/2027/partners/majramzani.webp",
       "shortName": "MAJMU-E-RAMZANI",
       "contactPerson": "Mr. Malik Muhammad Sohail Ramzani",
@@ -573,7 +693,7 @@
       "enrl": 4272,
       "name": "KARWAN-E-REHMANI TOURS AND TRAVELS (PVT) LTD.",
       "slug": "karwan-e-rehmani-tours-and-travels-pvt-ltd",
-      "pilgrims": 63,
+      "pilgrims": 75,
       "logo": "/seasons/2027/partners/rehmani.webp",
       "shortName": "KARWAN-E-REHMANI",
       "contactPerson": "-",
@@ -587,6 +707,6 @@
     }
   ],
   "notifications": [],
-  "allocationsConfirmed": false,
+  "allocationsConfirmed": true,
   "copiedFrom": 2026
 }
