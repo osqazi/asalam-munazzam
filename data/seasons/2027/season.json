@@ -1,7 +1,7 @@
 {
   "year": 2027,
   "status": "published",
-  "lastModified": "2026-10-21T19:15:56.783Z",
+  "lastModified": "2026-10-24T17:53:01.921Z",
   "seo": {
     "title": "Hajj 2027 DHC Partners and Packages | As Salam Munazzam",
     "description": "View Hajj 2027 season DHC information, pilgrim allocations and packages from As Salam Munazzam.",
@@ -107,7 +107,26 @@
       "website": "https://www.hujajalansar.com",
       "dtsLicenceNo": "3030",
       "iataNo": "27-3-10404",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4153-1",
+          "title": "Long Hajj Pakg 05 - Maktab C",
+          "image": "/seasons/2027/packages/ansar1.webp",
+          "description": "30 Days Package."
+        },
+        {
+          "id": "pkg-4153-2",
+          "title": "Short Hajj Pakg 03 - Maktab C",
+          "image": "/seasons/2027/packages/ansar2.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4153-3",
+          "title": "Short Hajj Pakg 02 - Maktab C",
+          "image": "/seasons/2027/packages/ansar3.webp",
+          "description": "21/22 Days Package."
+        }
+      ]
     },
     {
       "enrl": 4156,
@@ -498,7 +517,38 @@
       "website": "https://www.moinulhajjaj.com",
       "dtsLicenceNo": "3169",
       "iataNo": "-",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4284-1",
+          "title": "Standard Hajj Pakg - Maktab C, Zone 5",
+          "image": "/seasons/2027/packages/moin1.webp",
+          "description": "30 Days Package."
+        },
+        {
+          "id": "pkg-4284-2",
+          "title": "Economy Hajj Pakg - Maktab C, Zone 5",
+          "image": "/seasons/2027/packages/moin2.webp",
+          "description": "22 Days Package."
+        },
+        {
+          "id": "pkg-4284-3",
+          "title": "Short Hajj Pakg 03",
+          "image": "/seasons/2027/packages/moin3.webp",
+          "description": "23 Days Package."
+        },
+        {
+          "id": "pkg-4284-4",
+          "title": "Short Hajj Pakg 02",
+          "image": "/seasons/2027/packages/moin4.webp",
+          "description": "17 Days Package."
+        },
+        {
+          "id": "pkg-4284-5",
+          "title": "Hajj Pakg 01",
+          "image": "/seasons/2027/packages/moin5.webp",
+          "description": "27/28 Days Package."
+        }
+      ]
     },
     {
       "enrl": 4212,
@@ -727,7 +777,32 @@
       "website": "https://www.sakhiwahabhajj.com",
       "dtsLicenceNo": "2698",
       "iataNo": "-",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4201-1",
+          "title": "Long Hajj Pakg - Maktab C",
+          "image": "/seasons/2027/packages/sakhi1.webp",
+          "description": "30/32 Days Package."
+        },
+        {
+          "id": "pkg-4201-2",
+          "title": "Short Hajj Pakg - Maktab C",
+          "image": "/seasons/2027/packages/sakhi2.webp",
+          "description": "14/15 Days Package."
+        },
+        {
+          "id": "pkg-4201-3",
+          "title": "Hajj Pakg - Maktab C",
+          "image": "/seasons/2027/packages/sakhi3.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4201-4",
+          "title": "Hajj Pakg - Maktab A",
+          "image": "/seasons/2027/packages/sakhi4.webp",
+          "description": "17/18 Days Package."
+        }
+      ]
     },
     {
       "enrl": 4126,
@@ -888,7 +963,14 @@
       "website": "-",
       "dtsLicenceNo": "-",
       "iataNo": "-",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4128-1",
+          "title": "Makkah & Madinah Pakgs - Maktab C, Zone 5",
+          "image": "/seasons/2027/packages/mramzani1.webp",
+          "description": "28–32 Days and 14–16 Days Packages."
+        }
+      ]
     },
     {
       "enrl": 4272,
@@ -904,7 +986,26 @@
       "website": "www.karwanerehmani.net",
       "dtsLicenceNo": "2313",
       "iataNo": "27-3-10286",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4272-1",
+          "title": "Long Hajj Pakg - Zone 5",
+          "image": "/seasons/2027/packages/rehmani1.webp",
+          "description": "28/29 Days Package."
+        },
+        {
+          "id": "pkg-4272-2",
+          "title": "Makkah, Azizia & Madinah Pakg - Zone 5",
+          "image": "/seasons/2027/packages/rehmani2.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4272-3",
+          "title": "Azizia & Madinah Pakg - Zone 5",
+          "image": "/seasons/2027/packages/rehmani3.webp",
+          "description": "17/18 Days Package."
+        }
+      ]
     }
   ],
   "notifications": [],
