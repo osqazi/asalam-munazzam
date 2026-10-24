@@ -1,7 +1,7 @@
 {
   "year": 2027,
   "status": "published",
-  "lastModified": "2026-10-24T17:53:01.921Z",
+  "lastModified": "2026-10-24T19:08:04.796Z",
   "seo": {
     "title": "Hajj 2027 DHC Partners and Packages | As Salam Munazzam",
     "description": "View Hajj 2027 season DHC information, pilgrim allocations and packages from As Salam Munazzam.",
@@ -142,7 +142,50 @@
       "website": "https://www.aromatravel.com",
       "dtsLicenceNo": "1108",
       "iataNo": "27-3-00125",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4156-1",
+          "title": "Gold Makkah First - Maktab A",
+          "image": "/seasons/2027/packages/aroma1.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4156-2",
+          "title": "Gold Madinah First - Maktab A",
+          "image": "/seasons/2027/packages/aroma2.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4156-3",
+          "title": "Silver Makkah - Maktab A",
+          "image": "/seasons/2027/packages/aroma3.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4156-4",
+          "title": "Gold Azizia - Maktab A",
+          "image": "/seasons/2027/packages/aroma4.webp",
+          "description": "13/14 Days Package."
+        },
+        {
+          "id": "pkg-4156-5",
+          "title": "Pearl Azizia - Maktab A",
+          "image": "/seasons/2027/packages/aroma5.webp",
+          "description": "13/14 Days Package."
+        },
+        {
+          "id": "pkg-4156-6",
+          "title": "Madinah - Maktab A",
+          "image": "/seasons/2027/packages/aroma6.webp",
+          "description": "10 Days Package."
+        },
+        {
+          "id": "pkg-4156-7",
+          "title": "Gold Makkah First - Maktab A",
+          "image": "/seasons/2027/packages/aroma7.webp",
+          "description": "22 Days Package."
+        }
+      ]
     },
     {
       "enrl": 4337,
@@ -174,7 +217,38 @@
       "website": "https://www.alsyedtravels.com",
       "dtsLicenceNo": "1084",
       "iataNo": "27-3-02096",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "pkg-4157-1",
+          "title": "Zone 5 Silver 01",
+          "image": "/seasons/2027/packages/alsyed1.webp",
+          "description": "21/22 Days Package."
+        },
+        {
+          "id": "pkg-4157-2",
+          "title": "Zone 5 Silver 02",
+          "image": "/seasons/2027/packages/alsyed2.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4157-3",
+          "title": "Zone 5 Silver 03",
+          "image": "/seasons/2027/packages/alsyed3.webp",
+          "description": "10/11 Days Package."
+        },
+        {
+          "id": "pkg-4157-4",
+          "title": "Zone 5 Silver 04",
+          "image": "/seasons/2027/packages/alsyed4.webp",
+          "description": "17/18 Days Package."
+        },
+        {
+          "id": "pkg-4157-5",
+          "title": "Zone 5 Silver 05 - First Madinah",
+          "image": "/seasons/2027/packages/alsyed5.webp",
+          "description": "17/18 Days Package."
+        }
+      ]
     },
     {
       "enrl": 4343,
