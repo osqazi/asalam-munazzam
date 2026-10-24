@@ -1,7 +1,7 @@
 {
   "year": 2027,
   "status": "published",
-  "lastModified": "2026-10-24T19:08:04.796Z",
+  "lastModified": "2026-10-24T19:20:32.282Z",
   "seo": {
     "title": "Hajj 2027 DHC Partners and Packages | As Salam Munazzam",
     "description": "View Hajj 2027 season DHC information, pilgrim allocations and packages from As Salam Munazzam.",
@@ -19,8 +19,8 @@
         "description": "Compare Hajj 2027 package offers and brochures from As Salam Munazzam partner companies."
       },
       "notifications": {
-        "title": "Hajj 2027 Notifications | As Salam Munazzam",
-        "description": "View official Hajj 2027 letters, policy documents and season notifications."
+        "title": "Hajj 2027 Ministry Recognition Letter | As Salam Munazzam",
+        "description": "View the Ministry of Religious Affairs provisional recognition letter for As Salam Munazzam for Hajj 2027, including both pages and its conditions."
       }
     }
   },
@@ -1082,7 +1082,28 @@
       ]
     }
   ],
-  "notifications": [],
+  "notifications": [
+    {
+      "id": 2027001,
+      "title": "Provisional Recognition Letter for Hajj 2027 - Page 1 of 2",
+      "description": "Page 1 of the Ministry of Religious Affairs provisional and conditional recognition letter for Hajj 2027, issued 28 July 2026.",
+      "image": "/seasons/2027/notifications/mora-provisional-recognition-letter-2027-page-1.webp",
+      "type": "official",
+      "source": "Ministry of Religious Affairs and Interfaith Harmony, Government of Pakistan",
+      "date": "2026-07-28",
+      "category": "Recognition Letter"
+    },
+    {
+      "id": 2027002,
+      "title": "Provisional Recognition Letter for Hajj 2027 - Page 2 of 2",
+      "description": "Page 2 of the Ministry of Religious Affairs provisional and conditional recognition letter for Hajj 2027, issued 28 July 2026.",
+      "image": "/seasons/2027/notifications/mora-provisional-recognition-letter-2027-page-2.webp",
+      "type": "official",
+      "source": "Ministry of Religious Affairs and Interfaith Harmony, Government of Pakistan",
+      "date": "2026-07-28",
+      "category": "Recognition Letter"
+    }
+  ],
   "allocationsConfirmed": true,
   "copiedFrom": 2026
 }

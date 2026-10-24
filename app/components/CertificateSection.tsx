@@ -66,9 +66,9 @@ export default function CertificateSection({
               <strong>MORA Registration No. 0413</strong>.
             </p>
             <p>
-              The company is authorized to organize and manage{" "}
-              <strong>Hajj operations for {year}</strong>, with a sanctioned
-              allocation of{" "}
+              The company is authorized for{" "}
+              <strong>Hajj {year} under SPA-{year}</strong>, with an allocation
+              of{" "}
               <strong>{totalPilgrims.toLocaleString()} pilgrims</strong>.
             </p>
             <p>

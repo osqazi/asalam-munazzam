@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import Image from "next/image";
 import { 
   Phone, 
   Mail, 
@@ -8,10 +9,13 @@ import {
   Send, 
   MessageCircle,
   User,
-  Building 
+  Building,
+  X,
+  ZoomIn,
 } from "lucide-react";
 
 export default function ContactClient() {
+  const directoryDialogRef = useRef<HTMLDialogElement>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -409,6 +413,85 @@ export default function ContactClient() {
             </div>
           </div>
         </div>
+
+        {/* HGO Contact Directory */}
+        <section
+          aria-labelledby="hgo-directory-heading"
+          className="relative left-1/2 mt-12 w-screen -translate-x-1/2 border-y border-green-100 bg-white px-4 py-7 shadow-xl md:px-6 md:py-10"
+        >
+          <div className="mb-6 text-center">
+            <p className="mb-2 text-sm font-semibold uppercase tracking-[0.16em] text-emerald-700">
+              35 Registered HGOs
+            </p>
+            <h2
+              id="hgo-directory-heading"
+              className="text-2xl font-bold text-green-800 md:text-3xl"
+            >
+              HGO Contact Directory
+            </h2>
+            <p className="mx-auto mt-2 max-w-2xl text-gray-600">
+              Contact details for the Hajj Group Organizers listed in the official directory.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            aria-haspopup="dialog"
+            aria-label="View the HGO Contact Directory at full size"
+            onClick={() => directoryDialogRef.current?.showModal()}
+            className="group mx-auto block w-full max-w-none overflow-hidden rounded-xl border border-gray-200 bg-gray-50 p-2 shadow-sm focus-visible:outline focus-visible:outline-4 focus-visible:outline-offset-2 focus-visible:outline-emerald-700"
+            style={{ maxWidth: "min(1843px, calc(100vw - 2rem))" }}
+          >
+            <Image
+              src="/contact/hgo-contact-directory.png"
+              alt="As Salam Munazzam HGO Contact Directory listing 35 registered Hajj Group Organizers, contact persons, and telephone numbers"
+              width={1157}
+              height={935}
+              sizes="(max-width: 768px) 100vw, 1152px"
+              className="mx-auto h-auto w-full object-contain transition-transform duration-300 group-hover:scale-[1.01]"
+            />
+          </button>
+          <p className="mt-3 text-center text-sm text-gray-500">
+            Select the directory to view it at full size.
+          </p>
+        </section>
+
+        <dialog
+          ref={directoryDialogRef}
+          aria-labelledby="hgo-directory-dialog-heading"
+          onClick={(event) => {
+            if (event.target === event.currentTarget) event.currentTarget.close();
+          }}
+          className="m-auto max-h-[96vh] w-[min(96vw,1400px)] max-w-none border-0 bg-transparent p-0 backdrop:bg-black/85"
+        >
+          <div className="relative rounded-xl bg-white p-3 shadow-2xl md:p-5">
+            <div className="mb-3 flex items-center justify-between gap-4">
+              <h2
+                id="hgo-directory-dialog-heading"
+                className="text-lg font-bold text-green-900 md:text-xl"
+              >
+                HGO Contact Directory
+              </h2>
+              <button
+                type="button"
+                aria-label="Close full-size HGO Contact Directory"
+                onClick={() => directoryDialogRef.current?.close()}
+                className="rounded-full p-2 text-gray-700 hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-700"
+              >
+                <X aria-hidden="true" className="h-6 w-6" />
+              </button>
+            </div>
+            <div className="relative h-[82vh] w-full">
+              <Image
+                src="/contact/hgo-contact-directory.png"
+                alt="As Salam Munazzam HGO Contact Directory listing 35 registered Hajj Group Organizers, contact persons, and telephone numbers"
+                fill
+                sizes="96vw"
+                className="object-contain"
+              />
+            </div>
+          </div>
+        </dialog>
 
         {/* Additional Info Section */}
         <div className="mt-12 bg-gradient-to-r from-green-600 to-emerald-700 rounded-2xl p-8 text-white text-center">

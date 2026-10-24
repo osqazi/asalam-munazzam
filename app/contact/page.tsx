@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import ContactClient from "./ContactClient";
 
 export const metadata: Metadata = {
-  title: "Contact Us | As Salam Munazzam (Private) Limited",
+  title: "HGO Contact Directory | As Salam Munazzam (Private) Limited",
   description:
-    "Get in touch with As Salam Munazzam (Private) Limited for Hajj, Umrah, or partnership inquiries. Our team is available to guide you with expert support and consultation.",
+    "View contact details for 35 registered Hajj Group Organizers (HGOs) in the As Salam Munazzam directory, plus our office contact information.",
   openGraph: {
-    title: "Contact Us | As Salam Munazzam (Private) Limited",
+    title: "HGO Contact Directory | As Salam Munazzam (Private) Limited",
     description:
-      "Reach out to As Salam Munazzam for official Hajj and Umrah guidance, partnership discussions, or customer support.",
+      "View the contact directory for 35 registered Hajj Group Organizers and contact As Salam Munazzam for Hajj inquiries.",
     url: "https://www.assalammunazzam.com.pk/contact",
     siteName: "As Salam Munazzam (Private) Limited",
     images: [
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact As Salam Munazzam | Hajj & Umrah Experts",
+    title: "HGO Contact Directory | As Salam Munazzam",
     description:
-      "Contact us for official Hajj and Umrah packages, VIP services, or partnership inquiries.",
+      "View contact details for 35 registered Hajj Group Organizers and reach As Salam Munazzam for Hajj inquiries.",
     images: ["https://www.assalammunazzam.com.pk/og-contact.jpg"],
   },
   alternates: {
