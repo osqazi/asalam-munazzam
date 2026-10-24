@@ -5,6 +5,7 @@ const baseUrl = "https://www.assalammunazzam.com.pk";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
+    { url: `${baseUrl}/about` },
     { url: `${baseUrl}/contact` },
   ];
   const years = await getPublicSeasonYears();

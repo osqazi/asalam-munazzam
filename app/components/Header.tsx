@@ -18,6 +18,7 @@ export default function Header({ year, years }: { year: number; years: number[] 
 
   const menuItems = [
     { name: "Home", href: "/" },
+    { name: "About Us", href: "/about" },
     { name: "Partners", href: "/partners" },
     { name: "Packages", href: "/packages" },
     { name: "Our Team", href: "/team" },
