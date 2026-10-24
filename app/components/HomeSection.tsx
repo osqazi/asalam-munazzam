@@ -10,6 +10,7 @@ import {
   Calendar,
 } from "lucide-react";
 import type { Partner } from "@/types/partners";
+import CertificateSection from "./CertificateSection";
 
 export default function HomeSection({ partners, year }: { partners: Partner[]; year: number }) {
   const totalPilgrims = partners.reduce((total, partner) => total + partner.pilgrims, 0);
@@ -125,6 +126,12 @@ export default function HomeSection({ partners, year }: { partners: Partner[]; y
           ))}
         </div>
         <div className="mb-10 rounded-xl bg-green-50 p-4 text-center text-green-900"><strong>Hajj {year} season</strong> · {partners.length} listed DHCs · {totalPilgrims.toLocaleString()} allocated pilgrims</div>
+
+        <CertificateSection
+          year={year}
+          totalPilgrims={totalPilgrims}
+          partnerCount={partners.length}
+        />
 
         {/* Quick Links Grid */}
         <div className="mb-16">
