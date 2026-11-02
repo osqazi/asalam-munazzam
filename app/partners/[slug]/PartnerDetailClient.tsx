@@ -237,14 +237,14 @@ import { useState } from "react";
                   >
                     {/* Brochure Image */}
                     <div 
-                      className="relative h-48 bg-gray-100 cursor-pointer group"
+                      className={`relative ${brochure.image.includes("-page-") ? "aspect-[3/4] w-full bg-slate-100" : "h-48 bg-gray-100"} cursor-pointer group`}
                       onClick={() => setSelectedBrochure(brochure.image)}
                     >
                       <Image
                         src={brochure.image}
                         alt={brochure.title}
                         fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        className={`${brochure.image.includes("-page-") ? "object-contain p-2" : "object-cover group-hover:scale-105"} transition-transform duration-300`}
                       />
                       
                       {/* Overlay Actions */}
@@ -277,9 +277,7 @@ import { useState } from "react";
                       <h3 className="font-bold text-lg text-green-800 mb-2 line-clamp-2">
                         {brochure.title}
                       </h3>
-                      <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                        {brochure.description}
-                      </p>
+                      {brochure.description && <p className="text-gray-600 text-sm mb-4 line-clamp-2">{brochure.description}</p>}
                       <div className="flex justify-between items-center">
                         <button
                           onClick={() => setSelectedBrochure(brochure.image)}

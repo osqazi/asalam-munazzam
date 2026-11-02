@@ -1,7 +1,7 @@
 {
   "year": 2027,
   "status": "published",
-  "lastModified": "2026-10-24T19:20:32.282Z",
+  "lastModified": "2026-11-03T00:00:00.000Z",
   "seo": {
     "title": "Hajj 2027 DHC Partners and Packages | As Salam Munazzam",
     "description": "View Hajj 2027 season DHC information, pilgrim allocations and packages from As Salam Munazzam.",
@@ -39,7 +39,68 @@
       "website": "https://www.pirwanitravels.com",
       "dtsLicenceNo": "2990",
       "iataNo": "27-3-10183",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "hajj-2027-4171-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4171-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4171-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4171-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4171-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4171-page-05.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4171-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4171-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4171-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4171-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4171-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4171-page-10.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 2263,
@@ -57,10 +118,10 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-2263-1",
-          "title": "Premium & Executive - Maktab 3, Zone 5",
-          "image": "/seasons/2027/packages/sajideen.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-2263-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/2263-page-01.webp",
+          "description": ""
         }
       ]
     },
@@ -80,16 +141,16 @@
       "iataNo": "27-3-09903",
       "packageBrochures": [
         {
-          "id": "pkg-4151-1",
-          "title": "Zone 5 Silver 01",
-          "image": "/seasons/2027/packages/tayaba1.webp",
-          "description": "21/22 Days Package."
+          "id": "hajj-2027-4151-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4151-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4151-2",
-          "title": "Zone 5 Silver 02",
-          "image": "/seasons/2027/packages/tayaba2.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4151-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4151-page-02.webp",
+          "description": ""
         }
       ]
     },
@@ -109,22 +170,22 @@
       "iataNo": "27-3-10404",
       "packageBrochures": [
         {
-          "id": "pkg-4153-1",
-          "title": "Long Hajj Pakg 05 - Maktab C",
-          "image": "/seasons/2027/packages/ansar1.webp",
-          "description": "30 Days Package."
+          "id": "hajj-2027-4153-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4153-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4153-2",
-          "title": "Short Hajj Pakg 03 - Maktab C",
-          "image": "/seasons/2027/packages/ansar2.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4153-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4153-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4153-3",
-          "title": "Short Hajj Pakg 02 - Maktab C",
-          "image": "/seasons/2027/packages/ansar3.webp",
-          "description": "21/22 Days Package."
+          "id": "hajj-2027-4153-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4153-page-03.webp",
+          "description": ""
         }
       ]
     },
@@ -144,46 +205,106 @@
       "iataNo": "27-3-00125",
       "packageBrochures": [
         {
-          "id": "pkg-4156-1",
-          "title": "Gold Makkah First - Maktab A",
-          "image": "/seasons/2027/packages/aroma1.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4156-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4156-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4156-2",
-          "title": "Gold Madinah First - Maktab A",
-          "image": "/seasons/2027/packages/aroma2.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4156-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4156-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4156-3",
-          "title": "Silver Makkah - Maktab A",
-          "image": "/seasons/2027/packages/aroma3.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4156-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4156-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4156-4",
-          "title": "Gold Azizia - Maktab A",
-          "image": "/seasons/2027/packages/aroma4.webp",
-          "description": "13/14 Days Package."
+          "id": "hajj-2027-4156-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4156-page-04.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4156-5",
-          "title": "Pearl Azizia - Maktab A",
-          "image": "/seasons/2027/packages/aroma5.webp",
-          "description": "13/14 Days Package."
+          "id": "hajj-2027-4156-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4156-page-05.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4156-6",
-          "title": "Madinah - Maktab A",
-          "image": "/seasons/2027/packages/aroma6.webp",
-          "description": "10 Days Package."
+          "id": "hajj-2027-4156-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4156-page-06.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4156-7",
-          "title": "Gold Makkah First - Maktab A",
-          "image": "/seasons/2027/packages/aroma7.webp",
-          "description": "22 Days Package."
+          "id": "hajj-2027-4156-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4156-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4156-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4156-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4156-page-10.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-11",
+          "title": "Hajj 2027 Package 11",
+          "image": "/seasons/2027/packages/4156-page-11.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-12",
+          "title": "Hajj 2027 Package 12",
+          "image": "/seasons/2027/packages/4156-page-12.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-13",
+          "title": "Hajj 2027 Package 13",
+          "image": "/seasons/2027/packages/4156-page-13.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-14",
+          "title": "Hajj 2027 Package 14",
+          "image": "/seasons/2027/packages/4156-page-14.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-15",
+          "title": "Hajj 2027 Package 15",
+          "image": "/seasons/2027/packages/4156-page-15.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-16",
+          "title": "Hajj 2027 Package 16",
+          "image": "/seasons/2027/packages/4156-page-16.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4156-17",
+          "title": "Hajj 2027 Package 17",
+          "image": "/seasons/2027/packages/4156-page-17.webp",
+          "description": ""
         }
       ]
     },
@@ -219,34 +340,16 @@
       "iataNo": "27-3-02096",
       "packageBrochures": [
         {
-          "id": "pkg-4157-1",
-          "title": "Zone 5 Silver 01",
-          "image": "/seasons/2027/packages/alsyed1.webp",
-          "description": "21/22 Days Package."
+          "id": "hajj-2027-4157-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4157-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4157-2",
-          "title": "Zone 5 Silver 02",
-          "image": "/seasons/2027/packages/alsyed2.webp",
-          "description": "17/18 Days Package."
-        },
-        {
-          "id": "pkg-4157-3",
-          "title": "Zone 5 Silver 03",
-          "image": "/seasons/2027/packages/alsyed3.webp",
-          "description": "10/11 Days Package."
-        },
-        {
-          "id": "pkg-4157-4",
-          "title": "Zone 5 Silver 04",
-          "image": "/seasons/2027/packages/alsyed4.webp",
-          "description": "17/18 Days Package."
-        },
-        {
-          "id": "pkg-4157-5",
-          "title": "Zone 5 Silver 05 - First Madinah",
-          "image": "/seasons/2027/packages/alsyed5.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4157-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4157-page-02.webp",
+          "description": ""
         }
       ]
     },
@@ -264,7 +367,44 @@
       "website": "https://www.khizertravels.com",
       "dtsLicenceNo": "1515",
       "iataNo": "27-3-04281",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "hajj-2027-4343-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4343-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4343-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4343-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4343-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4343-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4343-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4343-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4343-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4343-page-05.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4343-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4343-page-06.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4330,
@@ -282,40 +422,70 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-4330-1",
-          "title": "Gold Makkah - Maktab A",
-          "image": "/seasons/2027/packages/citi1.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4330-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4330-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4330-2",
-          "title": "Gold Madinah - Maktab A",
-          "image": "/seasons/2027/packages/citi2.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4330-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4330-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4330-3",
-          "title": "Silver Makkah - Maktab A",
-          "image": "/seasons/2027/packages/citi3.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4330-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4330-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4330-4",
-          "title": "Gold Azizia - Maktab A",
-          "image": "/seasons/2027/packages/citi4.webp",
-          "description": "13/14 Days Package."
+          "id": "hajj-2027-4330-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4330-page-04.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4330-5",
-          "title": "Pearl Azizia - Maktab A",
-          "image": "/seasons/2027/packages/citi5.webp",
-          "description": "13/14 Days Package."
+          "id": "hajj-2027-4330-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4330-page-05.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4330-6",
-          "title": "Madinah - Maktab A",
-          "image": "/seasons/2027/packages/citi6.webp",
-          "description": "10 Days Package."
+          "id": "hajj-2027-4330-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4330-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4330-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4330-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4330-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4330-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4330-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4330-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4330-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4330-page-10.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4330-11",
+          "title": "Hajj 2027 Package 11",
+          "image": "/seasons/2027/packages/4330-page-11.webp",
+          "description": ""
         }
       ]
     },
@@ -335,40 +505,58 @@
       "iataNo": "27-3-24522",
       "packageBrochures": [
         {
-          "id": "pkg-4327-1",
-          "title": "Gold Makkah - Maktab A",
-          "image": "/seasons/2027/packages/super1.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4327-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4327-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4327-2",
-          "title": "Gold Madinah - Maktab A",
-          "image": "/seasons/2027/packages/super2.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4327-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4327-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4327-3",
-          "title": "Silver Makkah - Maktab A",
-          "image": "/seasons/2027/packages/super3.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4327-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4327-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4327-4",
-          "title": "Gold Azizia - Maktab A",
-          "image": "/seasons/2027/packages/super4.webp",
-          "description": "13/14 Days Package."
+          "id": "hajj-2027-4327-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4327-page-04.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4327-5",
-          "title": "Pearl Azizia - Maktab A",
-          "image": "/seasons/2027/packages/super5.webp",
-          "description": "13/14 Days Package."
+          "id": "hajj-2027-4327-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4327-page-05.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4327-6",
-          "title": "Madinah - Maktab A",
-          "image": "/seasons/2027/packages/super6.webp",
-          "description": "10 Days Package."
+          "id": "hajj-2027-4327-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4327-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4327-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4327-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4327-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4327-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4327-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4327-page-09.webp",
+          "description": ""
         }
       ]
     },
@@ -575,7 +763,92 @@
       "website": "https://www.taireharam.com",
       "dtsLicenceNo": "2621",
       "iataNo": "27-3-10754",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "hajj-2027-4210-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4210-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4210-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4210-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4210-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4210-page-05.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4210-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4210-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4210-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4210-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4210-page-10.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-11",
+          "title": "Hajj 2027 Package 11",
+          "image": "/seasons/2027/packages/4210-page-11.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-12",
+          "title": "Hajj 2027 Package 12",
+          "image": "/seasons/2027/packages/4210-page-12.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-13",
+          "title": "Hajj 2027 Package 13",
+          "image": "/seasons/2027/packages/4210-page-13.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4210-14",
+          "title": "Hajj 2027 Package 14",
+          "image": "/seasons/2027/packages/4210-page-14.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4284,
@@ -593,34 +866,34 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-4284-1",
-          "title": "Standard Hajj Pakg - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/moin1.webp",
-          "description": "30 Days Package."
+          "id": "hajj-2027-4284-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4284-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4284-2",
-          "title": "Economy Hajj Pakg - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/moin2.webp",
-          "description": "22 Days Package."
+          "id": "hajj-2027-4284-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4284-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4284-3",
-          "title": "Short Hajj Pakg 03",
-          "image": "/seasons/2027/packages/moin3.webp",
-          "description": "23 Days Package."
+          "id": "hajj-2027-4284-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4284-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4284-4",
-          "title": "Short Hajj Pakg 02",
-          "image": "/seasons/2027/packages/moin4.webp",
-          "description": "17 Days Package."
+          "id": "hajj-2027-4284-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4284-page-04.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4284-5",
-          "title": "Hajj Pakg 01",
-          "image": "/seasons/2027/packages/moin5.webp",
-          "description": "27/28 Days Package."
+          "id": "hajj-2027-4284-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4284-page-05.webp",
+          "description": ""
         }
       ]
     },
@@ -638,7 +911,20 @@
       "website": "https://www.kMakkahMadina.com",
       "dtsLicenceNo": "-",
       "iataNo": "-",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "hajj-2027-4212-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4212-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4212-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4212-page-02.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4152,
@@ -656,28 +942,76 @@
       "iataNo": "27-3-10253",
       "packageBrochures": [
         {
-          "id": "pkg-4152-1",
-          "title": "Short Hajj Pakg 01 - Zone 5",
-          "image": "/seasons/2027/packages/rashedin1.webp",
-          "description": "14/15 Days Package."
+          "id": "hajj-2027-4152-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4152-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4152-2",
-          "title": "Long Hajj Pakg 03 - Zone 5",
-          "image": "/seasons/2027/packages/rashedin2.webp",
-          "description": "29/30 Days Package."
+          "id": "hajj-2027-4152-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4152-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4152-3",
-          "title": "Short Hajj Pakg 04 - Zone 5",
-          "image": "/seasons/2027/packages/rashedin3.webp",
-          "description": "16/17 Days Package."
+          "id": "hajj-2027-4152-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4152-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4152-4",
-          "title": "Long Hajj Pakg 08 - Zone 5",
-          "image": "/seasons/2027/packages/rashedin4.webp",
-          "description": "30/31 Days Package."
+          "id": "hajj-2027-4152-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4152-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4152-page-05.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4152-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4152-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4152-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4152-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4152-page-10.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-11",
+          "title": "Hajj 2027 Package 11",
+          "image": "/seasons/2027/packages/4152-page-11.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4152-12",
+          "title": "Hajj 2027 Package 12",
+          "image": "/seasons/2027/packages/4152-page-12.webp",
+          "description": ""
         }
       ]
     },
@@ -732,22 +1066,22 @@
       "iataNo": "27-3-11200",
       "packageBrochures": [
         {
-          "id": "pkg-4268-1",
-          "title": "Long Pakg 01 - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/arfat1.webp",
-          "description": "30 Days Package."
+          "id": "hajj-2027-4268-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4268-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4268-2",
-          "title": "Short Pakg 02 - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/arfat2.webp",
-          "description": "17 Days Package."
+          "id": "hajj-2027-4268-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4268-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4268-3",
-          "title": "Short Pakg 03 - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/arfat3.webp",
-          "description": "14/15 Days Package."
+          "id": "hajj-2027-4268-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4268-page-03.webp",
+          "description": ""
         }
       ]
     },
@@ -767,22 +1101,64 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-4393-1",
-          "title": "Short Hajj Pakg 1 - Maktab A",
-          "image": "/seasons/2027/packages/kmeezab1.webp",
-          "description": "16/17 Days Package."
+          "id": "hajj-2027-4393-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4393-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4393-2",
-          "title": "Short Hajj Pakg 2 - Maktab A",
-          "image": "/seasons/2027/packages/kmeezab2.webp",
-          "description": "12/13 Days Package."
+          "id": "hajj-2027-4393-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4393-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4393-3",
-          "title": "Short Hajj Pakg 3 - Maktab A",
-          "image": "/seasons/2027/packages/kmeezab3.webp",
-          "description": "21/22 Days Package."
+          "id": "hajj-2027-4393-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4393-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4393-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4393-page-05.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4393-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4393-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4393-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4393-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4393-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4393-page-10.webp",
+          "description": ""
         }
       ]
     },
@@ -802,22 +1178,10 @@
       "iataNo": "27-3-12084",
       "packageBrochures": [
         {
-          "id": "pkg-4193-1",
-          "title": "Short Hajj Pakg 1 - Maktab C",
-          "image": "/seasons/2027/packages/amjadia1.webp",
-          "description": "17/18 Days Package."
-        },
-        {
-          "id": "pkg-4193-2",
-          "title": "Short Hajj Pakg 2 - Maktab C",
-          "image": "/seasons/2027/packages/amjadia2.webp",
-          "description": "12/14 Days Package."
-        },
-        {
-          "id": "pkg-4193-3",
-          "title": "Long Hajj Pakg - Maktab C",
-          "image": "/seasons/2027/packages/amjadia3.webp",
-          "description": "28/30 Days Package."
+          "id": "hajj-2027-4193-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4193-page-01.webp",
+          "description": ""
         }
       ]
     },
@@ -835,7 +1199,32 @@
       "website": "https://www.muawinulhujjaj.com",
       "dtsLicenceNo": "2922",
       "iataNo": "27-3-10146",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "hajj-2027-4218-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4218-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4218-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4218-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4218-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4218-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4218-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4218-page-04.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4201,
@@ -853,28 +1242,28 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-4201-1",
-          "title": "Long Hajj Pakg - Maktab C",
-          "image": "/seasons/2027/packages/sakhi1.webp",
-          "description": "30/32 Days Package."
+          "id": "hajj-2027-4201-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4201-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4201-2",
-          "title": "Short Hajj Pakg - Maktab C",
-          "image": "/seasons/2027/packages/sakhi2.webp",
-          "description": "14/15 Days Package."
+          "id": "hajj-2027-4201-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4201-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4201-3",
-          "title": "Hajj Pakg - Maktab C",
-          "image": "/seasons/2027/packages/sakhi3.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4201-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4201-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4201-4",
-          "title": "Hajj Pakg - Maktab A",
-          "image": "/seasons/2027/packages/sakhi4.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4201-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4201-page-04.webp",
+          "description": ""
         }
       ]
     },
@@ -894,46 +1283,58 @@
       "iataNo": "27-3-08724",
       "packageBrochures": [
         {
-          "id": "pkg-4126-1",
-          "title": "Golden Pakg - Maktab A, Zone 1/2",
-          "image": "/seasons/2027/packages/moazzin1.webp",
-          "description": "32 Days Package."
+          "id": "hajj-2027-4126-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4126-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4126-2",
-          "title": "Silver Pakg - Maktab A, Zone 1/2",
-          "image": "/seasons/2027/packages/moazzin2.webp",
-          "description": "28 Days Package."
+          "id": "hajj-2027-4126-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4126-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4126-3",
-          "title": "Diamond Pakg - Maktab A, Zone 1/2",
-          "image": "/seasons/2027/packages/moazzin3.webp",
-          "description": "17 Days Package."
+          "id": "hajj-2027-4126-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4126-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4126-4",
-          "title": "Short Pakg - Maktab A, Zone 1/2",
-          "image": "/seasons/2027/packages/moazzin4.webp",
-          "description": "14 Days Package."
+          "id": "hajj-2027-4126-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4126-page-04.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4126-5",
-          "title": "Silver Pakg - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/moazzin5.webp",
-          "description": "28 Days Package."
+          "id": "hajj-2027-4126-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4126-page-05.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4126-6",
-          "title": "Budget Pakg - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/moazzin6.webp",
-          "description": "23 Days Package."
+          "id": "hajj-2027-4126-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4126-page-06.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4126-7",
-          "title": "Short Pakg - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/moazzin7.webp",
-          "description": "14 Days Package."
+          "id": "hajj-2027-4126-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4126-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4126-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4126-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4126-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4126-page-09.webp",
+          "description": ""
         }
       ]
     },
@@ -953,28 +1354,28 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-4154-1",
-          "title": "Standard Pakg 01 - Maktab A",
-          "image": "/seasons/2027/packages/rafiq1.webp",
-          "description": "28 Days Package."
+          "id": "hajj-2027-4154-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4154-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4154-2",
-          "title": "Premium Pakg 04 - Maktab A",
-          "image": "/seasons/2027/packages/rafiq2.webp",
-          "description": "17 Days Package."
+          "id": "hajj-2027-4154-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4154-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4154-3",
-          "title": "Premium Pakg 05 - Maktab A",
-          "image": "/seasons/2027/packages/rafiq3.webp",
-          "description": "15 Days Package."
+          "id": "hajj-2027-4154-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4154-page-03.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4154-4",
-          "title": "Premium Pakg 06 - Maktab A",
-          "image": "/seasons/2027/packages/rafiq4.webp",
-          "description": "23 Days Package."
+          "id": "hajj-2027-4154-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4154-page-04.webp",
+          "description": ""
         }
       ]
     },
@@ -994,16 +1395,22 @@
       "iataNo": "27-3-13123",
       "packageBrochures": [
         {
-          "id": "pkg-4140-1",
-          "title": "Long Hajj Package",
-          "image": "/seasons/2027/packages/sunnat1.webp",
-          "description": "28/29 Days Package."
+          "id": "hajj-2027-4140-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4140-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4140-2",
-          "title": "Short Hajj Pakg - Maktab A",
-          "image": "/seasons/2027/packages/sunnat2.webp",
-          "description": "15–20 Days Package."
+          "id": "hajj-2027-4140-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4140-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4140-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4140-page-03.webp",
+          "description": ""
         }
       ]
     },
@@ -1021,7 +1428,38 @@
       "website": "https://www.karwaneramzani.com",
       "dtsLicenceNo": "2993",
       "iataNo": "27-3-13053",
-      "packageBrochures": []
+      "packageBrochures": [
+        {
+          "id": "hajj-2027-4127-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4127-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4127-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4127-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4127-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4127-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4127-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4127-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4127-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4127-page-05.webp",
+          "description": ""
+        }
+      ]
     },
     {
       "enrl": 4128,
@@ -1039,10 +1477,70 @@
       "iataNo": "-",
       "packageBrochures": [
         {
-          "id": "pkg-4128-1",
-          "title": "Makkah & Madinah Pakgs - Maktab C, Zone 5",
-          "image": "/seasons/2027/packages/mramzani1.webp",
-          "description": "28–32 Days and 14–16 Days Packages."
+          "id": "hajj-2027-4128-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4128-page-01.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4128-page-02.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4128-page-03.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-04",
+          "title": "Hajj 2027 Package 4",
+          "image": "/seasons/2027/packages/4128-page-04.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-05",
+          "title": "Hajj 2027 Package 5",
+          "image": "/seasons/2027/packages/4128-page-05.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-06",
+          "title": "Hajj 2027 Package 6",
+          "image": "/seasons/2027/packages/4128-page-06.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-07",
+          "title": "Hajj 2027 Package 7",
+          "image": "/seasons/2027/packages/4128-page-07.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-08",
+          "title": "Hajj 2027 Package 8",
+          "image": "/seasons/2027/packages/4128-page-08.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-09",
+          "title": "Hajj 2027 Package 9",
+          "image": "/seasons/2027/packages/4128-page-09.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-10",
+          "title": "Hajj 2027 Package 10",
+          "image": "/seasons/2027/packages/4128-page-10.webp",
+          "description": ""
+        },
+        {
+          "id": "hajj-2027-4128-11",
+          "title": "Hajj 2027 Package 11",
+          "image": "/seasons/2027/packages/4128-page-11.webp",
+          "description": ""
         }
       ]
     },
@@ -1062,22 +1560,22 @@
       "iataNo": "27-3-10286",
       "packageBrochures": [
         {
-          "id": "pkg-4272-1",
-          "title": "Long Hajj Pakg - Zone 5",
-          "image": "/seasons/2027/packages/rehmani1.webp",
-          "description": "28/29 Days Package."
+          "id": "hajj-2027-4272-01",
+          "title": "Hajj 2027 Package 1",
+          "image": "/seasons/2027/packages/4272-page-01.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4272-2",
-          "title": "Makkah, Azizia & Madinah Pakg - Zone 5",
-          "image": "/seasons/2027/packages/rehmani2.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4272-02",
+          "title": "Hajj 2027 Package 2",
+          "image": "/seasons/2027/packages/4272-page-02.webp",
+          "description": ""
         },
         {
-          "id": "pkg-4272-3",
-          "title": "Azizia & Madinah Pakg - Zone 5",
-          "image": "/seasons/2027/packages/rehmani3.webp",
-          "description": "17/18 Days Package."
+          "id": "hajj-2027-4272-03",
+          "title": "Hajj 2027 Package 3",
+          "image": "/seasons/2027/packages/4272-page-03.webp",
+          "description": ""
         }
       ]
     }

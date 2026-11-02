@@ -1,6 +1,7 @@
 
 "use client";
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { 
@@ -18,6 +19,11 @@ import {
 } from "lucide-react";
 import { SeasonNotice } from "@/app/components/SeasonPicker";
 import { PackageBrochure, Partner } from "@/types/partners";
+
+const MinistryPackageFlipbook = dynamic(() => import("./MinistryPackageFlipbook"), {
+  ssr: false,
+  loading: () => <div className="mb-12 rounded-2xl bg-white p-8 text-center text-gray-600 shadow-lg">Loading Hajj package book…</div>,
+});
 
 // HD Placeholder images for Kaaba and Madinah
 const holyImages = [
@@ -55,6 +61,11 @@ export default function Packages({ partnersData, year, allocationNotice }: { par
 
     return matchesSearch && matchesPartner && matchesPrice;
   });
+
+  const isMinistryTemplate = (pkg: PackageBrochure & { partner: Partner }) =>
+    year === 2027 && /^Hajj 2027 Package \d+$/.test(pkg.title) && pkg.image.startsWith("/seasons/2027/packages/");
+  const filteredMinistryPackages = filteredPackages.filter(isMinistryTemplate);
+  const filteredLegacyPackages = filteredPackages.filter(pkg => !isMinistryTemplate(pkg));
 
   const downloadBrochure = (imageUrl: string, title: string) => {
     const link = document.createElement('a');
@@ -185,20 +196,26 @@ export default function Packages({ partnersData, year, allocationNotice }: { par
           </div>
         </div>
 
+        {filteredMinistryPackages.length > 0 && (
+          <MinistryPackageFlipbook packages={filteredMinistryPackages} />
+        )}
+
         {/* Packages Grid */}
         <div className="mb-12">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-2xl md:text-3xl font-bold text-green-800">
-              Available Hajj Packages
+              {year === 2027 ? "Additional Package Brochures" : "Available Hajj Packages"}
             </h2>
-            <p className="text-gray-600">
-              Showing {filteredPackages.length} of {totalPackages} packages
+            <p className="text-gray-600 text-right">
+              {year === 2027
+                ? `${filteredMinistryPackages.length} ministry pages in the book · ${filteredLegacyPackages.length} additional brochures`
+                : `Showing ${filteredPackages.length} of ${totalPackages} packages`}
             </p>
           </div>
 
-          {filteredPackages.length > 0 ? (
+          {filteredLegacyPackages.length > 0 ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredPackages.map((pkg) => (
+              {filteredLegacyPackages.map((pkg) => (
                 <div
                   key={`${pkg.partner.enrl}-${pkg.id}`}
                   className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-green-100 overflow-hidden group"
@@ -307,6 +324,10 @@ export default function Packages({ partnersData, year, allocationNotice }: { par
                 </div>
               ))}
             </div>
+          ) : filteredPackages.length > 0 ? (
+            <p className="rounded-xl border border-emerald-100 bg-white p-5 text-center text-gray-600">
+              The matching ministry package pages are available in the flipbook above.
+            </p>
           ) : (
             <div className="text-center py-16 bg-white rounded-2xl border border-green-100">
               <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
