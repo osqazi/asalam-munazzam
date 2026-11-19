@@ -77,6 +77,27 @@ export default function ContactClient() {
     }
   ];
 
+  const bankAccounts = [
+    {
+      bankName: "Al Baraka Bank (Pakistan) Limited",
+      accountTitle: "As Salam Munazzam (Private) Limited",
+      accountNumber: "0102659827013",
+      iban: "PK37AIIN0000102659827013",
+      currency: "PKR",
+      swift: "AIINPKKA / EGIBPKKA",
+      branch: "Trade Center Branch - 0117",
+    },
+    {
+      bankName: "Habib Bank Limited",
+      accountTitle: "Assalam Munazzam (Pvt) Ltd.",
+      accountNumber: "58167000149803",
+      iban: "PK78HABB58167000149803",
+      currency: "PKR",
+      swift: "HABBPKKA",
+      branch: "Bakhshi Tower, Shahrah-e-Faisal, Karachi - 5816",
+    },
+  ];
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
       ...formData,
@@ -413,6 +434,54 @@ export default function ContactClient() {
             </div>
           </div>
         </div>
+
+        {/* Bank Transfer Details */}
+        <section
+          aria-labelledby="bank-transfer-heading"
+          className="mt-12 rounded-2xl border border-green-100 bg-white p-6 shadow-xl sm:p-8"
+        >
+          <div className="mb-8 text-center">
+            <h2
+              id="bank-transfer-heading"
+              className="text-2xl font-bold text-green-800 md:text-3xl"
+            >
+              Bank Transfer Details
+            </h2>
+            <p className="mx-auto mt-3 max-w-2xl text-gray-600">
+              Use these accounts for general payments to As Salam Munazzam.
+            </p>
+          </div>
+
+          <div className="grid gap-6 lg:grid-cols-2">
+            {bankAccounts.map((account) => (
+              <article
+                key={account.bankName}
+                className="rounded-xl border border-green-100 bg-gradient-to-br from-green-50 to-amber-50 p-5 sm:p-6"
+              >
+                <h3 className="mb-5 border-b border-green-200 pb-3 text-xl font-bold text-green-900">
+                  {account.bankName}
+                </h3>
+                <dl className="grid gap-x-4 gap-y-4 sm:grid-cols-[minmax(8rem,auto)_1fr]">
+                  {[
+                    ["Account Title", account.accountTitle],
+                    ["Account Number", account.accountNumber],
+                    ["IBAN", account.iban],
+                    ["Currency", account.currency],
+                    ["SWIFT/BIC Code", account.swift],
+                    ["Branch Name & Code", account.branch],
+                  ].map(([label, value]) => (
+                    <div key={label} className="contents">
+                      <dt className="font-semibold text-gray-600">{label}</dt>
+                      <dd className="min-w-0 break-words font-medium text-gray-900">
+                        {value}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </article>
+            ))}
+          </div>
+        </section>
 
         {/* HGO Contact Directory */}
         <section

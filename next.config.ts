@@ -36,6 +36,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/partners/karwan-e-rfiqul-harmain-pvt-ltd",
+        destination: "/partners/karwan-e-rafeeq-ul-harmain-pvt-ltd",
+        permanent: true,
+      },
+      {
         source: "/:path*",
         has: [
           {
